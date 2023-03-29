@@ -1,0 +1,10 @@
+verilog xil_defaultlib --include "../../../../PWM_Control.gen/sources_1/bd/Design_over/ipshared/7698" \
+"../../../bd/Design_over/ip/Design_over_Upcounter_0_0/sim/Design_over_Upcounter_0_0.v" \
+"../../../bd/Design_over/ip/Design_over_Comparator_0_0/sim/Design_over_Comparator_0_0.v" \
+"../../../bd/Design_over/ip/Design_over_clk_wiz_0_0/Design_over_clk_wiz_0_0_clk_wiz.v" \
+"../../../bd/Design_over/ip/Design_over_clk_wiz_0_0/Design_over_clk_wiz_0_0.v" \
+"../../../bd/Design_over/sim/Design_over.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
