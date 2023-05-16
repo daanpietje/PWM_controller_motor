@@ -1,0 +1,306 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xC7DD50D19C58CBEA",
+      "device": "xc7z020clg400-1",
+      "gen_directory": "../../../../PWM_control.gen/sources_1/bd/PWM_Over",
+      "name": "PWM_Over",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2022.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "Comparator_0": "",
+      "Reg_0": "",
+      "Upcounter_0": "",
+      "DataChecker_0": "",
+      "Controller_0": ""
+    },
+    "ports": {
+      "clk": {
+        "direction": "I"
+      },
+      "rst": {
+        "direction": "I"
+      },
+      "Pwm_signal": {
+        "direction": "O"
+      },
+      "datain": {
+        "direction": "I",
+        "left": "7",
+        "right": "0"
+      },
+      "readydebug": {
+        "direction": "O"
+      },
+      "datadebug": {
+        "direction": "O"
+      },
+      "counterdeb": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      },
+      "regoutdeb": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      }
+    },
+    "components": {
+      "Comparator_0": {
+        "vlnv": "xilinx.com:module_ref:Comparator:1.0",
+        "xci_name": "PWM_Over_Comparator_0_2",
+        "xci_path": "ip\\PWM_Over_Comparator_0_2\\PWM_Over_Comparator_0_2.xci",
+        "inst_hier_path": "Comparator_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Comparator",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "Dutycycle": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "Counter": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "PWM": {
+            "direction": "O"
+          }
+        }
+      },
+      "Reg_0": {
+        "vlnv": "xilinx.com:module_ref:Reg:1.0",
+        "xci_name": "PWM_Over_Reg_0_0",
+        "xci_path": "ip\\PWM_Over_Reg_0_0\\PWM_Over_Reg_0_0.xci",
+        "inst_hier_path": "Reg_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Reg",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "ld": {
+            "direction": "I"
+          },
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "info": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "regout": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      },
+      "Upcounter_0": {
+        "vlnv": "xilinx.com:module_ref:Upcounter:1.0",
+        "xci_name": "PWM_Over_Upcounter_0_0",
+        "xci_path": "ip\\PWM_Over_Upcounter_0_0\\PWM_Over_Upcounter_0_0.xci",
+        "inst_hier_path": "Upcounter_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Upcounter",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "ld": {
+            "direction": "I"
+          },
+          "Counterout": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      },
+      "DataChecker_0": {
+        "vlnv": "xilinx.com:module_ref:DataChecker:1.0",
+        "xci_name": "PWM_Over_DataChecker_0_0",
+        "xci_path": "ip\\PWM_Over_DataChecker_0_0\\PWM_Over_DataChecker_0_0.xci",
+        "inst_hier_path": "DataChecker_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "DataChecker",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "Datain": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "senddata": {
+            "direction": "O"
+          },
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "Ready": {
+            "direction": "I"
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          }
+        }
+      },
+      "Controller_0": {
+        "vlnv": "xilinx.com:module_ref:Controller:1.0",
+        "xci_name": "PWM_Over_Controller_0_0",
+        "xci_path": "ip\\PWM_Over_Controller_0_0\\PWM_Over_Controller_0_0.xci",
+        "inst_hier_path": "Controller_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Controller",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "regld": {
+            "direction": "O"
+          },
+          "upcounterld": {
+            "direction": "O"
+          },
+          "dataavaibility": {
+            "direction": "I"
+          },
+          "ready": {
+            "direction": "O"
+          },
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          }
+        }
+      }
+    },
+    "nets": {
+      "Comparator_0_PWM": {
+        "ports": [
+          "Comparator_0/PWM",
+          "Pwm_signal"
+        ]
+      },
+      "Controller_0_regld": {
+        "ports": [
+          "Controller_0/regld",
+          "Reg_0/ld"
+        ]
+      },
+      "Controller_0_upcounterld": {
+        "ports": [
+          "Controller_0/upcounterld",
+          "Upcounter_0/ld"
+        ]
+      },
+      "DataChecker_0_senddata": {
+        "ports": [
+          "DataChecker_0/senddata",
+          "datadebug",
+          "Controller_0/dataavaibility"
+        ]
+      },
+      "Net": {
+        "ports": [
+          "rst",
+          "Reg_0/rst",
+          "Upcounter_0/rst",
+          "DataChecker_0/rst",
+          "Controller_0/rst"
+        ]
+      },
+      "Net1": {
+        "ports": [
+          "Controller_0/ready",
+          "readydebug",
+          "DataChecker_0/Ready"
+        ]
+      },
+      "Reg_0_output": {
+        "ports": [
+          "Reg_0/regout",
+          "Comparator_0/Dutycycle",
+          "regoutdeb"
+        ]
+      },
+      "Upcounter_0_Counterout": {
+        "ports": [
+          "Upcounter_0/Counterout",
+          "Comparator_0/Counter",
+          "counterdeb"
+        ]
+      },
+      "clk_1": {
+        "ports": [
+          "clk",
+          "Reg_0/clk",
+          "Upcounter_0/clk",
+          "DataChecker_0/clk",
+          "Controller_0/clk"
+        ]
+      },
+      "datain_1": {
+        "ports": [
+          "datain",
+          "Reg_0/info",
+          "DataChecker_0/Datain"
+        ]
+      }
+    }
+  }
+}

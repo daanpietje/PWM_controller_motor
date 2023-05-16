@@ -32,20 +32,25 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity Comparator is
-    Port ( Dutycycle : in STD_LOGIC_VECTOR (3 downto 0);
-           Counter : in STD_LOGIC_VECTOR (3 downto 0);
+    Port ( Dutycycle : in STD_LOGIC_VECTOR (7 downto 0);
+           Counter : in STD_LOGIC_VECTOR (7 downto 0);
            PWM : out STD_LOGIC);
 end Comparator;
 
 architecture ComparatorBehav of Comparator is
+signal pwm_temp : std_logic;
 begin
-
 process(Dutycycle, Counter)
 begin
-    if Counter < Dutycycle then
-        PWM <= '1';
+    if Counter <= Dutycycle then
+        pwm_temp <= '1';
     else
-        PWM <= '0';
+        pwm_temp <= '0';
     end if;
+end process;
+
+process (pwm_temp)
+begin
+    PWM <= pwm_temp;
 end process;
 end ComparatorBehav;

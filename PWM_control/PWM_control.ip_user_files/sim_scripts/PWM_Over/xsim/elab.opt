@@ -1,0 +1,1 @@
+--incr --debug typical --relax --mt auto  -L xil_defaultlib -L secureip -L xpm --snapshot PWM_Over xil_defaultlib.PWM_Over -log elaborate.log

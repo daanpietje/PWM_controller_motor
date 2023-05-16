@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1'
+HD_PWD='C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log Upcounter.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Upcounter.tcl
+EAStep vivado -log PWM_Over_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source PWM_Over_wrapper.tcl

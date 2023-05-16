@@ -1,38 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1679491771" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/PWM_Logic.dcp">
-  <File Type="PA-TCL" Name="Upcounter.tcl"/>
-  <File Type="REPORTS-TCL" Name="Upcounter_reports.tcl"/>
-  <File Type="RDS-RDS" Name="Upcounter.vds"/>
-  <File Type="RDS-DCP" Name="Upcounter.dcp"/>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1684237197" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Comparator.dcp">
+  <File Type="PA-TCL" Name="PWM_Over_wrapper.tcl"/>
+  <File Type="REPORTS-TCL" Name="PWM_Over_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="PWM_Over_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="PWM_Over_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="PWM_Over_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="PWM_Over_wrapper.dcp"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/new/Upcounter.vhd">
+    <File Path="$PSRCDIR/sources_1/new/Comparator.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/bd/Design_over/Design_over.bd">
+    <File Path="$PPRDIR/../../../Nieuwe map/Reg.vhd">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../Nieuwe map/Upcounter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../Nieuwe map/Controller.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DataChecker.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/PWM_Over/PWM_Over.bd">
+      <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/Comparator.vhd">
+    <File Path="$PGENDIR/sources_1/bd/PWM_Over/hdl/PWM_Over_wrapper.vhd">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="Upcounter"/>
-      <Option Name="TopLib" Val="xil_defaultlib"/>
-      <Option Name="TopArchitecture" Val="UpcounterBehav"/>
-      <Option Name="TopRTLFile" Val="$PSRCDIR/sources_1/new/Upcounter.vhd"/>
+      <Option Name="TopModule" Val="PWM_Over_wrapper"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
@@ -44,7 +65,7 @@
   </FileSet>
   <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
     <Filter Type="Utils"/>
-    <File Path="$PSRCDIR/utils_1/imports/synth_1/PWM_Logic.dcp">
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/Comparator.dcp">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -60,4 +81,9 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
     <Step Id="synth_design"/>
   </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Upcounter_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Comparator_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Reg_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PWM_Over_DataChecker_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Controller_0_0"/>
 </GenRun>

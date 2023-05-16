@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="PWM_Over_wrapper_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="PWM_Over_wrapper" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2,502.463 ns"></ZoomStartTime>
+      <ZoomEndTime time="2,725.964 ns"></ZoomEndTime>
+      <Cursor1Time time="2,601.963 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="270"></NameColumnWidth>
+      <ValueColumnWidth column_width="111"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/PWM_Over_wrapper/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PWM_Over_wrapper/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PWM_Over_wrapper/datain" type="array">
+      <obj_property name="ElementShortName">datain[7:0]</obj_property>
+      <obj_property name="ObjectShortName">datain[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PWM_Over_wrapper/datadebug" type="logic">
+      <obj_property name="ElementShortName">datadebug</obj_property>
+      <obj_property name="ObjectShortName">datadebug</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PWM_Over_wrapper/readydebug" type="logic">
+      <obj_property name="ElementShortName">readydebug</obj_property>
+      <obj_property name="ObjectShortName">readydebug</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PWM_Over_wrapper/regoutdeb" type="array">
+      <obj_property name="ElementShortName">regoutdeb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">regoutdeb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PWM_Over_wrapper/counterdeb" type="array">
+      <obj_property name="ElementShortName">counterdeb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">counterdeb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PWM_Over_wrapper/Pwm_signal" type="logic">
+      <obj_property name="ElementShortName">Pwm_signal</obj_property>
+      <obj_property name="ObjectShortName">Pwm_signal</obj_property>
+   </wvobject>
+</wave_config>
