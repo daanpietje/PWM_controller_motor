@@ -70,7 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "PWM_Over_Comparator_0_2_synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 2
 set_param project.vivado.isBlockSynthRun true
 OPTRACE "Creating in-memory project" START { }
 set_param ips.modRefOverrideMrefDirPath c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/mref
@@ -92,7 +91,7 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.srcs/sources_1/new/Comparator.vhd
-read_ip -quiet c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.srcs/sources_1/bd/PWM_Over/ip/PWM_Over_Comparator_0_2/PWM_Over_Comparator_0_2.xci
+read_ip -quiet C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.srcs/sources_1/bd/PWM_Over/ip/PWM_Over_Comparator_0_2/PWM_Over_Comparator_0_2.xci
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being

@@ -1,7 +1,7 @@
 --Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
---Date        : Tue May 16 15:10:47 2023
+--Date        : Mon May 22 13:03:26 2023
 --Host        : DaanAsus running 64-bit major release  (build 9200)
 --Command     : generate_target PWM_Over.bd
 --Design      : PWM_Over
@@ -15,11 +15,7 @@ entity PWM_Over is
   port (
     Pwm_signal : out STD_LOGIC;
     clk : in STD_LOGIC;
-    counterdeb : out STD_LOGIC_VECTOR ( 7 downto 0 );
-    datadebug : out STD_LOGIC;
     datain : in STD_LOGIC_VECTOR ( 7 downto 0 );
-    readydebug : out STD_LOGIC;
-    regoutdeb : out STD_LOGIC_VECTOR ( 7 downto 0 );
     rst : in STD_LOGIC
   );
   attribute CORE_GENERATION_INFO : string;
@@ -29,13 +25,6 @@ entity PWM_Over is
 end PWM_Over;
 
 architecture STRUCTURE of PWM_Over is
-  component PWM_Over_Comparator_0_2 is
-  port (
-    Dutycycle : in STD_LOGIC_VECTOR ( 7 downto 0 );
-    Counter : in STD_LOGIC_VECTOR ( 7 downto 0 );
-    PWM : out STD_LOGIC
-  );
-  end component PWM_Over_Comparator_0_2;
   component PWM_Over_Reg_0_0 is
   port (
     ld : in STD_LOGIC;
@@ -72,6 +61,13 @@ architecture STRUCTURE of PWM_Over is
     rst : in STD_LOGIC
   );
   end component PWM_Over_Controller_0_0;
+  component PWM_Over_Comparator_0_2 is
+  port (
+    Dutycycle : in STD_LOGIC_VECTOR ( 7 downto 0 );
+    Counter : in STD_LOGIC_VECTOR ( 7 downto 0 );
+    PWM : out STD_LOGIC
+  );
+  end component PWM_Over_Comparator_0_2;
   signal Comparator_0_PWM : STD_LOGIC;
   signal Controller_0_regld : STD_LOGIC;
   signal Controller_0_upcounterld : STD_LOGIC;
@@ -86,11 +82,7 @@ begin
   Net <= rst;
   Pwm_signal <= Comparator_0_PWM;
   clk_1 <= clk;
-  counterdeb(7 downto 0) <= Upcounter_0_Counterout(7 downto 0);
-  datadebug <= DataChecker_0_senddata;
   datain_1(7 downto 0) <= datain(7 downto 0);
-  readydebug <= Net1;
-  regoutdeb(7 downto 0) <= Reg_0_output(7 downto 0);
 Comparator_0: component PWM_Over_Comparator_0_2
      port map (
       Counter(7 downto 0) => Upcounter_0_Counterout(7 downto 0),

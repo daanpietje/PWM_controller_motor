@@ -1,7 +1,7 @@
 // Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-// Date        : Mon May 15 16:26:59 2023
+// Date        : Mon May 22 13:11:03 2023
 // Host        : DaanAsus running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
 //               c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Comparator_0_2/PWM_Over_Comparator_0_2_sim_netlist.v
@@ -62,7 +62,7 @@ module PWM_Over_Comparator_0_2_Comparator
   CARRY4 PWM_INST_0
        (.CI(1'b0),
         .CO({PWM,PWM_INST_0_n_1,PWM_INST_0_n_2,PWM_INST_0_n_3}),
-        .CYINIT(1'b0),
+        .CYINIT(1'b1),
         .DI({PWM_INST_0_i_1_n_0,PWM_INST_0_i_2_n_0,PWM_INST_0_i_3_n_0,PWM_INST_0_i_4_n_0}),
         .O(NLW_PWM_INST_0_O_UNCONNECTED[3:0]),
         .S({PWM_INST_0_i_5_n_0,PWM_INST_0_i_6_n_0,PWM_INST_0_i_7_n_0,PWM_INST_0_i_8_n_0}));

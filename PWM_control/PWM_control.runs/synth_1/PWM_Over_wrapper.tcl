@@ -87,7 +87,7 @@ set_property ip_output_repo c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_vhdl -library xil_defaultlib c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/hdl/PWM_Over_wrapper.vhd
+read_vhdl -library xil_defaultlib C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/hdl/PWM_Over_wrapper.vhd
 add_files C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.srcs/sources_1/bd/PWM_Over/PWM_Over.bd
 set_property used_in_implementation false [get_files -all c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/PWM_Over_ooc.xdc]
 
