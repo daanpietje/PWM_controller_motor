@@ -1,13 +1,14 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x6189E395877A9057",
+      "boundary_crc": "0x2B70D304FB6525",
       "device": "xc7z020clg400-1",
       "gen_directory": "../../../../PWM_control.gen/sources_1/bd/PWM_Over",
       "name": "PWM_Over",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2022.2"
+      "tool_version": "2022.2",
+      "validated": "true"
     },
     "design_tree": {
       "Controller_0": "",
@@ -248,7 +249,8 @@
           "clk",
           "Reg_0/clk",
           "Controller_0/clk",
-          "Upcounter_0/clk"
+          "Upcounter_0/clk",
+          "DataChecker_0/clk"
         ]
       },
       "Reg_0_regout": {

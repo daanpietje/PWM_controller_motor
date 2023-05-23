@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon May 22 13:03:26 2023" VIVADOVERSION="2022.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue May 23 09:50:50 2023" VIVADOVERSION="2022.2">
 
   <SYSTEMINFO ARCH="zynq" BOARD="tul.com.tw:pynq-z2:part0:1.0" DEVICE="7z020" NAME="PWM_Over" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
   <EXTERNALPORTS>
-    <PORT DIR="I" NAME="clk" SIGIS="undef" SIGNAME="External_Ports_clk">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="Reg_0" PORT="clk"/>
-        <CONNECTION INSTANCE="Upcounter_0" PORT="clk"/>
-        <CONNECTION INSTANCE="DataChecker_0" PORT="clk"/>
-        <CONNECTION INSTANCE="Controller_0" PORT="clk"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="rst" SIGIS="undef" SIGNAME="External_Ports_rst">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="Reg_0" PORT="rst"/>
-        <CONNECTION INSTANCE="Upcounter_0" PORT="rst"/>
-        <CONNECTION INSTANCE="DataChecker_0" PORT="rst"/>
-        <CONNECTION INSTANCE="Controller_0" PORT="rst"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="Pwm_signal" SIGIS="undef" SIGNAME="Comparator_0_PWM">
+    <PORT DIR="O" NAME="PWM_out" SIGIS="undef" SIGNAME="Comparator_0_PWM">
       <CONNECTIONS>
         <CONNECTION INSTANCE="Comparator_0" PORT="PWM"/>
       </CONNECTIONS>
     </PORT>
     <PORT DIR="I" LEFT="7" NAME="datain" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_datain">
       <CONNECTIONS>
-        <CONNECTION INSTANCE="Reg_0" PORT="info"/>
         <CONNECTION INSTANCE="DataChecker_0" PORT="Datain"/>
+        <CONNECTION INSTANCE="Reg_0" PORT="rst"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="clk" SIGIS="undef" SIGNAME="External_Ports_clk">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Reg_0" PORT="clk"/>
+        <CONNECTION INSTANCE="Controller_0" PORT="clk"/>
+        <CONNECTION INSTANCE="Upcounter_0" PORT="clk"/>
+        <CONNECTION INSTANCE="DataChecker_0" PORT="clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="rst" SIGIS="undef" SIGNAME="External_Ports_rst">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="DataChecker_0" PORT="rst"/>
+        <CONNECTION INSTANCE="Controller_0" PORT="rst"/>
+        <CONNECTION INSTANCE="Reg_0" PORT="info"/>
+        <CONNECTION INSTANCE="Upcounter_0" PORT="rst"/>
       </CONNECTIONS>
     </PORT>
   </EXTERNALPORTS>
@@ -39,7 +39,7 @@
     <MODULE COREREVISION="1" FULLNAME="/Comparator_0" HWVERSION="1.0" INSTANCE="Comparator_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Comparator" VLNV="xilinx.com:module_ref:Comparator:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="PWM_Over_Comparator_0_2"/>
+        <PARAMETER NAME="Component_Name" VALUE="PWM_Over_Comparator_0_3"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
@@ -55,7 +55,7 @@
         </PORT>
         <PORT DIR="O" NAME="PWM" SIGIS="undef" SIGNAME="Comparator_0_PWM">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="Pwm_signal"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="PWM_out"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -64,7 +64,7 @@
     <MODULE COREREVISION="1" FULLNAME="/Controller_0" HWVERSION="1.0" INSTANCE="Controller_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Controller" VLNV="xilinx.com:module_ref:Controller:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="PWM_Over_Controller_0_0"/>
+        <PARAMETER NAME="Component_Name" VALUE="PWM_Over_Controller_0_1"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
@@ -104,7 +104,7 @@
     <MODULE COREREVISION="1" FULLNAME="/DataChecker_0" HWVERSION="1.0" INSTANCE="DataChecker_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="DataChecker" VLNV="xilinx.com:module_ref:DataChecker:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="PWM_Over_DataChecker_0_0"/>
+        <PARAMETER NAME="Component_Name" VALUE="PWM_Over_DataChecker_0_1"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
@@ -139,7 +139,7 @@
     <MODULE COREREVISION="1" FULLNAME="/Reg_0" HWVERSION="1.0" INSTANCE="Reg_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Reg" VLNV="xilinx.com:module_ref:Reg:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="PWM_Over_Reg_0_0"/>
+        <PARAMETER NAME="Component_Name" VALUE="PWM_Over_Reg_0_1"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
@@ -153,14 +153,14 @@
             <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="rst" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_rst">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="rst"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="7" NAME="info" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_datain">
+        <PORT DIR="I" NAME="rst" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_datain">
           <CONNECTIONS>
             <CONNECTION INSTANCE="External_Ports" PORT="datain"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="info" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="rst"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="7" NAME="regout" RIGHT="0" SIGIS="undef" SIGNAME="Reg_0_regout">
@@ -174,7 +174,7 @@
     <MODULE COREREVISION="1" FULLNAME="/Upcounter_0" HWVERSION="1.0" INSTANCE="Upcounter_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Upcounter" VLNV="xilinx.com:module_ref:Upcounter:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="PWM_Over_Upcounter_0_0"/>
+        <PARAMETER NAME="Component_Name" VALUE="PWM_Over_Upcounter_0_1"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>

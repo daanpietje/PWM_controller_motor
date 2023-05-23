@@ -4,19 +4,19 @@
 # Block Designs: bd/PWM_Over/PWM_Over.bd
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_OVer || ORIG_REF_NAME==PWM_OVer} -quiet] -quiet
 
-# IP: bd/PWM_Over/ip/PWM_Over_Reg_0_0/PWM_Over_Reg_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Reg_0_0 || ORIG_REF_NAME==PWM_Over_Reg_0_0} -quiet] -quiet
+# IP: bd/PWM_Over/ip/PWM_Over_Controller_0_1/PWM_Over_Controller_0_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Controller_0_1 || ORIG_REF_NAME==PWM_Over_Controller_0_1} -quiet] -quiet
 
-# IP: bd/PWM_Over/ip/PWM_Over_Upcounter_0_0/PWM_Over_Upcounter_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Upcounter_0_0 || ORIG_REF_NAME==PWM_Over_Upcounter_0_0} -quiet] -quiet
+# IP: bd/PWM_Over/ip/PWM_Over_Comparator_0_3/PWM_Over_Comparator_0_3.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Comparator_0_3 || ORIG_REF_NAME==PWM_Over_Comparator_0_3} -quiet] -quiet
 
-# IP: bd/PWM_Over/ip/PWM_Over_DataChecker_0_0/PWM_Over_DataChecker_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_DataChecker_0_0 || ORIG_REF_NAME==PWM_Over_DataChecker_0_0} -quiet] -quiet
+# IP: bd/PWM_Over/ip/PWM_Over_DataChecker_0_1/PWM_Over_DataChecker_0_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_DataChecker_0_1 || ORIG_REF_NAME==PWM_Over_DataChecker_0_1} -quiet] -quiet
 
-# IP: bd/PWM_Over/ip/PWM_Over_Controller_0_0/PWM_Over_Controller_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Controller_0_0 || ORIG_REF_NAME==PWM_Over_Controller_0_0} -quiet] -quiet
+# IP: bd/PWM_Over/ip/PWM_Over_Upcounter_0_1/PWM_Over_Upcounter_0_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Upcounter_0_1 || ORIG_REF_NAME==PWM_Over_Upcounter_0_1} -quiet] -quiet
 
-# IP: bd/PWM_Over/ip/PWM_Over_Comparator_0_2/PWM_Over_Comparator_0_2.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Comparator_0_2 || ORIG_REF_NAME==PWM_Over_Comparator_0_2} -quiet] -quiet
+# IP: bd/PWM_Over/ip/PWM_Over_Reg_0_1/PWM_Over_Reg_0_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Reg_0_1 || ORIG_REF_NAME==PWM_Over_Reg_0_1} -quiet] -quiet
 
 # XDC: c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/PWM_Over_ooc.xdc

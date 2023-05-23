@@ -10,11 +10,11 @@
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 
 source PWM_Over_wrapper.tcl -notrace
-create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1002.355 ; gain = 118.633
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1001.977 ; gain = 116.711
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
-add_files: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1032.434 ; gain = 24.844
+add_files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1032.367 ; gain = 24.859
 Command: read_checkpoint -auto_incremental -incremental C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.srcs/utils_1/imports/synth_1/Comparator.dcp
 INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.srcs/utils_1/imports/synth_1/Comparator.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
@@ -27,89 +27,89 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 4356
+INFO: [Synth 8-7075] Helper process launched with PID 13284
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1856.348 ; gain = 409.270
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1857.012 ; gain = 407.570
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'PWM_Over_wrapper' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/hdl/PWM_Over_wrapper.vhd:23]
 INFO: [Synth 8-3491] module 'PWM_Over' declared at 'c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/synth/PWM_Over.vhd:14' bound to instance 'PWM_Over_i' of component 'PWM_Over' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/hdl/PWM_Over_wrapper.vhd:33]
 INFO: [Synth 8-638] synthesizing module 'PWM_Over' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/synth/PWM_Over.vhd:27]
-INFO: [Synth 8-3491] module 'PWM_Over_Comparator_0_2' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.runs/synth_1/.Xil/Vivado-19364-DaanAsus/realtime/PWM_Over_Comparator_0_2_stub.vhdl:5' bound to instance 'Comparator_0' of component 'PWM_Over_Comparator_0_2' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/synth/PWM_Over.vhd:86]
-INFO: [Synth 8-638] synthesizing module 'PWM_Over_Comparator_0_2' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.runs/synth_1/.Xil/Vivado-19364-DaanAsus/realtime/PWM_Over_Comparator_0_2_stub.vhdl:14]
-INFO: [Synth 8-3491] module 'PWM_Over_Controller_0_0' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.runs/synth_1/.Xil/Vivado-19364-DaanAsus/realtime/PWM_Over_Controller_0_0_stub.vhdl:5' bound to instance 'Controller_0' of component 'PWM_Over_Controller_0_0' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/synth/PWM_Over.vhd:92]
-INFO: [Synth 8-638] synthesizing module 'PWM_Over_Controller_0_0' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.runs/synth_1/.Xil/Vivado-19364-DaanAsus/realtime/PWM_Over_Controller_0_0_stub.vhdl:17]
-INFO: [Synth 8-3491] module 'PWM_Over_DataChecker_0_0' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.runs/synth_1/.Xil/Vivado-19364-DaanAsus/realtime/PWM_Over_DataChecker_0_0_stub.vhdl:5' bound to instance 'DataChecker_0' of component 'PWM_Over_DataChecker_0_0' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/synth/PWM_Over.vhd:101]
-INFO: [Synth 8-638] synthesizing module 'PWM_Over_DataChecker_0_0' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.runs/synth_1/.Xil/Vivado-19364-DaanAsus/realtime/PWM_Over_DataChecker_0_0_stub.vhdl:16]
-INFO: [Synth 8-3491] module 'PWM_Over_Reg_0_0' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.runs/synth_1/.Xil/Vivado-19364-DaanAsus/realtime/PWM_Over_Reg_0_0_stub.vhdl:5' bound to instance 'Reg_0' of component 'PWM_Over_Reg_0_0' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/synth/PWM_Over.vhd:109]
-INFO: [Synth 8-638] synthesizing module 'PWM_Over_Reg_0_0' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.runs/synth_1/.Xil/Vivado-19364-DaanAsus/realtime/PWM_Over_Reg_0_0_stub.vhdl:16]
-INFO: [Synth 8-3491] module 'PWM_Over_Upcounter_0_0' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.runs/synth_1/.Xil/Vivado-19364-DaanAsus/realtime/PWM_Over_Upcounter_0_0_stub.vhdl:5' bound to instance 'Upcounter_0' of component 'PWM_Over_Upcounter_0_0' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/synth/PWM_Over.vhd:117]
-INFO: [Synth 8-638] synthesizing module 'PWM_Over_Upcounter_0_0' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.runs/synth_1/.Xil/Vivado-19364-DaanAsus/realtime/PWM_Over_Upcounter_0_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'PWM_Over_Comparator_0_3' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.runs/synth_1/.Xil/Vivado-6704-DaanAsus/realtime/PWM_Over_Comparator_0_3_stub.vhdl:5' bound to instance 'Comparator_0' of component 'PWM_Over_Comparator_0_3' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/synth/PWM_Over.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'PWM_Over_Comparator_0_3' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.runs/synth_1/.Xil/Vivado-6704-DaanAsus/realtime/PWM_Over_Comparator_0_3_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'PWM_Over_Controller_0_1' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.runs/synth_1/.Xil/Vivado-6704-DaanAsus/realtime/PWM_Over_Controller_0_1_stub.vhdl:5' bound to instance 'Controller_0' of component 'PWM_Over_Controller_0_1' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/synth/PWM_Over.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'PWM_Over_Controller_0_1' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.runs/synth_1/.Xil/Vivado-6704-DaanAsus/realtime/PWM_Over_Controller_0_1_stub.vhdl:17]
+INFO: [Synth 8-3491] module 'PWM_Over_DataChecker_0_1' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.runs/synth_1/.Xil/Vivado-6704-DaanAsus/realtime/PWM_Over_DataChecker_0_1_stub.vhdl:5' bound to instance 'DataChecker_0' of component 'PWM_Over_DataChecker_0_1' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/synth/PWM_Over.vhd:101]
+INFO: [Synth 8-638] synthesizing module 'PWM_Over_DataChecker_0_1' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.runs/synth_1/.Xil/Vivado-6704-DaanAsus/realtime/PWM_Over_DataChecker_0_1_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'PWM_Over_Reg_0_1' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.runs/synth_1/.Xil/Vivado-6704-DaanAsus/realtime/PWM_Over_Reg_0_1_stub.vhdl:5' bound to instance 'Reg_0' of component 'PWM_Over_Reg_0_1' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/synth/PWM_Over.vhd:109]
+INFO: [Synth 8-638] synthesizing module 'PWM_Over_Reg_0_1' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.runs/synth_1/.Xil/Vivado-6704-DaanAsus/realtime/PWM_Over_Reg_0_1_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'PWM_Over_Upcounter_0_1' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.runs/synth_1/.Xil/Vivado-6704-DaanAsus/realtime/PWM_Over_Upcounter_0_1_stub.vhdl:5' bound to instance 'Upcounter_0' of component 'PWM_Over_Upcounter_0_1' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/synth/PWM_Over.vhd:124]
+INFO: [Synth 8-638] synthesizing module 'PWM_Over_Upcounter_0_1' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.runs/synth_1/.Xil/Vivado-6704-DaanAsus/realtime/PWM_Over_Upcounter_0_1_stub.vhdl:15]
 INFO: [Synth 8-256] done synthesizing module 'PWM_Over' (0#1) [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/synth/PWM_Over.vhd:27]
 INFO: [Synth 8-256] done synthesizing module 'PWM_Over_wrapper' (0#1) [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/hdl/PWM_Over_wrapper.vhd:23]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1946.105 ; gain = 499.027
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1946.996 ; gain = 497.555
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1946.105 ; gain = 499.027
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1946.996 ; gain = 497.555
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1946.105 ; gain = 499.027
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1946.996 ; gain = 497.555
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1946.105 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1946.996 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Reg_0_0_1/PWM_Over_Reg_0_0/PWM_Over_Reg_0_0_in_context.xdc] for cell 'PWM_Over_i/Reg_0'
-Finished Parsing XDC File [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Reg_0_0_1/PWM_Over_Reg_0_0/PWM_Over_Reg_0_0_in_context.xdc] for cell 'PWM_Over_i/Reg_0'
-Parsing XDC File [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Upcounter_0_0_1/PWM_Over_Upcounter_0_0/PWM_Over_Upcounter_0_0_in_context.xdc] for cell 'PWM_Over_i/Upcounter_0'
-Finished Parsing XDC File [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Upcounter_0_0_1/PWM_Over_Upcounter_0_0/PWM_Over_Upcounter_0_0_in_context.xdc] for cell 'PWM_Over_i/Upcounter_0'
-Parsing XDC File [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_DataChecker_0_0/PWM_Over_DataChecker_0_0/PWM_Over_DataChecker_0_0_in_context.xdc] for cell 'PWM_Over_i/DataChecker_0'
-Finished Parsing XDC File [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_DataChecker_0_0/PWM_Over_DataChecker_0_0/PWM_Over_DataChecker_0_0_in_context.xdc] for cell 'PWM_Over_i/DataChecker_0'
-Parsing XDC File [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Controller_0_0/PWM_Over_Controller_0_0/PWM_Over_Controller_0_0_in_context.xdc] for cell 'PWM_Over_i/Controller_0'
-Finished Parsing XDC File [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Controller_0_0/PWM_Over_Controller_0_0/PWM_Over_Controller_0_0_in_context.xdc] for cell 'PWM_Over_i/Controller_0'
-Parsing XDC File [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Comparator_0_2/PWM_Over_Comparator_0_2/PWM_Over_Comparator_0_2_in_context.xdc] for cell 'PWM_Over_i/Comparator_0'
-Finished Parsing XDC File [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Comparator_0_2/PWM_Over_Comparator_0_2/PWM_Over_Comparator_0_2_in_context.xdc] for cell 'PWM_Over_i/Comparator_0'
+Parsing XDC File [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Controller_0_1/PWM_Over_Controller_0_1/PWM_Over_Controller_0_0_in_context.xdc] for cell 'PWM_Over_i/Controller_0'
+Finished Parsing XDC File [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Controller_0_1/PWM_Over_Controller_0_1/PWM_Over_Controller_0_0_in_context.xdc] for cell 'PWM_Over_i/Controller_0'
+Parsing XDC File [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Comparator_0_3/PWM_Over_Comparator_0_3/PWM_Over_Comparator_0_2_in_context.xdc] for cell 'PWM_Over_i/Comparator_0'
+Finished Parsing XDC File [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Comparator_0_3/PWM_Over_Comparator_0_3/PWM_Over_Comparator_0_2_in_context.xdc] for cell 'PWM_Over_i/Comparator_0'
+Parsing XDC File [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_DataChecker_0_1/PWM_Over_DataChecker_0_1/PWM_Over_DataChecker_0_0_in_context.xdc] for cell 'PWM_Over_i/DataChecker_0'
+Finished Parsing XDC File [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_DataChecker_0_1/PWM_Over_DataChecker_0_1/PWM_Over_DataChecker_0_0_in_context.xdc] for cell 'PWM_Over_i/DataChecker_0'
+Parsing XDC File [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Upcounter_0_1/PWM_Over_Upcounter_0_1/PWM_Over_Upcounter_0_0_in_context.xdc] for cell 'PWM_Over_i/Upcounter_0'
+Finished Parsing XDC File [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Upcounter_0_1/PWM_Over_Upcounter_0_1/PWM_Over_Upcounter_0_0_in_context.xdc] for cell 'PWM_Over_i/Upcounter_0'
+Parsing XDC File [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Reg_0_1/PWM_Over_Reg_0_1/PWM_Over_Reg_0_0_in_context.xdc] for cell 'PWM_Over_i/Reg_0'
+Finished Parsing XDC File [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Reg_0_1/PWM_Over_Reg_0_1/PWM_Over_Reg_0_0_in_context.xdc] for cell 'PWM_Over_i/Reg_0'
 Parsing XDC File [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.runs/synth_1/dont_touch.xdc]
 Finished Parsing XDC File [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1946.105 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1946.996 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1946.105 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1946.996 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1946.105 ; gain = 499.027
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:18 . Memory (MB): peak = 1946.996 ; gain = 497.555
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1946.105 ; gain = 499.027
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:18 . Memory (MB): peak = 1946.996 ; gain = 497.555
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property KEEP_HIERARCHY = SOFT for PWM_Over_i. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for PWM_Over_i/Reg_0. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for PWM_Over_i/Upcounter_0. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for PWM_Over_i/DataChecker_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for PWM_Over_i/Controller_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for PWM_Over_i/Comparator_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for PWM_Over_i/DataChecker_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for PWM_Over_i/Upcounter_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for PWM_Over_i/Reg_0. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1946.105 ; gain = 499.027
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1946.996 ; gain = 497.555
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1946.105 ; gain = 499.027
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1946.996 ; gain = 497.555
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -132,25 +132,25 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 1946.105 ; gain = 499.027
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1946.996 ; gain = 497.555
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 1946.105 ; gain = 499.027
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:28 . Memory (MB): peak = 1946.996 ; gain = 497.555
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 1946.105 ; gain = 499.027
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:28 . Memory (MB): peak = 1946.996 ; gain = 497.555
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 1958.059 ; gain = 510.980
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:28 . Memory (MB): peak = 1954.945 ; gain = 505.504
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -168,37 +168,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 1962.828 ; gain = 515.750
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:35 . Memory (MB): peak = 1960.688 ; gain = 511.246
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 1962.828 ; gain = 515.750
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:35 . Memory (MB): peak = 1960.688 ; gain = 511.246
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 1962.828 ; gain = 515.750
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:35 . Memory (MB): peak = 1960.688 ; gain = 511.246
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 1962.828 ; gain = 515.750
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:35 . Memory (MB): peak = 1960.688 ; gain = 511.246
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 1962.828 ; gain = 515.750
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:35 . Memory (MB): peak = 1960.688 ; gain = 511.246
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 1962.828 ; gain = 515.750
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:35 . Memory (MB): peak = 1960.688 ; gain = 511.246
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -208,44 +208,44 @@ Report BlackBoxes:
 +------+-------------------------+----------+
 |      |BlackBox name            |Instances |
 +------+-------------------------+----------+
-|1     |PWM_Over_Comparator_0_2  |         1|
-|2     |PWM_Over_Controller_0_0  |         1|
-|3     |PWM_Over_DataChecker_0_0 |         1|
-|4     |PWM_Over_Reg_0_0         |         1|
-|5     |PWM_Over_Upcounter_0_0   |         1|
+|1     |PWM_Over_Comparator_0_3  |         1|
+|2     |PWM_Over_Controller_0_1  |         1|
+|3     |PWM_Over_DataChecker_0_1 |         1|
+|4     |PWM_Over_Reg_0_1         |         1|
+|5     |PWM_Over_Upcounter_0_1   |         1|
 +------+-------------------------+----------+
 
 Report Cell Usage: 
 +------+------------------------------+------+
 |      |Cell                          |Count |
 +------+------------------------------+------+
-|1     |PWM_Over_Comparator_0_2_bbox  |     1|
-|2     |PWM_Over_Controller_0_0_bbox  |     1|
-|3     |PWM_Over_DataChecker_0_0_bbox |     1|
-|4     |PWM_Over_Reg_0_0_bbox         |     1|
-|5     |PWM_Over_Upcounter_0_0_bbox   |     1|
+|1     |PWM_Over_Comparator_0_3_bbox  |     1|
+|2     |PWM_Over_Controller_0_1_bbox  |     1|
+|3     |PWM_Over_DataChecker_0_1_bbox |     1|
+|4     |PWM_Over_Reg_0_1_bbox         |     1|
+|5     |PWM_Over_Upcounter_0_1_bbox   |     1|
 |6     |IBUF                          |    10|
 |7     |OBUF                          |     1|
 +------+------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 1962.828 ; gain = 515.750
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:35 . Memory (MB): peak = 1960.688 ; gain = 511.246
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:22 . Memory (MB): peak = 1962.828 ; gain = 515.750
-Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 1962.828 ; gain = 515.750
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:33 . Memory (MB): peak = 1960.688 ; gain = 511.246
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:35 . Memory (MB): peak = 1960.688 ; gain = 511.246
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1974.855 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1972.766 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1983.453 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1983.367 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete, checksum: 575e809
+Synth Design complete, checksum: 455f0ffb
 INFO: [Common 17-83] Releasing license: Synthesis
 38 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:29 . Memory (MB): peak = 1983.453 ; gain = 946.523
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:43 . Memory (MB): peak = 1983.367 ; gain = 945.555
 INFO: [Common 17-1381] The checkpoint 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.runs/synth_1/PWM_Over_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file PWM_Over_wrapper_utilization_synth.rpt -pb PWM_Over_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon May 22 14:36:37 2023...
+INFO: [Common 17-206] Exiting Vivado at Tue May 23 09:52:14 2023...
