@@ -7,8 +7,7 @@
       "name": "PWM_Over",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2022.2",
-      "validated": "true"
+      "tool_version": "2023.1"
     },
     "design_tree": {
       "Controller_0": "",
@@ -16,6 +15,45 @@
       "DataChecker_0": "",
       "Upcounter_0": "",
       "Reg_0": ""
+    },
+    "interface_ports": {
+      "FIXED_IO": {
+        "mode": "Master",
+        "vlnv_bus_definition": "xilinx.com:display_processing_system7:fixedio:1.0",
+        "vlnv": "xilinx.com:display_processing_system7:fixedio_rtl:1.0",
+        "parameters": {
+          "CAN_DEBUG": {
+            "value": "false",
+            "value_src": "default"
+          }
+        },
+        "port_maps": {
+          "MIO": {
+            "physical_name": "FIXED_IO_mio",
+            "direction": "IO"
+          },
+          "DDR_VRN": {
+            "physical_name": "FIXED_IO_ddr_vrn",
+            "direction": "IO"
+          },
+          "DDR_VRP": {
+            "physical_name": "FIXED_IO_ddr_vrp",
+            "direction": "IO"
+          },
+          "PS_SRSTB": {
+            "physical_name": "FIXED_IO_ps_srstb",
+            "direction": "IO"
+          },
+          "PS_CLK": {
+            "physical_name": "FIXED_IO_ps_clk",
+            "direction": "IO"
+          },
+          "PS_PORB": {
+            "physical_name": "FIXED_IO_ps_porb",
+            "direction": "IO"
+          }
+        }
+      }
     },
     "ports": {
       "PWM_out": {
@@ -247,10 +285,10 @@
       "Net": {
         "ports": [
           "clk",
-          "Reg_0/clk",
           "Controller_0/clk",
+          "DataChecker_0/clk",
           "Upcounter_0/clk",
-          "DataChecker_0/clk"
+          "Reg_0/clk"
         ]
       },
       "Reg_0_regout": {
@@ -275,10 +313,10 @@
       "rst_1": {
         "ports": [
           "rst",
-          "DataChecker_0/rst",
           "Controller_0/rst",
-          "Reg_0/info",
-          "Upcounter_0/rst"
+          "DataChecker_0/rst",
+          "Upcounter_0/rst",
+          "Reg_0/info"
         ]
       }
     }

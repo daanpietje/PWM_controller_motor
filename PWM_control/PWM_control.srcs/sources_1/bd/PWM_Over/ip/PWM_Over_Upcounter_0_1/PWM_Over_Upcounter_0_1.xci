@@ -32,7 +32,7 @@
         "OUTPUTDIR": [ { "value": "../../../../../../PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Upcounter_0_1" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "../../ipshared" } ],
-        "SWVERSION": [ { "value": "2022.2" } ],
+        "SWVERSION": [ { "value": "2023.1" } ],
         "SYNTHESISFLOW": [ { "value": "OOC_HIERARCHICAL" } ]
       }
     },
