@@ -1,13 +1,14 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x2B70D304FB6525",
+      "boundary_crc": "0x2B70D3E162FD81",
       "device": "xc7z020clg400-1",
       "gen_directory": "../../../../PWM_control.gen/sources_1/bd/PWM_Over",
       "name": "PWM_Over",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2023.1"
+      "tool_version": "2023.1",
+      "validated": "true"
     },
     "design_tree": {
       "Controller_0": "",
@@ -25,32 +26,6 @@
           "CAN_DEBUG": {
             "value": "false",
             "value_src": "default"
-          }
-        },
-        "port_maps": {
-          "MIO": {
-            "physical_name": "FIXED_IO_mio",
-            "direction": "IO"
-          },
-          "DDR_VRN": {
-            "physical_name": "FIXED_IO_ddr_vrn",
-            "direction": "IO"
-          },
-          "DDR_VRP": {
-            "physical_name": "FIXED_IO_ddr_vrp",
-            "direction": "IO"
-          },
-          "PS_SRSTB": {
-            "physical_name": "FIXED_IO_ps_srstb",
-            "direction": "IO"
-          },
-          "PS_CLK": {
-            "physical_name": "FIXED_IO_ps_clk",
-            "direction": "IO"
-          },
-          "PS_PORB": {
-            "physical_name": "FIXED_IO_ps_porb",
-            "direction": "IO"
           }
         }
       }

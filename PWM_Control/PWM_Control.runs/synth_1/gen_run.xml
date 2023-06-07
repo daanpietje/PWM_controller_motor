@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1684828255" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Comparator.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1686138013" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Comparator.dcp">
   <File Type="PA-TCL" Name="PWM_Over_wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="PWM_Over_wrapper_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="PWM_Over_wrapper_reports.tcl"/>
   <File Type="RDS-RDS" Name="PWM_Over_wrapper.vds"/>
   <File Type="RDS-UTIL" Name="PWM_Over_wrapper_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="PWM_Over_wrapper_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="PWM_Over_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="PWM_Over_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="PWM_Over_wrapper_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/Controller.vhd">
@@ -51,40 +54,30 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../../Nieuwe map/Reg.vhd">
+    <File Path="$PSRCDIR/sources_1/bd/design_with_processor/design_with_processor.bd">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../../Nieuwe map/Upcounter.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../../Nieuwe map/Controller.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
       <Option Name="TopModule" Val="PWM_Over_wrapper"/>
+      <Option Name="TopLib" Val="xil_defaultlib"/>
+      <Option Name="TopArchitecture" Val="STRUCTURE"/>
+      <Option Name="TopRTLFile" Val="$PGENDIR/sources_1/bd/PWM_Over/hdl/PWM_Over_wrapper.vhd"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
-  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
     <Filter Type="Constrs"/>
     <Config>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>
-  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
     <Filter Type="Utils"/>
     <File Path="$PSRCDIR/utils_1/imports/synth_1/Comparator.dcp">
       <FileInfo>
@@ -102,4 +95,9 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
     <Step Id="synth_design"/>
   </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Upcounter_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Comparator_0_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Reg_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Controller_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="PWM_Over_DataChecker_0_1"/>
 </GenRun>

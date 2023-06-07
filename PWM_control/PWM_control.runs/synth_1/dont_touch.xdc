@@ -19,4 +19,4 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Up
 # IP: bd/PWM_Over/ip/PWM_Over_Reg_0_1/PWM_Over_Reg_0_1.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Reg_0_1 || ORIG_REF_NAME==PWM_Over_Reg_0_1} -quiet] -quiet
 
-# XDC: c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_control/PWM_control.gen/sources_1/bd/PWM_Over/PWM_Over_ooc.xdc
+# XDC: c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_control.gen/sources_1/bd/PWM_Over/PWM_Over_ooc.xdc
