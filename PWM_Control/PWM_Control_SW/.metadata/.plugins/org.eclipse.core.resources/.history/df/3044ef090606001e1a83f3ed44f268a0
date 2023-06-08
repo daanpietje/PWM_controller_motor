@@ -1,0 +1,10 @@
+/*
+ * motor_controller.c
+ *
+ *  Created on: Jun 8, 2023
+ *      Author: daanv
+ */
+
+motor_controller : :motor_controller(){
+
+}

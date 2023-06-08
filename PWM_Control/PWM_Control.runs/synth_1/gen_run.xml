@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1686207095" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Comparator.dcp">
   <File Type="PA-TCL" Name="design_with_processor_wrapper.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="design_with_processor_wrapper_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="design_with_processor_wrapper_reports.tcl"/>
   <File Type="RDS-RDS" Name="design_with_processor_wrapper.vds"/>
   <File Type="RDS-UTIL" Name="design_with_processor_wrapper_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="design_with_processor_wrapper_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="design_with_processor_wrapper.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="design_with_processor_wrapper_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="design_with_processor_wrapper_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/Controller.vhd">
@@ -100,16 +97,14 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="design_with_processor_PWM_Over_wrapper_0_2"/>
   <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Upcounter_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_with_processor_PWM_Over_wrapper_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Comparator_0_3"/>
   <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Reg_0_1"/>
   <BlockFileSet Type="BlockSrcs" Name="design_with_processor_processing_system7_0_2"/>
-  <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Comparator_0_3"/>
   <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Controller_0_1"/>
   <BlockFileSet Type="BlockSrcs" Name="PWM_Over_DataChecker_0_1"/>
   <BlockFileSet Type="BlockSrcs" Name="design_with_processor_rst_ps7_0_50M_0"/>
