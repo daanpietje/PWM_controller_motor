@@ -24,7 +24,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 ISEStep( "vivado",
-         "-log PWM_Over_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source PWM_Over_wrapper.tcl" );
+         "-log design_with_processor_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_with_processor_wrapper.tcl" );
 
 
 

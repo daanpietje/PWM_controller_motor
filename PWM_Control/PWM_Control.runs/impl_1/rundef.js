@@ -24,9 +24,9 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 // pre-commands:
-ISETouchFile( "init_design", "begin" );
+ISETouchFile( "write_bitstream", "begin" );
 ISEStep( "vivado",
-         "-log PWM_Over_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source PWM_Over_wrapper.tcl -notrace" );
+         "-log design_with_processor_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source design_with_processor_wrapper.tcl -notrace" );
 
 
 
