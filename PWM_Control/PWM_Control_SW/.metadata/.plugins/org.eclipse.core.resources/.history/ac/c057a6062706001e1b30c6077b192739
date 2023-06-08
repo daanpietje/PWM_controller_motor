@@ -1,0 +1,14 @@
+/*
+ * motor_controller.c
+ *
+ *  Created on: Jun 8, 2023
+ *      Author: daanv
+ */
+
+#include "motor_controller.h"
+
+struct motorcontroller{
+	const int pin;
+	int speed;
+};
+

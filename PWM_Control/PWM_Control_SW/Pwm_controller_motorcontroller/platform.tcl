@@ -19,3 +19,11 @@ platform generate
 platform active {Pwm_controller_motorcontroller}
 bsp reload
 bsp reload
+platform active {Pwm_controller_motorcontroller}
+domain active {zynq_fsbl}
+bsp reload
+domain active {standalone_domain}
+bsp reload
+platform generate -domains 
+domain active {zynq_fsbl}
+bsp reload

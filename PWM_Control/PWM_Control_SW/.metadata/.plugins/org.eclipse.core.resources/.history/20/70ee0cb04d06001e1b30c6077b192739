@@ -1,0 +1,22 @@
+/*
+ * motor_controller.c
+ *
+ *  Created on: Jun 8, 2023
+ *      Author: daanv
+ */
+
+#include "motor_controller.h"
+#include "xgpio.h"
+
+struct motor{
+	int current_speed;
+	XGpio motorGPIO;
+};
+
+void change_speed(struct motor* motor_settings, int speed){
+	motor_settings->current_speed = speed;
+}
+
+void Speed_out(struct motor* motor_settings){
+	XGpio_DiscreteWrite(&motor_settings->motorGPIO, 1, motor_settings->current_speed);
+}

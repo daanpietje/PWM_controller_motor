@@ -1,0 +1,38 @@
+01:53:08 **** Incremental Build of configuration Debug for project Pwm_controller_motorcontroller_app ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/sw/Pwm_controller_motorcontroller/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:62:27: warning: 'left_motor' is used uninitialized [-Wuninitialized]
+   62 |     left_motor->motorGPIO = motorpin0;
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/helloworld.c:61:19: note: 'left_motor' was declared here
+   61 |     struct motor* left_motor;
+      |                   ^~~~~~~~~~
+../src/helloworld.c:69:28: warning: 'right_motor' is used uninitialized [-Wuninitialized]
+   69 |     right_motor->motorGPIO = motorpin1;
+      |     ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/helloworld.c:68:19: note: 'right_motor' was declared here
+   68 |     struct motor* right_motor;
+      |                   ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Pwm_controller_motorcontroller_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/sw/Pwm_controller_motorcontroller/standalone_domain/bsplib/lib -o "Pwm_controller_motorcontroller_app.elf"  ./src/helloworld.o ./src/motor_controller.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Pwm_controller_motorcontroller_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Pwm_controller_motorcontroller_app.elf  |tee "Pwm_controller_motorcontroller_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20246	   1176	  22584	  44006	   abe6	Pwm_controller_motorcontroller_app.elf
+'Finished building: Pwm_controller_motorcontroller_app.elf.size'
+' '
+
+01:53:09 Build Finished (took 1s.62ms)
+

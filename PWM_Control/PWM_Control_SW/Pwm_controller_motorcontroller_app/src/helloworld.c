@@ -48,14 +48,35 @@
 #include <stdio.h>
 #include "platform.h"
 #include "xil_printf.h"
-
+#include "motor_controller.h"
+#include "xgpio.h"
 
 int main()
 {
     init_platform();
 
-    print("Hello World\n\r");
-    print("Successfully ran Hello World application");
+	XGpio motorpin0;
+	XGpio_Initialize(&motorpin0, XPAR_AXI_GPIO_0_DEVICE_ID);
+	XGpio_SetDataDirection(&motorpin0, 1, 0x0);
+    struct motor* left_motor;
+    left_motor->motorGPIO = motorpin0;
+    left_motor->current_speed = 0;
+
+	XGpio motorpin1;
+	XGpio_Initialize(&motorpin1, XPAR_AXI_GPIO_1_DEVICE_ID);
+	XGpio_SetDataDirection(&motorpin1, 1, 0x0);
+    struct motor* right_motor;
+    right_motor->motorGPIO = motorpin1;
+    right_motor->current_speed = 0;
+
+    while(1){
+    	change_speed(left_motor, 128);
+
+
+    	speed_out(left_motor);
+    	speed_out(right_motor);
+    };
+
     cleanup_platform();
     return 0;
 }
