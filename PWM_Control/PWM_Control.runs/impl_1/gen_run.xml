@@ -1,73 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1686208596">
-  <File Type="ROUTE-PWR" Name="design_with_processor_wrapper_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="design_with_processor_wrapper.tcl"/>
-  <File Type="ROUTE-PWR-SUM" Name="design_with_processor_wrapper_power_summary_routed.pb"/>
-  <File Type="REPORTS-TCL" Name="design_with_processor_wrapper_reports.tcl"/>
-  <File Type="BITSTR-MSK" Name="design_with_processor_wrapper.msk"/>
-  <File Type="ROUTE-CLK" Name="design_with_processor_wrapper_clock_utilization_routed.rpt"/>
-  <File Type="RDI-RDI" Name="design_with_processor_wrapper.vdi"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="design_with_processor_wrapper_bus_skew_postroute_physopted.pb"/>
-  <File Type="BG-BIT" Name="design_with_processor_wrapper.bit"/>
-  <File Type="BG-DRC" Name="design_with_processor_wrapper.drc"/>
-  <File Type="BG-BGN" Name="design_with_processor_wrapper.bgn"/>
-  <File Type="BG-BIN" Name="design_with_processor_wrapper.bin"/>
-  <File Type="BITSTR-RBT" Name="design_with_processor_wrapper.rbt"/>
-  <File Type="BITSTR-NKY" Name="design_with_processor_wrapper.nky"/>
-  <File Type="BITSTR-BMM" Name="design_with_processor_wrapper_bd.bmm"/>
-  <File Type="BITSTR-MMI" Name="design_with_processor_wrapper.mmi"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="design_with_processor_wrapper_methodology_drc_routed.rpt"/>
-  <File Type="BITSTR-SYSDEF" Name="design_with_processor_wrapper.sysdef"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="design_with_processor_wrapper.ltx"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="OPT-DRC" Name="design_with_processor_wrapper_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="design_with_processor_wrapper.hwdef"/>
-  <File Type="PLACE-IO" Name="design_with_processor_wrapper_io_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="design_with_processor_wrapper_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="design_with_processor_wrapper_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="design_with_processor_wrapper_control_sets_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="design_with_processor_wrapper_incremental_reuse_pre_placed.rpt"/>
-  <File Type="ROUTE-DRC" Name="design_with_processor_wrapper_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="design_with_processor_wrapper_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="design_with_processor_wrapper_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="design_with_processor_wrapper_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="design_with_processor_wrapper_route_status.pb"/>
-  <File Type="ROUTE-DCP" Name="design_with_processor_wrapper_routed.dcp"/>
-  <File Type="ROUTE-ERROR-DCP" Name="design_with_processor_wrapper_routed_error.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="design_with_processor_wrapper_routed_bb.dcp"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="design_with_processor_wrapper_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="design_with_processor_wrapper_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="design_with_processor_wrapper_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="design_with_processor_wrapper_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="design_with_processor_wrapper_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="design_with_processor_wrapper_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="design_with_processor_wrapper_bus_skew_routed.rpx"/>
-  <File Type="OPT-DCP" Name="design_with_processor_wrapper_opt.dcp"/>
-  <File Type="PLACE-DCP" Name="design_with_processor_wrapper_placed.dcp"/>
-  <File Type="PWROPT-DCP" Name="design_with_processor_wrapper_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="design_with_processor_wrapper_postplace_pwropt.dcp"/>
-  <File Type="PHYSOPT-DCP" Name="design_with_processor_wrapper_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="design_with_processor_wrapper_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="design_with_processor_wrapper_postroute_physopt_bb.dcp"/>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1686402712">
+  <File Type="ROUTE-PWR" Name="Pwm_generator_zynq_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Pwm_generator_zynq_wrapper.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="Pwm_generator_zynq_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Pwm_generator_zynq_wrapper_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="Pwm_generator_zynq_wrapper_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="Pwm_generator_zynq_wrapper.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Pwm_generator_zynq_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Pwm_generator_zynq_wrapper_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="Pwm_generator_zynq_wrapper_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Pwm_generator_zynq_wrapper_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Pwm_generator_zynq_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Pwm_generator_zynq_wrapper.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Pwm_generator_zynq_wrapper_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Pwm_generator_zynq_wrapper_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Pwm_generator_zynq_wrapper_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Pwm_generator_zynq_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Pwm_generator_zynq_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Pwm_generator_zynq_wrapper_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Pwm_generator_zynq_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Pwm_generator_zynq_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Pwm_generator_zynq_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Pwm_generator_zynq_wrapper_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Pwm_generator_zynq_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="Pwm_generator_zynq_wrapper.bin"/>
+  <File Type="PLACE-TIMING" Name="Pwm_generator_zynq_wrapper_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Pwm_generator_zynq_wrapper_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="Pwm_generator_zynq_wrapper_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Pwm_generator_zynq_wrapper_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="Pwm_generator_zynq_wrapper.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Pwm_generator_zynq_wrapper_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Pwm_generator_zynq_wrapper_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Pwm_generator_zynq_wrapper_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="Pwm_generator_zynq_wrapper.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="Pwm_generator_zynq_wrapper_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Pwm_generator_zynq_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Pwm_generator_zynq_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Pwm_generator_zynq_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Pwm_generator_zynq_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Pwm_generator_zynq_wrapper_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Pwm_generator_zynq_wrapper_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Pwm_generator_zynq_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Pwm_generator_zynq_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Pwm_generator_zynq_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="Pwm_generator_zynq_wrapper_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="Pwm_generator_zynq_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Pwm_generator_zynq_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Pwm_generator_zynq_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Pwm_generator_zynq_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Pwm_generator_zynq_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Pwm_generator_zynq_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Pwm_generator_zynq_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Pwm_generator_zynq_wrapper_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Pwm_generator_zynq_wrapper_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Pwm_generator_zynq_wrapper_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Pwm_generator_zynq_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Pwm_generator_zynq_wrapper_postroute_physopt_bb.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING" Name="design_with_processor_wrapper_timing_summary_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="design_with_processor_wrapper_timing_summary_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="design_with_processor_wrapper_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="design_with_processor_wrapper_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="Pwm_generator_zynq_wrapper.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="design_with_processor_wrapper_bus_skew_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="design_with_processor_wrapper_bus_skew_postroute_physopted.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="design_with_processor_wrapper_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="design_with_processor_wrapper_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="design_with_processor_wrapper_methodology_drc_routed.rpx"/>
-  <File Type="PDI-FILE" Name="design_with_processor_wrapper.pdi"/>
-  <File Type="BOOT-PDI-FILE" Name="design_with_processor_wrapper_soc.pdi"/>
-  <File Type="PL-PDI-FILE" Name="design_with_processor_wrapper_pld.pdi"/>
-  <File Type="RCFI_FILE" Name="design_with_processor_wrapper.rcfi"/>
-  <File Type="CFI_FILE" Name="design_with_processor_wrapper.cfi"/>
-  <File Type="RNPI_FILE" Name="design_with_processor_wrapper.rnpi"/>
-  <File Type="NPI_FILE" Name="design_with_processor_wrapper.npi"/>
-  <File Type="RBD_FILE" Name="design_with_processor_wrapper.rbd"/>
-  <File Type="ROUTE-RQS" Name="design_with_processor_wrapper_routed.rqs"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="design_with_processor_wrapper_postroute_physopted.rqs"/>
+  <File Type="BITSTR-NKY" Name="Pwm_generator_zynq_wrapper.nky"/>
+  <File Type="BITSTR-BMM" Name="Pwm_generator_zynq_wrapper_bd.bmm"/>
+  <File Type="PDI-FILE" Name="Pwm_generator_zynq_wrapper.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="Pwm_generator_zynq_wrapper_soc.pdi"/>
+  <File Type="PL-PDI-FILE" Name="Pwm_generator_zynq_wrapper_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="Pwm_generator_zynq_wrapper.rcfi"/>
+  <File Type="CFI_FILE" Name="Pwm_generator_zynq_wrapper.cfi"/>
+  <File Type="RNPI_FILE" Name="Pwm_generator_zynq_wrapper.rnpi"/>
+  <File Type="NPI_FILE" Name="Pwm_generator_zynq_wrapper.npi"/>
+  <File Type="RBD_FILE" Name="Pwm_generator_zynq_wrapper.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Pwm_generator_zynq_wrapper.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Pwm_generator_zynq_wrapper.sysdef"/>
+  <File Type="BG-BGN" Name="Pwm_generator_zynq_wrapper.bgn"/>
+  <File Type="BG-DRC" Name="Pwm_generator_zynq_wrapper.drc"/>
+  <File Type="RDI-RDI" Name="Pwm_generator_zynq_wrapper.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="Pwm_generator_zynq_wrapper_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Pwm_generator_zynq_wrapper_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
@@ -115,14 +129,14 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/bd/design_with_processor/design_with_processor.bd">
+    <File Path="$PSRCDIR/sources_1/bd/Pwm_generator_zynq/Pwm_generator_zynq.bd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PGENDIR/sources_1/bd/design_with_processor/hdl/design_with_processor_wrapper.vhd">
+    <File Path="$PGENDIR/sources_1/bd/Pwm_generator_zynq/hdl/Pwm_generator_zynq_wrapper.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -130,7 +144,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="design_with_processor_wrapper"/>
+      <Option Name="TopModule" Val="Pwm_generator_zynq_wrapper"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
@@ -161,7 +175,9 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>
@@ -173,13 +189,10 @@
     <Step Id="write_bitstream"/>
   </Strategy>
   <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Upcounter_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_with_processor_PWM_Over_wrapper_0_2"/>
-  <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Comparator_0_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Reg_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_with_processor_processing_system7_0_2"/>
   <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Controller_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Comparator_0_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="Pwm_generator_zynq_PWM_Over_wrapper_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="PWM_Over_DataChecker_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_with_processor_rst_ps7_0_50M_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_with_processor_axi_gpio_0_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_with_processor_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Pwm_generator_zynq_PWM_Over_wrapper_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Pwm_generator_zynq_processing_system7_0_2"/>
 </GenRun>

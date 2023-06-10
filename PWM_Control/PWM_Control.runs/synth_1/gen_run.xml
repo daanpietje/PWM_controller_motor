@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1686207095" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Comparator.dcp">
-  <File Type="PA-TCL" Name="design_with_processor_wrapper.tcl"/>
-  <File Type="REPORTS-TCL" Name="design_with_processor_wrapper_reports.tcl"/>
-  <File Type="RDS-RDS" Name="design_with_processor_wrapper.vds"/>
-  <File Type="RDS-UTIL" Name="design_with_processor_wrapper_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="design_with_processor_wrapper_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="design_with_processor_wrapper.dcp"/>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1686402605" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Comparator.dcp">
+  <File Type="PA-TCL" Name="Pwm_generator_zynq_wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Pwm_generator_zynq_wrapper_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Pwm_generator_zynq_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Pwm_generator_zynq_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="Pwm_generator_zynq_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Pwm_generator_zynq_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Pwm_generator_zynq_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Pwm_generator_zynq_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Pwm_generator_zynq_wrapper_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/Controller.vhd">
@@ -51,14 +54,14 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/bd/design_with_processor/design_with_processor.bd">
+    <File Path="$PSRCDIR/sources_1/bd/Pwm_generator_zynq/Pwm_generator_zynq.bd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PGENDIR/sources_1/bd/design_with_processor/hdl/design_with_processor_wrapper.vhd">
+    <File Path="$PGENDIR/sources_1/bd/Pwm_generator_zynq/hdl/Pwm_generator_zynq_wrapper.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -66,7 +69,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="design_with_processor_wrapper"/>
+      <Option Name="TopModule" Val="Pwm_generator_zynq_wrapper"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
@@ -97,17 +100,16 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
     <Step Id="synth_design"/>
   </Strategy>
   <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Upcounter_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_with_processor_PWM_Over_wrapper_0_2"/>
-  <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Comparator_0_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Reg_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_with_processor_processing_system7_0_2"/>
   <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Controller_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Comparator_0_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="Pwm_generator_zynq_PWM_Over_wrapper_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="PWM_Over_DataChecker_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_with_processor_rst_ps7_0_50M_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_with_processor_axi_gpio_0_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_with_processor_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Pwm_generator_zynq_PWM_Over_wrapper_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Pwm_generator_zynq_processing_system7_0_2"/>
 </GenRun>

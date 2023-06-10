@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.srcs/constrs_1/new/pwm_control_constr.xdc rfile:../../../PWM_Control.srcs/constrs_1/new/pwm_control_constr.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN R16 IOSTANDARD LVCMOS33} [get_ports {PWM_out_0}]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN U17 IOSTANDARD LVCMOS33} [get_ports {PWM_out_1}]

@@ -3,7 +3,6 @@
 	<name>Pwm_controller_motorcontroller_app</name>
 	<comment>Created by Vitis v2023.1</comment>
 	<projects>
-		<project>Pwm_controller_motorcontroller</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

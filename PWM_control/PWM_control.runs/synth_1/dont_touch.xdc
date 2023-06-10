@@ -18,59 +18,14 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Da
 # IP: bd/PWM_Over/ip/PWM_Over_Upcounter_0_1/PWM_Over_Upcounter_0_1.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Upcounter_0_1 || ORIG_REF_NAME==PWM_Over_Upcounter_0_1} -quiet] -quiet
 
-# IP: bd/PWM_Over/ip/PWM_Over_Reg_0_1/PWM_Over_Reg_0_1.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Reg_0_1 || ORIG_REF_NAME==PWM_Over_Reg_0_1} -quiet] -quiet
+# IP: bd/PWM_Over/ip/PWM_Over_Reg_0_2/PWM_Over_Reg_0_2.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Reg_0_2 || ORIG_REF_NAME==PWM_Over_Reg_0_2} -quiet] -quiet
 
-# Block Designs: bd/design_with_processor/design_with_processor.bd
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_with_processor || ORIG_REF_NAME==design_with_processor} -quiet] -quiet
+# Block Designs: bd/Pwm_generator_zynq/Pwm_generator_zynq.bd
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Pwm_generator_zynq || ORIG_REF_NAME==Pwm_generator_zynq} -quiet] -quiet
 
-# IP: bd/design_with_processor/ip/design_with_processor_PWM_Over_wrapper_0_2/design_with_processor_PWM_Over_wrapper_0_2.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_with_processor_PWM_Over_wrapper_0_2 || ORIG_REF_NAME==design_with_processor_PWM_Over_wrapper_0_2} -quiet] -quiet
-
-# Block Designs: bd/PWM_Over/PWM_Over.bd
-#dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_OVer || ORIG_REF_NAME==PWM_OVer} -quiet] -quiet
-
-# IP: bd/PWM_Over/ip/PWM_Over_Controller_0_1/PWM_Over_Controller_0_1.xci
-#dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Controller_0_1 || ORIG_REF_NAME==PWM_Over_Controller_0_1} -quiet] -quiet
-
-# IP: bd/PWM_Over/ip/PWM_Over_Comparator_0_3/PWM_Over_Comparator_0_3.xci
-#dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Comparator_0_3 || ORIG_REF_NAME==PWM_Over_Comparator_0_3} -quiet] -quiet
-
-# IP: bd/PWM_Over/ip/PWM_Over_DataChecker_0_1/PWM_Over_DataChecker_0_1.xci
-#dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_DataChecker_0_1 || ORIG_REF_NAME==PWM_Over_DataChecker_0_1} -quiet] -quiet
-
-# IP: bd/PWM_Over/ip/PWM_Over_Upcounter_0_1/PWM_Over_Upcounter_0_1.xci
-#dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Upcounter_0_1 || ORIG_REF_NAME==PWM_Over_Upcounter_0_1} -quiet] -quiet
-
-# IP: bd/PWM_Over/ip/PWM_Over_Reg_0_1/PWM_Over_Reg_0_1.xci
-#dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Reg_0_1 || ORIG_REF_NAME==PWM_Over_Reg_0_1} -quiet] -quiet
-
-# IP: bd/design_with_processor/ip/design_with_processor_processing_system7_0_2/design_with_processor_processing_system7_0_2.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_with_processor_processing_system7_0_2 || ORIG_REF_NAME==design_with_processor_processing_system7_0_2} -quiet] -quiet
-
-# IP: bd/design_with_processor/ip/design_with_processor_axi_gpio_0_3/design_with_processor_axi_gpio_0_3.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_with_processor_axi_gpio_0_3 || ORIG_REF_NAME==design_with_processor_axi_gpio_0_3} -quiet] -quiet
-
-# IP: bd/design_with_processor/ip/design_with_processor_xlslice_0_2/design_with_processor_xlslice_0_2.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_with_processor_xlslice_0_2 || ORIG_REF_NAME==design_with_processor_xlslice_0_2} -quiet] -quiet
-
-# IP: bd/design_with_processor/ip/design_with_processor_ps7_0_axi_periph_0/design_with_processor_ps7_0_axi_periph_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_with_processor_ps7_0_axi_periph_0 || ORIG_REF_NAME==design_with_processor_ps7_0_axi_periph_0} -quiet] -quiet
-
-# IP: bd/design_with_processor/ip/design_with_processor_rst_ps7_0_50M_0/design_with_processor_rst_ps7_0_50M_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_with_processor_rst_ps7_0_50M_0 || ORIG_REF_NAME==design_with_processor_rst_ps7_0_50M_0} -quiet] -quiet
-
-# IP: bd/design_with_processor/ip/design_with_processor_xbar_0/design_with_processor_xbar_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_with_processor_xbar_0 || ORIG_REF_NAME==design_with_processor_xbar_0} -quiet] -quiet
-
-# IP: bd/design_with_processor/ip/design_with_processor_axi_gpio_1_0/design_with_processor_axi_gpio_1_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_with_processor_axi_gpio_1_0 || ORIG_REF_NAME==design_with_processor_axi_gpio_1_0} -quiet] -quiet
-
-# IP: bd/design_with_processor/ip/design_with_processor_xlslice_0_3/design_with_processor_xlslice_0_3.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_with_processor_xlslice_0_3 || ORIG_REF_NAME==design_with_processor_xlslice_0_3} -quiet] -quiet
-
-# IP: bd/design_with_processor/ip/design_with_processor_PWM_Over_wrapper_1_0/design_with_processor_PWM_Over_wrapper_1_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_with_processor_PWM_Over_wrapper_1_0 || ORIG_REF_NAME==design_with_processor_PWM_Over_wrapper_1_0} -quiet] -quiet
+# IP: bd/Pwm_generator_zynq/ip/Pwm_generator_zynq_PWM_Over_wrapper_0_0/Pwm_generator_zynq_PWM_Over_wrapper_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Pwm_generator_zynq_PWM_Over_wrapper_0_0 || ORIG_REF_NAME==Pwm_generator_zynq_PWM_Over_wrapper_0_0} -quiet] -quiet
 
 # Block Designs: bd/PWM_Over/PWM_Over.bd
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_OVer || ORIG_REF_NAME==PWM_OVer} -quiet] -quiet
@@ -87,11 +42,56 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_with
 # IP: bd/PWM_Over/ip/PWM_Over_Upcounter_0_1/PWM_Over_Upcounter_0_1.xci
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Upcounter_0_1 || ORIG_REF_NAME==PWM_Over_Upcounter_0_1} -quiet] -quiet
 
-# IP: bd/PWM_Over/ip/PWM_Over_Reg_0_1/PWM_Over_Reg_0_1.xci
-#dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Reg_0_1 || ORIG_REF_NAME==PWM_Over_Reg_0_1} -quiet] -quiet
+# IP: bd/PWM_Over/ip/PWM_Over_Reg_0_2/PWM_Over_Reg_0_2.xci
+#dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Reg_0_2 || ORIG_REF_NAME==PWM_Over_Reg_0_2} -quiet] -quiet
 
-# IP: bd/design_with_processor/ip/design_with_processor_auto_pc_0/design_with_processor_auto_pc_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_with_processor_auto_pc_0 || ORIG_REF_NAME==design_with_processor_auto_pc_0} -quiet] -quiet
+# IP: bd/Pwm_generator_zynq/ip/Pwm_generator_zynq_PWM_Over_wrapper_1_0/Pwm_generator_zynq_PWM_Over_wrapper_1_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Pwm_generator_zynq_PWM_Over_wrapper_1_0 || ORIG_REF_NAME==Pwm_generator_zynq_PWM_Over_wrapper_1_0} -quiet] -quiet
+
+# Block Designs: bd/PWM_Over/PWM_Over.bd
+#dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_OVer || ORIG_REF_NAME==PWM_OVer} -quiet] -quiet
+
+# IP: bd/PWM_Over/ip/PWM_Over_Controller_0_1/PWM_Over_Controller_0_1.xci
+#dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Controller_0_1 || ORIG_REF_NAME==PWM_Over_Controller_0_1} -quiet] -quiet
+
+# IP: bd/PWM_Over/ip/PWM_Over_Comparator_0_3/PWM_Over_Comparator_0_3.xci
+#dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Comparator_0_3 || ORIG_REF_NAME==PWM_Over_Comparator_0_3} -quiet] -quiet
+
+# IP: bd/PWM_Over/ip/PWM_Over_DataChecker_0_1/PWM_Over_DataChecker_0_1.xci
+#dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_DataChecker_0_1 || ORIG_REF_NAME==PWM_Over_DataChecker_0_1} -quiet] -quiet
+
+# IP: bd/PWM_Over/ip/PWM_Over_Upcounter_0_1/PWM_Over_Upcounter_0_1.xci
+#dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Upcounter_0_1 || ORIG_REF_NAME==PWM_Over_Upcounter_0_1} -quiet] -quiet
+
+# IP: bd/PWM_Over/ip/PWM_Over_Reg_0_2/PWM_Over_Reg_0_2.xci
+#dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Reg_0_2 || ORIG_REF_NAME==PWM_Over_Reg_0_2} -quiet] -quiet
+
+# IP: bd/Pwm_generator_zynq/ip/Pwm_generator_zynq_xlslice_0_0/Pwm_generator_zynq_xlslice_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Pwm_generator_zynq_xlslice_0_0 || ORIG_REF_NAME==Pwm_generator_zynq_xlslice_0_0} -quiet] -quiet
+
+# IP: bd/Pwm_generator_zynq/ip/Pwm_generator_zynq_xlslice_1_0/Pwm_generator_zynq_xlslice_1_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Pwm_generator_zynq_xlslice_1_0 || ORIG_REF_NAME==Pwm_generator_zynq_xlslice_1_0} -quiet] -quiet
+
+# IP: bd/Pwm_generator_zynq/ip/Pwm_generator_zynq_processing_system7_0_2/Pwm_generator_zynq_processing_system7_0_2.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Pwm_generator_zynq_processing_system7_0_2 || ORIG_REF_NAME==Pwm_generator_zynq_processing_system7_0_2} -quiet] -quiet
+
+# IP: bd/Pwm_generator_zynq/ip/Pwm_generator_zynq_axi_gpio_0_2/Pwm_generator_zynq_axi_gpio_0_2.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Pwm_generator_zynq_axi_gpio_0_2 || ORIG_REF_NAME==Pwm_generator_zynq_axi_gpio_0_2} -quiet] -quiet
+
+# IP: bd/Pwm_generator_zynq/ip/Pwm_generator_zynq_axi_gpio_0_3/Pwm_generator_zynq_axi_gpio_0_3.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Pwm_generator_zynq_axi_gpio_0_3 || ORIG_REF_NAME==Pwm_generator_zynq_axi_gpio_0_3} -quiet] -quiet
+
+# IP: bd/Pwm_generator_zynq/ip/Pwm_generator_zynq_xbar_1/Pwm_generator_zynq_xbar_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Pwm_generator_zynq_xbar_1 || ORIG_REF_NAME==Pwm_generator_zynq_xbar_1} -quiet] -quiet
+
+# IP: bd/Pwm_generator_zynq/ip/Pwm_generator_zynq_axi_interconnect_0_1/Pwm_generator_zynq_axi_interconnect_0_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Pwm_generator_zynq_axi_interconnect_0_1 || ORIG_REF_NAME==Pwm_generator_zynq_axi_interconnect_0_1} -quiet] -quiet
+
+# IP: bd/Pwm_generator_zynq/ip/Pwm_generator_zynq_rst_ps7_0_50M_0/Pwm_generator_zynq_rst_ps7_0_50M_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Pwm_generator_zynq_rst_ps7_0_50M_0 || ORIG_REF_NAME==Pwm_generator_zynq_rst_ps7_0_50M_0} -quiet] -quiet
+
+# IP: bd/Pwm_generator_zynq/ip/Pwm_generator_zynq_auto_pc_1/Pwm_generator_zynq_auto_pc_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Pwm_generator_zynq_auto_pc_1 || ORIG_REF_NAME==Pwm_generator_zynq_auto_pc_1} -quiet] -quiet
 
 # XDC: c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_control.gen/sources_1/bd/PWM_Over/PWM_Over_ooc.xdc
 
@@ -99,4 +99,4 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_with
 
 # XDC: c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_control.gen/sources_1/bd/PWM_Over/PWM_Over_ooc.xdc
 
-# XDC: c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/design_with_processor/design_with_processor_ooc.xdc
+# XDC: c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Pwm_generator_zynq/Pwm_generator_zynq_ooc.xdc

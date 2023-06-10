@@ -2,7 +2,7 @@
 --Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
---Date        : Wed Jun  7 13:40:10 2023
+--Date        : Sat Jun 10 14:36:24 2023
 --Host        : DaanAsus running 64-bit major release  (build 9200)
 --Command     : generate_target PWM_Over.bd
 --Design      : PWM_Over
@@ -60,7 +60,7 @@ architecture STRUCTURE of PWM_Over is
     Counterout : out STD_LOGIC_VECTOR ( 7 downto 0 )
   );
   end component PWM_Over_Upcounter_0_1;
-  component PWM_Over_Reg_0_1 is
+  component PWM_Over_Reg_0_2 is
   port (
     ld : in STD_LOGIC;
     clk : in STD_LOGIC;
@@ -68,7 +68,7 @@ architecture STRUCTURE of PWM_Over is
     info : in STD_LOGIC_VECTOR ( 7 downto 0 );
     regout : out STD_LOGIC_VECTOR ( 7 downto 0 )
   );
-  end component PWM_Over_Reg_0_1;
+  end component PWM_Over_Reg_0_2;
   signal Comparator_0_PWM : STD_LOGIC;
   signal Controller_0_ready : STD_LOGIC;
   signal Controller_0_regld : STD_LOGIC;
@@ -107,20 +107,13 @@ DataChecker_0: component PWM_Over_DataChecker_0_1
       rst => rst_1,
       senddata => DataChecker_0_senddata
     );
-Reg_0: component PWM_Over_Reg_0_1
+Reg_0: component PWM_Over_Reg_0_2
      port map (
       clk => Net,
-      info(7) => rst_1,
-      info(6) => rst_1,
-      info(5) => rst_1,
-      info(4) => rst_1,
-      info(3) => rst_1,
-      info(2) => rst_1,
-      info(1) => rst_1,
-      info(0) => rst_1,
+      info(7 downto 0) => datain_1(7 downto 0),
       ld => Controller_0_regld,
       regout(7 downto 0) => Reg_0_regout(7 downto 0),
-      rst => datain_1(0)
+      rst => rst_1
     );
 Upcounter_0: component PWM_Over_Upcounter_0_1
      port map (

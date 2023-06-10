@@ -90,3 +90,533 @@
 01:50:32 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
 01:51:16 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
 01:53:08 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+11:14:25 DEBUG : Logs will be stored at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/IDE.log'.
+11:14:26 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\daanv\Desktop\Git\PWM_controller_motor\PWM_Control\PWM_Control_SW\temp_xsdb_launch_script.tcl
+11:14:31 INFO  : Registering command handlers for Vitis TCF services
+11:14:31 INFO  : XSCT server has started successfully.
+11:14:35 INFO  : Platform repository initialization has completed.
+11:14:37 INFO  : Successfully done setting XSCT server connection channel  
+11:14:37 INFO  : plnx-install-location is set to ''
+11:14:37 INFO  : Successfully done query RDI_DATADIR 
+11:14:37 INFO  : Successfully done setting workspace for the tool. 
+11:18:11 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+11:18:47 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+11:18:51 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa is already opened
+
+11:19:32 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+11:19:35 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa is already opened
+
+11:19:53 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+11:19:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa is already opened
+
+11:20:28 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+11:22:27 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+11:22:36 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+11:23:22 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+11:23:25 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa is already opened
+
+11:29:20 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+11:29:23 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa is already opened
+
+11:32:17 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+11:32:20 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa is already opened
+
+12:02:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:02:59 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:02:59 INFO  : 'jtag frequency' command is executed.
+12:02:59 INFO  : Context for 'APU' is selected.
+12:02:59 INFO  : System reset is completed.
+12:03:02 INFO  : 'after 3000' command is executed.
+12:03:24 ERROR : no targets found with "jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"". available targets:
+  1* APU
+     2  ARM Cortex-A9 MPCore #0 (Running)
+     3  ARM Cortex-A9 MPCore #1 (Running)
+  4  xc7z020
+12:03:24 ERROR : Exception occured while running Program Device.
+java.lang.RuntimeException: no targets found with "jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"". available targets:
+  1* APU
+     2  ARM Cortex-A9 MPCore #0 (Running)
+     3  ARM Cortex-A9 MPCore #1 (Running)
+  4  xc7z020
+12:03:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+----------------End of Script----------------
+
+12:03:24 ERROR : no targets found with "jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"". available targets:
+  1* APU
+     2  ARM Cortex-A9 MPCore #0 (Running)
+     3  ARM Cortex-A9 MPCore #1 (Running)
+  4  xc7z020
+12:04:55 DEBUG : Logs will be stored at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/IDE.log'.
+12:04:56 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\daanv\Desktop\Git\PWM_controller_motor\PWM_Control\PWM_Control_SW\temp_xsdb_launch_script.tcl
+12:04:58 INFO  : Registering command handlers for Vitis TCF services
+12:04:59 INFO  : XSCT server has started successfully.
+12:04:59 INFO  : Platform repository initialization has completed.
+12:05:01 INFO  : plnx-install-location is set to ''
+12:05:01 INFO  : Successfully done setting XSCT server connection channel  
+12:05:01 INFO  : Successfully done query RDI_DATADIR 
+12:05:01 INFO  : Successfully done setting workspace for the tool. 
+12:05:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:06:29 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:06:29 INFO  : 'jtag frequency' command is executed.
+12:06:29 INFO  : Context for 'APU' is selected.
+12:06:29 INFO  : System reset is completed.
+12:06:32 INFO  : 'after 3000' command is executed.
+12:06:44 ERROR : no targets found with "jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"". available targets:
+  1* APU
+     2  ARM Cortex-A9 MPCore #0 (Running)
+     3  ARM Cortex-A9 MPCore #1 (Running)
+  4  xc7z020
+12:06:45 ERROR : Exception occured while running Program Device.
+java.lang.RuntimeException: no targets found with "jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"". available targets:
+  1* APU
+     2  ARM Cortex-A9 MPCore #0 (Running)
+     3  ARM Cortex-A9 MPCore #1 (Running)
+  4  xc7z020
+12:06:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+----------------End of Script----------------
+
+12:06:45 ERROR : no targets found with "jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"". available targets:
+  1* APU
+     2  ARM Cortex-A9 MPCore #0 (Running)
+     3  ARM Cortex-A9 MPCore #1 (Running)
+  4  xc7z020
+12:07:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:08:29 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:08:29 INFO  : 'jtag frequency' command is executed.
+12:08:29 INFO  : Context for 'APU' is selected.
+12:08:29 INFO  : System reset is completed.
+12:08:32 INFO  : 'after 3000' command is executed.
+12:08:44 ERROR : no targets found with "jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"". available targets:
+  1* APU
+     2  ARM Cortex-A9 MPCore #0 (Running)
+     3  ARM Cortex-A9 MPCore #1 (Running)
+  4  xc7z020
+12:08:44 ERROR : Exception occured while running Program Device.
+java.lang.RuntimeException: no targets found with "jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"". available targets:
+  1* APU
+     2  ARM Cortex-A9 MPCore #0 (Running)
+     3  ARM Cortex-A9 MPCore #1 (Running)
+  4  xc7z020
+12:08:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+----------------End of Script----------------
+
+12:08:44 ERROR : no targets found with "jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"". available targets:
+  1* APU
+     2  ARM Cortex-A9 MPCore #0 (Running)
+     3  ARM Cortex-A9 MPCore #1 (Running)
+  4  xc7z020
+12:31:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:32:13 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:32:13 INFO  : 'jtag frequency' command is executed.
+12:32:13 INFO  : Context for 'APU' is selected.
+12:32:13 INFO  : System reset is completed.
+12:32:16 INFO  : 'after 3000' command is executed.
+12:32:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:32:19 INFO  : Device configured successfully with "C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/bitstream/design_with_processor_wrapper.bit"
+12:32:19 INFO  : Context for 'APU' is selected.
+12:32:19 INFO  : Hardware design and registers information is loaded from 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa'.
+12:32:19 INFO  : 'configparams force-mem-access 1' command is executed.
+12:32:19 INFO  : Context for 'APU' is selected.
+12:32:19 INFO  : Sourcing of 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/psinit/ps7_init.tcl' is done.
+12:32:19 INFO  : 'ps7_init' command is executed.
+12:32:19 INFO  : 'ps7_post_config' command is executed.
+12:32:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:32:19 INFO  : The application 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/Debug/Pwm_controller_motorcontroller_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:32:19 INFO  : 'configparams force-mem-access 0' command is executed.
+12:32:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/bitstream/design_with_processor_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/Debug/Pwm_controller_motorcontroller_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:33:35 INFO  : Disconnected from the channel tcfchan#1.
+12:33:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:33:37 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:33:37 INFO  : 'jtag frequency' command is executed.
+12:33:37 INFO  : Context for 'APU' is selected.
+12:33:37 INFO  : System reset is completed.
+12:33:40 INFO  : 'after 3000' command is executed.
+12:33:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:33:42 INFO  : Device configured successfully with "C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/bitstream/design_with_processor_wrapper.bit"
+12:33:42 INFO  : Context for 'APU' is selected.
+12:33:44 INFO  : Hardware design and registers information is loaded from 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa'.
+12:33:44 INFO  : 'configparams force-mem-access 1' command is executed.
+12:33:44 INFO  : Context for 'APU' is selected.
+12:33:44 INFO  : Sourcing of 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/psinit/ps7_init.tcl' is done.
+12:33:45 INFO  : 'ps7_init' command is executed.
+12:33:45 INFO  : 'ps7_post_config' command is executed.
+12:33:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:33:45 INFO  : The application 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/Debug/Pwm_controller_motorcontroller_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:33:45 INFO  : 'configparams force-mem-access 0' command is executed.
+12:33:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/bitstream/design_with_processor_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/Debug/Pwm_controller_motorcontroller_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:33:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:33:45 INFO  : 'con' command is executed.
+12:33:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:33:45 INFO  : Disconnected from the channel tcfchan#2.
+12:34:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:34:11 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:34:11 INFO  : 'jtag frequency' command is executed.
+12:34:11 INFO  : Context for 'APU' is selected.
+12:34:11 INFO  : System reset is completed.
+12:34:14 INFO  : 'after 3000' command is executed.
+12:34:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:34:16 INFO  : Device configured successfully with "C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/bitstream/design_with_processor_wrapper.bit"
+12:34:16 INFO  : Context for 'APU' is selected.
+12:34:18 INFO  : Hardware design and registers information is loaded from 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa'.
+12:34:18 INFO  : 'configparams force-mem-access 1' command is executed.
+12:34:18 INFO  : Context for 'APU' is selected.
+12:34:18 INFO  : Sourcing of 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/psinit/ps7_init.tcl' is done.
+12:34:19 INFO  : 'ps7_init' command is executed.
+12:34:19 INFO  : 'ps7_post_config' command is executed.
+12:34:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:34:19 INFO  : The application 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/Debug/Pwm_controller_motorcontroller_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:34:19 INFO  : 'configparams force-mem-access 0' command is executed.
+12:34:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/bitstream/design_with_processor_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/Debug/Pwm_controller_motorcontroller_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:35:38 INFO  : Disconnected from the channel tcfchan#3.
+12:35:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:35:55 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:35:55 INFO  : 'jtag frequency' command is executed.
+12:35:55 INFO  : Context for 'APU' is selected.
+12:35:56 INFO  : System reset is completed.
+12:35:59 INFO  : 'after 3000' command is executed.
+12:35:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:36:01 INFO  : Device configured successfully with "C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/bitstream/design_with_processor_wrapper.bit"
+12:36:01 INFO  : Context for 'APU' is selected.
+12:36:03 INFO  : Hardware design and registers information is loaded from 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa'.
+12:36:03 INFO  : 'configparams force-mem-access 1' command is executed.
+12:36:03 INFO  : Context for 'APU' is selected.
+12:36:03 INFO  : Sourcing of 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/psinit/ps7_init.tcl' is done.
+12:36:04 INFO  : 'ps7_init' command is executed.
+12:36:04 INFO  : 'ps7_post_config' command is executed.
+12:36:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:36:04 INFO  : The application 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/Debug/Pwm_controller_motorcontroller_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:36:04 INFO  : 'configparams force-mem-access 0' command is executed.
+12:36:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/bitstream/design_with_processor_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/Debug/Pwm_controller_motorcontroller_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:37:17 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+12:37:21 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa is already opened
+
+12:37:32 INFO  : Disconnected from the channel tcfchan#4.
+12:37:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:37:33 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:37:33 INFO  : 'jtag frequency' command is executed.
+12:37:33 INFO  : Context for 'APU' is selected.
+12:37:33 INFO  : System reset is completed.
+12:37:36 INFO  : 'after 3000' command is executed.
+12:37:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:37:39 INFO  : Device configured successfully with "C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/bitstream/design_with_processor_wrapper.bit"
+12:37:39 INFO  : Context for 'APU' is selected.
+12:37:41 INFO  : Hardware design and registers information is loaded from 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa'.
+12:37:41 INFO  : 'configparams force-mem-access 1' command is executed.
+12:37:41 INFO  : Context for 'APU' is selected.
+12:37:41 INFO  : Sourcing of 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/psinit/ps7_init.tcl' is done.
+12:37:42 INFO  : 'ps7_init' command is executed.
+12:37:42 INFO  : 'ps7_post_config' command is executed.
+12:37:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:37:42 INFO  : The application 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/Debug/Pwm_controller_motorcontroller_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:37:42 INFO  : 'configparams force-mem-access 0' command is executed.
+12:37:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/bitstream/design_with_processor_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/Debug/Pwm_controller_motorcontroller_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:39:40 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+12:39:42 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa is already opened
+
+12:39:50 INFO  : Disconnected from the channel tcfchan#6.
+12:39:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:39:51 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:39:51 INFO  : 'jtag frequency' command is executed.
+12:39:51 INFO  : Context for 'APU' is selected.
+12:39:51 INFO  : System reset is completed.
+12:39:54 INFO  : 'after 3000' command is executed.
+12:39:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:39:57 INFO  : Device configured successfully with "C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/bitstream/design_with_processor_wrapper.bit"
+12:39:57 INFO  : Context for 'APU' is selected.
+12:39:59 INFO  : Hardware design and registers information is loaded from 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa'.
+12:39:59 INFO  : 'configparams force-mem-access 1' command is executed.
+12:39:59 INFO  : Context for 'APU' is selected.
+12:39:59 INFO  : Sourcing of 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/psinit/ps7_init.tcl' is done.
+12:39:59 INFO  : 'ps7_init' command is executed.
+12:39:59 INFO  : 'ps7_post_config' command is executed.
+12:39:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:40:00 INFO  : The application 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/Debug/Pwm_controller_motorcontroller_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:40:00 INFO  : 'configparams force-mem-access 0' command is executed.
+12:40:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/bitstream/design_with_processor_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/Debug/Pwm_controller_motorcontroller_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:41:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:41:29 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:41:29 INFO  : 'jtag frequency' command is executed.
+12:41:29 INFO  : Context for 'APU' is selected.
+12:41:29 INFO  : System reset is completed.
+12:41:32 INFO  : 'after 3000' command is executed.
+12:41:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:41:35 INFO  : Device configured successfully with "C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/bitstream/design_with_processor_wrapper.bit"
+12:41:35 INFO  : Context for 'APU' is selected.
+12:41:35 INFO  : Hardware design and registers information is loaded from 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa'.
+12:41:35 INFO  : 'configparams force-mem-access 1' command is executed.
+12:41:35 INFO  : Context for 'APU' is selected.
+12:41:35 INFO  : Sourcing of 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/psinit/ps7_init.tcl' is done.
+12:41:35 INFO  : 'ps7_init' command is executed.
+12:41:35 INFO  : 'ps7_post_config' command is executed.
+12:41:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:41:35 INFO  : The application 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/Debug/Pwm_controller_motorcontroller_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:41:35 INFO  : 'configparams force-mem-access 0' command is executed.
+12:41:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/bitstream/design_with_processor_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/Debug/Pwm_controller_motorcontroller_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:42:51 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+12:43:18 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+12:43:20 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa is already opened
+
+12:47:46 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+12:48:39 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+12:48:55 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+12:49:04 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+12:52:10 INFO  : Result from executing command 'getProjects': Pwm_controller_motorcontroller
+12:52:10 INFO  : Result from executing command 'getPlatforms': Pwm_controller_motorcontroller|C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/Pwm_controller_motorcontroller.xpfm;xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+12:52:11 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+12:52:23 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+12:53:40 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+12:54:02 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+12:57:30 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+12:57:56 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+12:58:04 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+12:58:50 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+13:00:20 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+13:00:42 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+13:04:38 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+13:05:34 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+13:05:55 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+13:06:05 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+13:06:17 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+13:06:48 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+13:08:29 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+13:09:20 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+13:09:33 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+13:09:49 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+13:10:05 INFO  : Disconnected from the channel tcfchan#8.
+13:10:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:10:07 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+13:10:07 INFO  : 'jtag frequency' command is executed.
+13:10:07 INFO  : Context for 'APU' is selected.
+13:10:07 INFO  : System reset is completed.
+13:10:10 INFO  : 'after 3000' command is executed.
+13:10:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+13:10:12 INFO  : Device configured successfully with "C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/bitstream/design_with_processor_wrapper.bit"
+13:10:12 INFO  : Context for 'APU' is selected.
+13:10:14 INFO  : Hardware design and registers information is loaded from 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa'.
+13:10:14 INFO  : 'configparams force-mem-access 1' command is executed.
+13:10:14 INFO  : Context for 'APU' is selected.
+13:10:14 INFO  : Sourcing of 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/psinit/ps7_init.tcl' is done.
+13:10:15 INFO  : 'ps7_init' command is executed.
+13:10:15 INFO  : 'ps7_post_config' command is executed.
+13:10:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:10:15 INFO  : The application 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/Debug/Pwm_controller_motorcontroller_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:10:15 INFO  : 'configparams force-mem-access 0' command is executed.
+13:10:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/bitstream/design_with_processor_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/Debug/Pwm_controller_motorcontroller_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:10:46 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+13:11:29 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+13:12:39 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+13:12:55 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+13:13:21 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+13:13:48 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+13:17:59 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+13:18:23 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_controller_motorcontroller_app'...
+13:18:47 INFO  : Disconnected from the channel tcfchan#21.
+13:18:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:18:48 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+13:18:48 INFO  : 'jtag frequency' command is executed.
+13:18:48 INFO  : Context for 'APU' is selected.
+13:18:48 INFO  : System reset is completed.
+13:18:51 INFO  : 'after 3000' command is executed.
+13:18:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+13:18:53 INFO  : Device configured successfully with "C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/bitstream/design_with_processor_wrapper.bit"
+13:18:53 INFO  : Context for 'APU' is selected.
+13:18:53 INFO  : Hardware design and registers information is loaded from 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa'.
+13:18:53 INFO  : 'configparams force-mem-access 1' command is executed.
+13:18:53 INFO  : Context for 'APU' is selected.
+13:18:53 INFO  : Sourcing of 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/psinit/ps7_init.tcl' is done.
+13:18:54 INFO  : 'ps7_init' command is executed.
+13:18:54 INFO  : 'ps7_post_config' command is executed.
+13:18:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:18:54 INFO  : The application 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/Debug/Pwm_controller_motorcontroller_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:18:54 INFO  : 'configparams force-mem-access 0' command is executed.
+13:18:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/bitstream/design_with_processor_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller/export/Pwm_controller_motorcontroller/hw/design_with_processor_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/Pwm_controller_motorcontroller_app/Debug/Pwm_controller_motorcontroller_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:16:07 DEBUG : Logs will be stored at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/IDE.log'.
+15:16:07 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\daanv\Desktop\Git\PWM_controller_motor\PWM_Control\PWM_Control_SW\temp_xsdb_launch_script.tcl
+15:16:09 INFO  : XSCT server has started successfully.
+15:16:09 INFO  : plnx-install-location is set to ''
+15:16:09 INFO  : Successfully done setting XSCT server connection channel  
+15:16:09 INFO  : Successfully done setting workspace for the tool. 
+15:16:11 INFO  : Registering command handlers for Vitis TCF services
+15:16:13 INFO  : Platform repository initialization has completed.
+15:16:13 INFO  : Successfully done query RDI_DATADIR 
+15:16:55 WARN  : An unexpected exception occurred in the module 'platform project logging'
+15:17:44 INFO  : Result from executing command 'getProjects': pwm_control_pl
+15:17:44 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm

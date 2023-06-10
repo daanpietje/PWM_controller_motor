@@ -1,17 +1,17 @@
 # compile vhdl design source files
 vhdl xil_defaultlib  \
-"../../../../../../../Nieuwe map/Reg.vhd" \
-"../../../../../../../Nieuwe map/Upcounter.vhd" \
-"../../../../PWM_control.srcs/sources_1/new/DataChecker.vhd" \
-"../../../../../../../Nieuwe map/Controller.vhd" \
-"../../../../PWM_control.srcs/sources_1/new/Comparator.vhd" \
-"../../../../PWM_control.ip_user_files/bd/PWM_Over/ip/PWM_Over_Reg_0_0_1/sim/PWM_Over_Reg_0_0.vhd" \
-"../../../../PWM_control.ip_user_files/bd/PWM_Over/ip/PWM_Over_Upcounter_0_0_1/sim/PWM_Over_Upcounter_0_0.vhd" \
-"../../../../PWM_control.ip_user_files/bd/PWM_Over/ip/PWM_Over_DataChecker_0_0/sim/PWM_Over_DataChecker_0_0.vhd" \
-"../../../../PWM_control.ip_user_files/bd/PWM_Over/ip/PWM_Over_Controller_0_0/sim/PWM_Over_Controller_0_0.vhd" \
-"../../../../PWM_control.ip_user_files/bd/PWM_Over/ip/PWM_Over_Comparator_0_2/sim/PWM_Over_Comparator_0_2.vhd" \
-"../../../../PWM_control.ip_user_files/bd/PWM_Over/sim/PWM_Over.vhd" \
-"../../../../PWM_control.gen/sources_1/bd/PWM_OVer/hdl/PWM_Over_wrapper.vhd" \
+"../../../../PWM_Control.srcs/sources_1/new/Controller.vhd" \
+"../../../../PWM_Control.srcs/sources_1/new/Comparator.vhd" \
+"../../../../PWM_Control.srcs/sources_1/new/DataChecker.vhd" \
+"../../../../PWM_Control.srcs/sources_1/new/Upcounter.vhd" \
+"../../../../PWM_Control.srcs/sources_1/new/Reg.vhd" \
+"../../../../PWM_Control.gen/sources_1/bd/PWM_OVer/ip/PWM_Over_Controller_0_1/sim/PWM_Over_Controller_0_1.vhd" \
+"../../../../PWM_Control.gen/sources_1/bd/PWM_OVer/ip/PWM_Over_Comparator_0_3/sim/PWM_Over_Comparator_0_3.vhd" \
+"../../../../PWM_Control.gen/sources_1/bd/PWM_OVer/ip/PWM_Over_DataChecker_0_1/sim/PWM_Over_DataChecker_0_1.vhd" \
+"../../../../PWM_Control.gen/sources_1/bd/PWM_OVer/ip/PWM_Over_Upcounter_0_1/sim/PWM_Over_Upcounter_0_1.vhd" \
+"../../../../PWM_Control.gen/sources_1/bd/PWM_OVer/ip/PWM_Over_Reg_0_1/sim/PWM_Over_Reg_0_1.vhd" \
+"../../../../PWM_Control.gen/sources_1/bd/PWM_OVer/sim/PWM_Over.vhd" \
+"../../../../PWM_Control.gen/sources_1/bd/PWM_OVer/hdl/PWM_Over_wrapper.vhd" \
 
 # Do not sort compile order
 nosort

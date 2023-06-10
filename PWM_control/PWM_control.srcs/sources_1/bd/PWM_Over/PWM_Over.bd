@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x2B70D3E162FD81",
+      "boundary_crc": "0x2B70D304FB6525",
       "device": "xc7z020clg400-1",
       "gen_directory": "../../../../PWM_control.gen/sources_1/bd/PWM_Over",
       "name": "PWM_Over",
@@ -16,19 +16,6 @@
       "DataChecker_0": "",
       "Upcounter_0": "",
       "Reg_0": ""
-    },
-    "interface_ports": {
-      "FIXED_IO": {
-        "mode": "Master",
-        "vlnv_bus_definition": "xilinx.com:display_processing_system7:fixedio:1.0",
-        "vlnv": "xilinx.com:display_processing_system7:fixedio_rtl:1.0",
-        "parameters": {
-          "CAN_DEBUG": {
-            "value": "false",
-            "value_src": "default"
-          }
-        }
-      }
     },
     "ports": {
       "PWM_out": {
@@ -187,8 +174,8 @@
       },
       "Reg_0": {
         "vlnv": "xilinx.com:module_ref:Reg:1.0",
-        "xci_name": "PWM_Over_Reg_0_1",
-        "xci_path": "ip\\PWM_Over_Reg_0_1\\PWM_Over_Reg_0_1.xci",
+        "xci_name": "PWM_Over_Reg_0_2",
+        "xci_path": "ip\\PWM_Over_Reg_0_2\\PWM_Over_Reg_0_2.xci",
         "inst_hier_path": "Reg_0",
         "reference_info": {
           "ref_type": "hdl",
@@ -282,16 +269,16 @@
         "ports": [
           "datain",
           "DataChecker_0/Datain",
-          "Reg_0/rst"
+          "Reg_0/info"
         ]
       },
       "rst_1": {
         "ports": [
           "rst",
-          "Controller_0/rst",
           "DataChecker_0/rst",
+          "Controller_0/rst",
           "Upcounter_0/rst",
-          "Reg_0/info"
+          "Reg_0/rst"
         ]
       }
     }

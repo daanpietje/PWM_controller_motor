@@ -1,0 +1,1475 @@
+TRACE::2023-06-10.15:17:33::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:33::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:33::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:33::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:33::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:33::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:33::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-06-10.15:17:35::SCWPlatform::Opened new HwDB with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:35::SCWWriter::formatted JSON is {
+	"platformName":	"pwm_control_pl",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"pwm_control_pl",
+	"platHandOff":	"C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/Pwm_generator_zynq_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Pwm_generator_zynq_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2023-06-10.15:17:35::SCWWriter::formatted JSON is {
+	"platformName":	"pwm_control_pl",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"pwm_control_pl",
+	"platHandOff":	"C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/Pwm_generator_zynq_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Pwm_generator_zynq_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"pwm_control_pl",
+	"systems":	[{
+			"systemName":	"pwm_control_pl",
+			"systemDesc":	"pwm_control_pl",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"pwm_control_pl"
+		}]
+}
+TRACE::2023-06-10.15:17:35::SCWPlatform::Boot application domains not present, creating them
+TRACE::2023-06-10.15:17:35::SCWDomain::checking for install qemu data   : 
+TRACE::2023-06-10.15:17:35::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-06-10.15:17:35::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-06-10.15:17:35::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:35::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:35::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:35::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:35::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:35::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:35::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:35::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:35::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:35::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:35::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:35::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:35::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:35::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:35::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:35::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:35::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:35::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:35::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:35::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:35::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:35::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:35::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:35::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:35::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2023-06-10.15:17:35::SCWPlatform::Generating the sources  .
+TRACE::2023-06-10.15:17:35::SCWBDomain::Generating boot domain sources.
+TRACE::2023-06-10.15:17:35::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2023-06-10.15:17:35::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:35::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:35::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:35::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:35::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:35::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:35::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:35::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:35::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:35::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-06-10.15:17:35::SCWMssOS::No sw design opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:35::SCWMssOS::mss does not exists at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:35::SCWMssOS::Creating sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:35::SCWMssOS::Adding the swdes entry, created swdb C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:35::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:35::SCWMssOS::Writing mss at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:35::SCWMssOS::Completed writing the mss file at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2023-06-10.15:17:35::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2023-06-10.15:17:35::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2023-06-10.15:17:35::SCWBDomain::Completed writing the mss file at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2023-06-10.15:17:43::SCWPlatform::Generating sources Done.
+TRACE::2023-06-10.15:17:43::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:43::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:43::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:43::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-06-10.15:17:43::SCWMssOS::No sw design opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:43::SCWMssOS::mss exists loading the mss file  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:43::SCWMssOS::Opened the sw design from mss  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:43::SCWMssOS::Adding the swdes entry C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-06-10.15:17:43::SCWMssOS::updating the scw layer about changes
+TRACE::2023-06-10.15:17:43::SCWMssOS::Opened the sw design.  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:43::SCWMssOS::Saving the mss changes C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:43::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-06-10.15:17:43::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-06-10.15:17:43::SCWMssOS::Commit changes completed.
+TRACE::2023-06-10.15:17:43::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:43::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:43::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:43::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:43::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:43::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:43::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:43::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:43::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:43::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:43::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:43::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:43::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:43::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:43::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:43::SCWWriter::formatted JSON is {
+	"platformName":	"pwm_control_pl",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"pwm_control_pl",
+	"platHandOff":	"C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/Pwm_generator_zynq_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Pwm_generator_zynq_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"pwm_control_pl",
+	"systems":	[{
+			"systemName":	"pwm_control_pl",
+			"systemDesc":	"pwm_control_pl",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"pwm_control_pl",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"ebe9543e856eb094397f6b9518fe535c",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-06-10.15:17:43::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:43::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:43::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:43::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:43::SCWDomain::checking for install qemu data   : 
+TRACE::2023-06-10.15:17:43::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-06-10.15:17:43::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-06-10.15:17:43::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:43::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:43::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:43::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:43::SCWDomain::Qemu Directory name is changed from "" to "qemu"
+TRACE::2023-06-10.15:17:43::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:43::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:43::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:43::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:43::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:43::SCWMssOS::No sw design opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:43::SCWMssOS::mss does not exists at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:43::SCWMssOS::Creating sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:43::SCWMssOS::Adding the swdes entry, created swdb C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:43::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:43::SCWMssOS::Writing mss at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:43::SCWMssOS::Completed writing the mss file at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2023-06-10.15:17:43::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2023-06-10.15:17:43::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2023-06-10.15:17:43::SCWMssOS::Completed writing the mss file at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2023-06-10.15:17:43::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2023-06-10.15:17:44::SCWMssOS::Saving the mss changes C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-06-10.15:17:44::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-06-10.15:17:44::SCWMssOS::Commit changes completed.
+TRACE::2023-06-10.15:17:44::SCWMssOS::Saving the mss changes C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-06-10.15:17:44::SCWMssOS::Writing the mss file completed C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWMssOS::Commit changes completed.
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:44::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:44::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:44::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:44::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:44::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:44::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:44::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:44::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:44::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:44::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:44::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:44::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWWriter::formatted JSON is {
+	"platformName":	"pwm_control_pl",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"pwm_control_pl",
+	"platHandOff":	"C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/Pwm_generator_zynq_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Pwm_generator_zynq_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"pwm_control_pl",
+	"systems":	[{
+			"systemName":	"pwm_control_pl",
+			"systemDesc":	"pwm_control_pl",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"pwm_control_pl",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"ebe9543e856eb094397f6b9518fe535c",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/pwm_control_pl/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/pwm_control_pl/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"d327001047927d025563633e64d761dc",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-06-10.15:17:44::SCWPlatform::Started generating the artifacts platform pwm_control_pl
+TRACE::2023-06-10.15:17:44::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-06-10.15:17:44::SCWPlatform::Started generating the artifacts for system configuration pwm_control_pl
+LOG::2023-06-10.15:17:44::SCWSystem::Checking the domain zynq_fsbl
+LOG::2023-06-10.15:17:44::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2023-06-10.15:17:44::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2023-06-10.15:17:44::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2023-06-10.15:17:44::SCWSystem::Checking the domain standalone_domain
+LOG::2023-06-10.15:17:44::SCWSystem::Not a boot domain 
+LOG::2023-06-10.15:17:44::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-06-10.15:17:44::SCWDomain::Generating domain artifcats
+TRACE::2023-06-10.15:17:44::SCWMssOS::Generating standalone artifcats
+TRACE::2023-06-10.15:17:44::SCWMssOS::Copying the qemu file from  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/resources/pwm_control_pl/standalone_domain/qemu_args.txt To C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/export/pwm_control_pl/sw/pwm_control_pl/qemu/
+TRACE::2023-06-10.15:17:44::SCWMssOS::Copying the qemu file from  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/resources/pwm_control_pl/standalone_domain/qemu_args.txt To C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/export/pwm_control_pl/sw/pwm_control_pl/standalone_domain/qemu/
+TRACE::2023-06-10.15:17:44::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:44::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:44::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWMssOS::Completed writing the mss file at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2023-06-10.15:17:44::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-06-10.15:17:44::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-06-10.15:17:44::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2023-06-10.15:17:44::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-06-10.15:17:44::SCWMssOS::Copying to export directory.
+TRACE::2023-06-10.15:17:44::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-06-10.15:17:44::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2023-06-10.15:17:44::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2023-06-10.15:17:44::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-06-10.15:17:44::SCWSystem::Completed Processing the sysconfig pwm_control_pl
+LOG::2023-06-10.15:17:44::SCWPlatform::Completed generating the artifacts for system configuration pwm_control_pl
+TRACE::2023-06-10.15:17:44::SCWPlatform::Started preparing the platform 
+TRACE::2023-06-10.15:17:44::SCWSystem::Writing the bif file for system config pwm_control_pl
+TRACE::2023-06-10.15:17:44::SCWSystem::dir created 
+TRACE::2023-06-10.15:17:44::SCWSystem::Writing the bif 
+TRACE::2023-06-10.15:17:44::SCWPlatform::Started writing the spfm file 
+TRACE::2023-06-10.15:17:44::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-06-10.15:17:44::SCWPlatform::Completed generating the platform
+TRACE::2023-06-10.15:17:44::SCWMssOS::Saving the mss changes C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-06-10.15:17:44::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-06-10.15:17:44::SCWMssOS::Commit changes completed.
+TRACE::2023-06-10.15:17:44::SCWMssOS::Saving the mss changes C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-06-10.15:17:44::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-06-10.15:17:44::SCWMssOS::Commit changes completed.
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:44::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:44::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:44::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:44::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:44::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:44::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:44::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:44::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:44::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:44::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:44::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:44::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:44::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:44::SCWWriter::formatted JSON is {
+	"platformName":	"pwm_control_pl",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"pwm_control_pl",
+	"platHandOff":	"C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/Pwm_generator_zynq_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Pwm_generator_zynq_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"pwm_control_pl",
+	"systems":	[{
+			"systemName":	"pwm_control_pl",
+			"systemDesc":	"pwm_control_pl",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"pwm_control_pl",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"ebe9543e856eb094397f6b9518fe535c",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/pwm_control_pl/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/pwm_control_pl/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"d327001047927d025563633e64d761dc",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-06-10.15:17:44::SCWPlatform::updated the xpfm file.
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:45::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:45::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::Saving the mss changes C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-06-10.15:17:45::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-06-10.15:17:45::SCWMssOS::Commit changes completed.
+TRACE::2023-06-10.15:17:45::SCWMssOS::Saving the mss changes C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-06-10.15:17:45::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-06-10.15:17:45::SCWMssOS::Commit changes completed.
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:45::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:45::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:45::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:45::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:45::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:45::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:45::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:45::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:45::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:45::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:45::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:45::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWWriter::formatted JSON is {
+	"platformName":	"pwm_control_pl",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"pwm_control_pl",
+	"platHandOff":	"C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/Pwm_generator_zynq_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Pwm_generator_zynq_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"pwm_control_pl",
+	"systems":	[{
+			"systemName":	"pwm_control_pl",
+			"systemDesc":	"pwm_control_pl",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"pwm_control_pl",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"ebe9543e856eb094397f6b9518fe535c",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/pwm_control_pl/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/pwm_control_pl/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"d327001047927d025563633e64d761dc",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:45::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:45::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:45::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:45::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:45::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:45::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::Saving the mss changes C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-06-10.15:17:45::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-06-10.15:17:45::SCWMssOS::Commit changes completed.
+TRACE::2023-06-10.15:17:45::SCWMssOS::Saving the mss changes C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-06-10.15:17:45::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-06-10.15:17:45::SCWMssOS::Commit changes completed.
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:45::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:45::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:45::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:45::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:45::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:45::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:45::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:45::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:45::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:45::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:45::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:45::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWWriter::formatted JSON is {
+	"platformName":	"pwm_control_pl",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"pwm_control_pl",
+	"platHandOff":	"C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/Pwm_generator_zynq_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Pwm_generator_zynq_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"pwm_control_pl",
+	"systems":	[{
+			"systemName":	"pwm_control_pl",
+			"systemDesc":	"pwm_control_pl",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"pwm_control_pl",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"ebe9543e856eb094397f6b9518fe535c",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/pwm_control_pl/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/pwm_control_pl/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"d327001047927d025563633e64d761dc",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-06-10.15:17:45::SCWMssOS::Saving the mss changes C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-06-10.15:17:45::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-06-10.15:17:45::SCWMssOS::Commit changes completed.
+TRACE::2023-06-10.15:17:45::SCWMssOS::Saving the mss changes C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-06-10.15:17:45::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-06-10.15:17:45::SCWMssOS::Commit changes completed.
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:45::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:45::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:45::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:45::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:45::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:45::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:45::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:45::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:45::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:45::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:45::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:45::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWWriter::formatted JSON is {
+	"platformName":	"pwm_control_pl",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"pwm_control_pl",
+	"platHandOff":	"C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/Pwm_generator_zynq_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Pwm_generator_zynq_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"pwm_control_pl",
+	"systems":	[{
+			"systemName":	"pwm_control_pl",
+			"systemDesc":	"pwm_control_pl",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"pwm_control_pl",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"ebe9543e856eb094397f6b9518fe535c",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/pwm_control_pl/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/pwm_control_pl/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"d327001047927d025563633e64d761dc",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-06-10.15:17:45::SCWPlatform::Clearing the existing platform
+TRACE::2023-06-10.15:17:45::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-06-10.15:17:45::SCWBDomain::clearing the fsbl build
+TRACE::2023-06-10.15:17:45::SCWMssOS::Removing the swdes entry for  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWMssOS::Removing the swdes entry for  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:45::SCWSystem::Clearing the domains completed.
+TRACE::2023-06-10.15:17:45::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform location is C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Removing the HwDB with name C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:45::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-06-10.15:17:47::SCWPlatform::Opened new HwDB with name Pwm_generator_zynq_wrapper_1
+TRACE::2023-06-10.15:17:47::SCWReader::Active system found as  pwm_control_pl
+TRACE::2023-06-10.15:17:47::SCWReader::Handling sysconfig pwm_control_pl
+TRACE::2023-06-10.15:17:47::SCWDomain::checking for install qemu data   : 
+TRACE::2023-06-10.15:17:47::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-06-10.15:17:47::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-06-10.15:17:47::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:47::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:47::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_1
+TRACE::2023-06-10.15:17:47::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_1
+TRACE::2023-06-10.15:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:47::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:47::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:47::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_1
+TRACE::2023-06-10.15:17:47::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_1
+TRACE::2023-06-10.15:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:47::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:47::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:47::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_1
+TRACE::2023-06-10.15:17:47::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_1
+TRACE::2023-06-10.15:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:47::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2023-06-10.15:17:47::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:47::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:47::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_1
+TRACE::2023-06-10.15:17:47::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_1
+TRACE::2023-06-10.15:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:47::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:47::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-06-10.15:17:47::SCWMssOS::No sw design opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:47::SCWMssOS::mss exists loading the mss file  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:47::SCWMssOS::Opened the sw design from mss  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:47::SCWMssOS::Adding the swdes entry C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-06-10.15:17:47::SCWMssOS::updating the scw layer about changes
+TRACE::2023-06-10.15:17:47::SCWMssOS::Opened the sw design.  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:47::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:47::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:47::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_1
+TRACE::2023-06-10.15:17:47::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_1
+TRACE::2023-06-10.15:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:47::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:47::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:47::SCWMssOS:: library already available in sw design:  xilffs:5.0
+TRACE::2023-06-10.15:17:47::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:47::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:47::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_1
+TRACE::2023-06-10.15:17:47::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_1
+TRACE::2023-06-10.15:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:47::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:47::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:47::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2023-06-10.15:17:47::SCWMssOS::Saving the mss changes C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:47::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-06-10.15:17:47::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-06-10.15:17:47::SCWMssOS::Commit changes completed.
+TRACE::2023-06-10.15:17:47::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-06-10.15:17:47::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-06-10.15:17:47::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:47::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:47::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_1
+TRACE::2023-06-10.15:17:47::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_1
+TRACE::2023-06-10.15:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:47::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:47::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-06-10.15:17:47::SCWReader::No isolation master present  
+TRACE::2023-06-10.15:17:47::SCWDomain::checking for install qemu data   : 
+TRACE::2023-06-10.15:17:47::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-06-10.15:17:47::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-06-10.15:17:47::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:47::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:47::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_1
+TRACE::2023-06-10.15:17:47::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_1
+TRACE::2023-06-10.15:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:47::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:47::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:47::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_1
+TRACE::2023-06-10.15:17:47::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_1
+TRACE::2023-06-10.15:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:47::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:47::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:47::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_1
+TRACE::2023-06-10.15:17:47::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_1
+TRACE::2023-06-10.15:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:47::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:47::SCWMssOS::No sw design opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:47::SCWMssOS::mss exists loading the mss file  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:47::SCWMssOS::Opened the sw design from mss  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:47::SCWMssOS::Adding the swdes entry C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-06-10.15:17:47::SCWMssOS::updating the scw layer about changes
+TRACE::2023-06-10.15:17:47::SCWMssOS::Opened the sw design.  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:47::SCWMssOS::Saving the mss changes C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:47::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-06-10.15:17:47::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-06-10.15:17:47::SCWMssOS::Commit changes completed.
+TRACE::2023-06-10.15:17:47::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-06-10.15:17:47::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-06-10.15:17:47::SCWPlatform::Trying to open the hw design at C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA given C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA absoulate path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform::DSA directory C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw
+TRACE::2023-06-10.15:17:47::SCWPlatform:: Platform Path C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/hw/Pwm_generator_zynq_wrapper.xsa
+TRACE::2023-06-10.15:17:47::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2023-06-10.15:17:47::SCWPlatform::Trying to set the existing hwdb with name Pwm_generator_zynq_wrapper_1
+TRACE::2023-06-10.15:17:47::SCWPlatform::Opened existing hwdb Pwm_generator_zynq_wrapper_1
+TRACE::2023-06-10.15:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-06-10.15:17:47::SCWMssOS::Checking the sw design at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-06-10.15:17:47::SCWMssOS::Sw design exists and opened at  C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-06-10.15:17:47::SCWReader::No isolation master present  

@@ -4,3 +4,5 @@
 1686234102188	Delete resource 'motor_controller'
 1686234156792	Delete resource 'Pwm_controller_motorcontroller_pro'
 1686245069972	Delete resource 'Pwm_controller_motorcontroller_app/src/motor_controller.c'
+1686403015770	Delete resource 'Pwm_controller_motorcontroller'
+1686403019318	Delete resource 'Pwm_controller_motorcontroller_app_system'
