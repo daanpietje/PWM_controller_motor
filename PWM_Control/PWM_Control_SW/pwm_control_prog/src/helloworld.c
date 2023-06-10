@@ -56,13 +56,13 @@ int main()
     init_platform();
 
 	XGpio motorpin0;
-	XGpio_Initialize(&motorpin0, XPAR_AXI_GPIO_0_DEVICE_ID);
-	XGpio_SetDataDirection(&motorpin0, 1, 0x0);
+	XGpio_Initialize(&motorpin0, XPAR_AXI_GPIO_MOTOR_0_DEVICE_ID);
+	XGpio_SetDataDirection(&motorpin0, 1, 0x00000000);
     struct motor* left_motor = { &motorpin0, 0};
 
 	XGpio motorpin1;
-	XGpio_Initialize(&motorpin1, XPAR_AXI_GPIO_1_DEVICE_ID);
-	XGpio_SetDataDirection(&motorpin1, 1, 0x0);
+	XGpio_Initialize(&motorpin1, XPAR_AXI_GPIO_MOTOR_1_DEVICE_ID);
+	XGpio_SetDataDirection(&motorpin1, 1, 0x00000000);
     struct motor* right_motor = { &motorpin1, 0};
 
     change_speed(left_motor, 128);

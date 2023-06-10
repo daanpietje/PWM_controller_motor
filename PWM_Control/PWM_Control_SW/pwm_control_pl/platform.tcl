@@ -15,3 +15,9 @@ platform create -name {pwm_control_pl}\
 platform write
 platform generate -domains 
 platform active {pwm_control_pl}
+platform generate
+platform active {pwm_control_pl}
+domain active {zynq_fsbl}
+bsp reload
+platform generate -domains 
+platform generate

@@ -1,0 +1,52 @@
+00:19:28 **** Incremental Build of configuration Debug for project pwm_control_prog ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/export/pwm_control_pl/sw/pwm_control_pl/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:61:34: warning: initialization of 'struct motor *' from incompatible pointer type 'XGpio *' [-Wincompatible-pointer-types]
+   61 |     struct motor* left_motor = { &motorpin0, 0};
+      |                                  ^
+../src/helloworld.c:61:34: note: (near initialization for 'left_motor')
+../src/helloworld.c:61:46: warning: excess elements in scalar initializer
+   61 |     struct motor* left_motor = { &motorpin0, 0};
+      |                                              ^
+../src/helloworld.c:61:46: note: (near initialization for 'left_motor')
+../src/helloworld.c:66:35: warning: initialization of 'struct motor *' from incompatible pointer type 'XGpio *' [-Wincompatible-pointer-types]
+   66 |     struct motor* right_motor = { &motorpin1, 0};
+      |                                   ^
+../src/helloworld.c:66:35: note: (near initialization for 'right_motor')
+../src/helloworld.c:66:47: warning: excess elements in scalar initializer
+   66 |     struct motor* right_motor = { &motorpin1, 0};
+      |                                               ^
+../src/helloworld.c:66:47: note: (near initialization for 'right_motor')
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/motor_controller.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/motor_controller.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/export/pwm_control_pl/sw/pwm_control_pl/standalone_domain/bspinclude/include -MMD -MP -MF"src/motor_controller.d" -MT"src/motor_controller.o" -o "src/motor_controller.o" "../src/motor_controller.c"
+'Finished building: ../src/motor_controller.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/export/pwm_control_pl/sw/pwm_control_pl/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: pwm_control_prog.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/export/pwm_control_pl/sw/pwm_control_pl/standalone_domain/bsplib/lib -o "pwm_control_prog.elf"  ./src/helloworld.o ./src/motor_controller.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pwm_control_prog.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pwm_control_prog.elf  |tee "pwm_control_prog.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20190	   1176	  22584	  43950	   abae	pwm_control_prog.elf
+'Finished building: pwm_control_prog.elf.size'
+' '
+
+00:19:30 Build Finished (took 1s.953ms)
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="pwm_control_prog" location="C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_prog" platform="C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pwm_control_pl/export/pwm_control_pl/pwm_control_pl.xpfm" platformUID="xilinx:pynq-z2::0.0(custom)" systemProject="pwm_control_prog_system" sysConfig="pwm_control_pl" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="aa9c3e94eee5a71b843943264a9f34cc">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1424104579" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.642049099" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>
