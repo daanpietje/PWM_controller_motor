@@ -6,9 +6,6 @@
 # Block Designs: bd/PWM_Over/PWM_Over.bd
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_OVer || ORIG_REF_NAME==PWM_OVer} -quiet] -quiet
 
-# IP: bd/PWM_Over/ip/PWM_Over_Comparator_0_3/PWM_Over_Comparator_0_3.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Comparator_0_3 || ORIG_REF_NAME==PWM_Over_Comparator_0_3} -quiet] -quiet
-
 # IP: bd/PWM_Over/ip/PWM_Over_Upcounter_0_1/PWM_Over_Upcounter_0_1.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Upcounter_0_1 || ORIG_REF_NAME==PWM_Over_Upcounter_0_1} -quiet] -quiet
 
@@ -17,6 +14,9 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Re
 
 # IP: bd/PWM_Over/ip/PWM_Over_DataChecker_0_1/PWM_Over_DataChecker_0_1.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_DataChecker_0_1 || ORIG_REF_NAME==PWM_Over_DataChecker_0_1} -quiet] -quiet
+
+# IP: bd/PWM_Over/ip/PWM_Over_Comparator_0_3/PWM_Over_Comparator_0_3.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Comparator_0_3 || ORIG_REF_NAME==PWM_Over_Comparator_0_3} -quiet] -quiet
 
 # IP: bd/PWM_Over/ip/PWM_Over_Controller_0_1/PWM_Over_Controller_0_1.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Controller_0_1 || ORIG_REF_NAME==PWM_Over_Controller_0_1} -quiet] -quiet
@@ -48,14 +48,14 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Complete_de
 # IP: bd/Complete_design_car/ip/Complete_design_car_rst_ps7_0_50M_0/Complete_design_car_rst_ps7_0_50M_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Complete_design_car_rst_ps7_0_50M_0 || ORIG_REF_NAME==Complete_design_car_rst_ps7_0_50M_0} -quiet] -quiet
 
+# IP: bd/Complete_design_car/ip/Complete_design_car_xlconcat_0_0/Complete_design_car_xlconcat_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Complete_design_car_xlconcat_0_0 || ORIG_REF_NAME==Complete_design_car_xlconcat_0_0} -quiet] -quiet
+
 # IP: bd/Complete_design_car/ip/Complete_design_car_PWM_Over_wrapper_0_0/Complete_design_car_PWM_Over_wrapper_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Complete_design_car_PWM_Over_wrapper_0_0 || ORIG_REF_NAME==Complete_design_car_PWM_Over_wrapper_0_0} -quiet] -quiet
 
 # Block Designs: bd/PWM_Over/PWM_Over.bd
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_OVer || ORIG_REF_NAME==PWM_OVer} -quiet] -quiet
-
-# IP: bd/PWM_Over/ip/PWM_Over_Comparator_0_3/PWM_Over_Comparator_0_3.xci
-#dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Comparator_0_3 || ORIG_REF_NAME==PWM_Over_Comparator_0_3} -quiet] -quiet
 
 # IP: bd/PWM_Over/ip/PWM_Over_Upcounter_0_1/PWM_Over_Upcounter_0_1.xci
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Upcounter_0_1 || ORIG_REF_NAME==PWM_Over_Upcounter_0_1} -quiet] -quiet
@@ -65,6 +65,9 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Complete_de
 
 # IP: bd/PWM_Over/ip/PWM_Over_DataChecker_0_1/PWM_Over_DataChecker_0_1.xci
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_DataChecker_0_1 || ORIG_REF_NAME==PWM_Over_DataChecker_0_1} -quiet] -quiet
+
+# IP: bd/PWM_Over/ip/PWM_Over_Comparator_0_3/PWM_Over_Comparator_0_3.xci
+#dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Comparator_0_3 || ORIG_REF_NAME==PWM_Over_Comparator_0_3} -quiet] -quiet
 
 # IP: bd/PWM_Over/ip/PWM_Over_Controller_0_1/PWM_Over_Controller_0_1.xci
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Controller_0_1 || ORIG_REF_NAME==PWM_Over_Controller_0_1} -quiet] -quiet
@@ -75,9 +78,6 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Complete_de
 # Block Designs: bd/PWM_Over/PWM_Over.bd
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_OVer || ORIG_REF_NAME==PWM_OVer} -quiet] -quiet
 
-# IP: bd/PWM_Over/ip/PWM_Over_Comparator_0_3/PWM_Over_Comparator_0_3.xci
-#dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Comparator_0_3 || ORIG_REF_NAME==PWM_Over_Comparator_0_3} -quiet] -quiet
-
 # IP: bd/PWM_Over/ip/PWM_Over_Upcounter_0_1/PWM_Over_Upcounter_0_1.xci
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Upcounter_0_1 || ORIG_REF_NAME==PWM_Over_Upcounter_0_1} -quiet] -quiet
 
@@ -87,11 +87,11 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Complete_de
 # IP: bd/PWM_Over/ip/PWM_Over_DataChecker_0_1/PWM_Over_DataChecker_0_1.xci
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_DataChecker_0_1 || ORIG_REF_NAME==PWM_Over_DataChecker_0_1} -quiet] -quiet
 
+# IP: bd/PWM_Over/ip/PWM_Over_Comparator_0_3/PWM_Over_Comparator_0_3.xci
+#dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Comparator_0_3 || ORIG_REF_NAME==PWM_Over_Comparator_0_3} -quiet] -quiet
+
 # IP: bd/PWM_Over/ip/PWM_Over_Controller_0_1/PWM_Over_Controller_0_1.xci
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PWM_Over_Controller_0_1 || ORIG_REF_NAME==PWM_Over_Controller_0_1} -quiet] -quiet
-
-# IP: bd/Complete_design_car/ip/Complete_design_car_xlconcat_0_0/Complete_design_car_xlconcat_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Complete_design_car_xlconcat_0_0 || ORIG_REF_NAME==Complete_design_car_xlconcat_0_0} -quiet] -quiet
 
 # IP: bd/Complete_design_car/ip/Complete_design_car_auto_pc_0/Complete_design_car_auto_pc_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Complete_design_car_auto_pc_0 || ORIG_REF_NAME==Complete_design_car_auto_pc_0} -quiet] -quiet

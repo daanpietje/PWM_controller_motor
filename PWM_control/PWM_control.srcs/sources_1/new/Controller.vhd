@@ -35,6 +35,7 @@ entity Controller is
     Port (regld : out std_logic;
            upcounterld: out std_logic;
            dataavaibility: in std_logic;
+           comparatorld: out std_logic;
            ready : out std_logic;
            clk : in STD_LOGIC;
            nrst : in STD_LOGIC);
@@ -72,16 +73,17 @@ end process;
 
 output_decoder:
 process (presentstate)
-variable outbus : std_logic_vector(2 downto 0);
+variable outbus : std_logic_vector(3 downto 0);
 begin
     case presentstate is
-        when S0 => outbus := "100";
-        when S1 => outbus := "001";
-        when S2 => outbus := "010";
-        when S3 => outbus := "110";
-        when SU => outbus := "000";
-        when others => outbus := "000";
+        when S0 => outbus := "0100";
+        when S1 => outbus := "0001";
+        when S2 => outbus := "1010";
+        when S3 => outbus := "1110";
+        when SU => outbus := "0000";
+        when others => outbus := "0000";
     end case;
+    comparatorld <= outbus(3) after 1 ns;
     ready <= outbus(2) after 1 ns;
     upcounterld <= outbus(1) after 1 ns;
     regld <= outbus(0) after 1 ns;

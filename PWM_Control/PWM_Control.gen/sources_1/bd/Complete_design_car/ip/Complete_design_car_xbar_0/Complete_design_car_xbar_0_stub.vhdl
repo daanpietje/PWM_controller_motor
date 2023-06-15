@@ -4,8 +4,8 @@
 -- Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
 -- Date        : Wed Jun 14 14:19:14 2023
 -- Host        : DaanAsus running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/ip/Complete_design_car_xbar_0/Complete_design_car_xbar_0_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top Complete_design_car_xbar_0 -prefix
+--               Complete_design_car_xbar_0_ Complete_design_car_xbar_0_stub.vhdl
 -- Design      : Complete_design_car_xbar_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7z020clg400-1

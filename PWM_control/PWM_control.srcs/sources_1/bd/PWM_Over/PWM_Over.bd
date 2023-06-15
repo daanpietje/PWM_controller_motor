@@ -14,8 +14,8 @@
       "Upcounter_0": "",
       "Reg_0": "",
       "DataChecker_0": "",
-      "Controller_0": "",
-      "Comparator_0": ""
+      "Comparator_0": "",
+      "Controller_0": ""
     },
     "ports": {
       "PWM_out": {
@@ -126,38 +126,6 @@
           }
         }
       },
-      "Controller_0": {
-        "vlnv": "xilinx.com:module_ref:Controller:1.0",
-        "xci_name": "PWM_Over_Controller_0_1",
-        "xci_path": "ip\\PWM_Over_Controller_0_1\\PWM_Over_Controller_0_1.xci",
-        "inst_hier_path": "Controller_0",
-        "reference_info": {
-          "ref_type": "hdl",
-          "ref_name": "Controller",
-          "boundary_crc": "0x0"
-        },
-        "ports": {
-          "regld": {
-            "direction": "O"
-          },
-          "upcounterld": {
-            "direction": "O"
-          },
-          "dataavaibility": {
-            "direction": "I"
-          },
-          "ready": {
-            "direction": "O"
-          },
-          "clk": {
-            "type": "clk",
-            "direction": "I"
-          },
-          "nrst": {
-            "direction": "I"
-          }
-        }
-      },
       "Comparator_0": {
         "vlnv": "xilinx.com:module_ref:Comparator:1.0",
         "xci_name": "PWM_Over_Comparator_0_3",
@@ -179,8 +147,46 @@
             "left": "7",
             "right": "0"
           },
+          "ld": {
+            "direction": "I"
+          },
           "PWM": {
             "direction": "O"
+          }
+        }
+      },
+      "Controller_0": {
+        "vlnv": "xilinx.com:module_ref:Controller:1.0",
+        "xci_name": "PWM_Over_Controller_0_1",
+        "xci_path": "ip\\PWM_Over_Controller_0_1\\PWM_Over_Controller_0_1.xci",
+        "inst_hier_path": "Controller_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Controller",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "regld": {
+            "direction": "O"
+          },
+          "upcounterld": {
+            "direction": "O"
+          },
+          "dataavaibility": {
+            "direction": "I"
+          },
+          "comparatorld": {
+            "direction": "O"
+          },
+          "ready": {
+            "direction": "O"
+          },
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "nrst": {
+            "direction": "I"
           }
         }
       }
@@ -190,6 +196,12 @@
         "ports": [
           "Comparator_0/PWM",
           "PWM_out"
+        ]
+      },
+      "Controller_0_comparatorld": {
+        "ports": [
+          "Controller_0/comparatorld",
+          "Comparator_0/ld"
         ]
       },
       "Controller_0_ready": {

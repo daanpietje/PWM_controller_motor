@@ -2,7 +2,7 @@
 --Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
---Date        : Thu Jun 15 12:17:12 2023
+--Date        : Thu Jun 15 13:55:05 2023
 --Host        : DaanAsus running 64-bit major release  (build 9200)
 --Command     : generate_target PWM_Over.bd
 --Design      : PWM_Over
@@ -52,24 +52,27 @@ architecture STRUCTURE of PWM_Over is
     nrst : in STD_LOGIC
   );
   end component PWM_Over_DataChecker_0_1;
+  component PWM_Over_Comparator_0_3 is
+  port (
+    Dutycycle : in STD_LOGIC_VECTOR ( 7 downto 0 );
+    Counter : in STD_LOGIC_VECTOR ( 7 downto 0 );
+    ld : in STD_LOGIC;
+    PWM : out STD_LOGIC
+  );
+  end component PWM_Over_Comparator_0_3;
   component PWM_Over_Controller_0_1 is
   port (
     regld : out STD_LOGIC;
     upcounterld : out STD_LOGIC;
     dataavaibility : in STD_LOGIC;
+    comparatorld : out STD_LOGIC;
     ready : out STD_LOGIC;
     clk : in STD_LOGIC;
     nrst : in STD_LOGIC
   );
   end component PWM_Over_Controller_0_1;
-  component PWM_Over_Comparator_0_3 is
-  port (
-    Dutycycle : in STD_LOGIC_VECTOR ( 7 downto 0 );
-    Counter : in STD_LOGIC_VECTOR ( 7 downto 0 );
-    PWM : out STD_LOGIC
-  );
-  end component PWM_Over_Comparator_0_3;
   signal Comparator_0_PWM : STD_LOGIC;
+  signal Controller_0_comparatorld : STD_LOGIC;
   signal Controller_0_ready : STD_LOGIC;
   signal Controller_0_regld : STD_LOGIC;
   signal Controller_0_upcounterld : STD_LOGIC;
@@ -88,11 +91,13 @@ Comparator_0: component PWM_Over_Comparator_0_3
      port map (
       Counter(7 downto 0) => Upcounter_0_Counterout(7 downto 0),
       Dutycycle(7 downto 0) => Reg_0_regout(7 downto 0),
-      PWM => Comparator_0_PWM
+      PWM => Comparator_0_PWM,
+      ld => Controller_0_comparatorld
     );
 Controller_0: component PWM_Over_Controller_0_1
      port map (
       clk => Net,
+      comparatorld => Controller_0_comparatorld,
       dataavaibility => DataChecker_0_senddata,
       nrst => Net1,
       ready => Controller_0_ready,

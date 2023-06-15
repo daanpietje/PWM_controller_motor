@@ -41,6 +41,7 @@
         "regld": [ { "direction": "out" } ],
         "upcounterld": [ { "direction": "out" } ],
         "dataavaibility": [ { "direction": "in" } ],
+        "comparatorld": [ { "direction": "out" } ],
         "ready": [ { "direction": "out" } ],
         "clk": [ { "direction": "in" } ],
         "nrst": [ { "direction": "in" } ]

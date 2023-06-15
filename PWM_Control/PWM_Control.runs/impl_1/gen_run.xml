@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1686836067">
+  <File Type="ROUTE-PWR" Name="Complete_design_car_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Complete_design_car_wrapper.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="Complete_design_car_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Complete_design_car_wrapper_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="Complete_design_car_wrapper_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="Complete_design_car_wrapper.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Complete_design_car_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Complete_design_car_wrapper_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="Complete_design_car_wrapper_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Complete_design_car_wrapper_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Complete_design_car_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Complete_design_car_wrapper.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Complete_design_car_wrapper_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Complete_design_car_wrapper_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Complete_design_car_wrapper_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Complete_design_car_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Complete_design_car_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Complete_design_car_wrapper_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Complete_design_car_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Complete_design_car_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Complete_design_car_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Complete_design_car_wrapper_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Complete_design_car_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="Complete_design_car_wrapper.bin"/>
+  <File Type="PLACE-TIMING" Name="Complete_design_car_wrapper_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Complete_design_car_wrapper_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="Complete_design_car_wrapper_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Complete_design_car_wrapper_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="Complete_design_car_wrapper.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Complete_design_car_wrapper_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Complete_design_car_wrapper_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Complete_design_car_wrapper_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="Complete_design_car_wrapper.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="Complete_design_car_wrapper_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Complete_design_car_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Complete_design_car_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Complete_design_car_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Complete_design_car_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Complete_design_car_wrapper_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Complete_design_car_wrapper_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Complete_design_car_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Complete_design_car_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Complete_design_car_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="Complete_design_car_wrapper_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="Complete_design_car_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Complete_design_car_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Complete_design_car_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Complete_design_car_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Complete_design_car_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Complete_design_car_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Complete_design_car_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Complete_design_car_wrapper_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Complete_design_car_wrapper_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Complete_design_car_wrapper_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Complete_design_car_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Complete_design_car_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Complete_design_car_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Complete_design_car_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Complete_design_car_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Complete_design_car_wrapper_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="Complete_design_car_wrapper.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Complete_design_car_wrapper_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Complete_design_car_wrapper_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="Complete_design_car_wrapper.nky"/>
+  <File Type="BITSTR-BMM" Name="Complete_design_car_wrapper_bd.bmm"/>
+  <File Type="PDI-FILE" Name="Complete_design_car_wrapper.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="Complete_design_car_wrapper_soc.pdi"/>
+  <File Type="PL-PDI-FILE" Name="Complete_design_car_wrapper_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="Complete_design_car_wrapper.rcfi"/>
+  <File Type="CFI_FILE" Name="Complete_design_car_wrapper.cfi"/>
+  <File Type="RNPI_FILE" Name="Complete_design_car_wrapper.rnpi"/>
+  <File Type="NPI_FILE" Name="Complete_design_car_wrapper.npi"/>
+  <File Type="RBD_FILE" Name="Complete_design_car_wrapper.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Complete_design_car_wrapper.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Complete_design_car_wrapper.sysdef"/>
+  <File Type="BG-BGN" Name="Complete_design_car_wrapper.bgn"/>
+  <File Type="BG-DRC" Name="Complete_design_car_wrapper.drc"/>
+  <File Type="RDI-RDI" Name="Complete_design_car_wrapper.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="Complete_design_car_wrapper_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Complete_design_car_wrapper_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Upcounter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Reg.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DataChecker.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Comparator.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Controller.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/PWM_Over/PWM_Over.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/PWM_Over/hdl/PWM_Over_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/Complete_design_car/Complete_design_car.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/Complete_design_car/hdl/Complete_design_car_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/Pwm_generator_zynq/Pwm_generator_zynq.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/Pwm_generator_zynq/hdl/Pwm_generator_zynq_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Complete_design_car_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/pwm_control_constr.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/Comparator.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="UsedInSteps" Val="synth_1_copy_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="Pwm_generator_zynq_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Complete_design_car_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Complete_design_car_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Reg_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="Pwm_generator_zynq_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Upcounter_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Comparator_0_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="Complete_design_car_axi_gpio_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Complete_design_car_rst_ps7_0_50M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PWM_Over_Controller_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="Complete_design_car_PWM_Over_wrapper_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="Complete_design_car_PWM_Over_wrapper_0_0"/>
+</GenRun>

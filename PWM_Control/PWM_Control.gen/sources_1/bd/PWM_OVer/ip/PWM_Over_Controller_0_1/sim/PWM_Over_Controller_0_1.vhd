@@ -58,6 +58,7 @@ ENTITY PWM_Over_Controller_0_1 IS
     regld : OUT STD_LOGIC;
     upcounterld : OUT STD_LOGIC;
     dataavaibility : IN STD_LOGIC;
+    comparatorld : OUT STD_LOGIC;
     ready : OUT STD_LOGIC;
     clk : IN STD_LOGIC;
     nrst : IN STD_LOGIC
@@ -72,6 +73,7 @@ ARCHITECTURE PWM_Over_Controller_0_1_arch OF PWM_Over_Controller_0_1 IS
       regld : OUT STD_LOGIC;
       upcounterld : OUT STD_LOGIC;
       dataavaibility : IN STD_LOGIC;
+      comparatorld : OUT STD_LOGIC;
       ready : OUT STD_LOGIC;
       clk : IN STD_LOGIC;
       nrst : IN STD_LOGIC
@@ -87,6 +89,7 @@ BEGIN
       regld => regld,
       upcounterld => upcounterld,
       dataavaibility => dataavaibility,
+      comparatorld => comparatorld,
       ready => ready,
       clk => clk,
       nrst => nrst

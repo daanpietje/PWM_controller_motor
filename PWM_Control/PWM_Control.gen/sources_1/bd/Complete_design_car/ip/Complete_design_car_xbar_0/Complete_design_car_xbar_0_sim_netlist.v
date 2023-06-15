@@ -4,8 +4,8 @@
 // Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
 // Date        : Wed Jun 14 14:19:14 2023
 // Host        : DaanAsus running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim
-//               c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/ip/Complete_design_car_xbar_0/Complete_design_car_xbar_0_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim -rename_top Complete_design_car_xbar_0 -prefix
+//               Complete_design_car_xbar_0_ Complete_design_car_xbar_0_sim_netlist.v
 // Design      : Complete_design_car_xbar_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -324,7 +324,6 @@ module Complete_design_car_xbar_0
         .s_axi_wvalid(s_axi_wvalid));
 endmodule
 
-(* ORIG_REF_NAME = "axi_crossbar_v2_1_29_addr_arbiter_sasd" *) 
 module Complete_design_car_xbar_0_axi_crossbar_v2_1_29_addr_arbiter_sasd
    (p_0_in1_in,
     m_valid_i,
@@ -1367,13 +1366,13 @@ endmodule
 (* C_NUM_MASTER_SLOTS = "3" *) (* C_NUM_SLAVE_SLOTS = "1" *) (* C_R_REGISTER = "1" *) 
 (* C_S_AXI_ARB_PRIORITY = "0" *) (* C_S_AXI_BASE_ID = "0" *) (* C_S_AXI_READ_ACCEPTANCE = "1" *) 
 (* C_S_AXI_SINGLE_THREAD = "1" *) (* C_S_AXI_THREAD_ID_WIDTH = "0" *) (* C_S_AXI_WRITE_ACCEPTANCE = "1" *) 
-(* DowngradeIPIdentifiedWarnings = "yes" *) (* ORIG_REF_NAME = "axi_crossbar_v2_1_29_axi_crossbar" *) (* P_ADDR_DECODE = "1" *) 
-(* P_AXI3 = "1" *) (* P_AXI4 = "0" *) (* P_AXILITE = "2" *) 
-(* P_AXILITE_SIZE = "3'b010" *) (* P_FAMILY = "zynq" *) (* P_INCR = "2'b01" *) 
-(* P_LEN = "8" *) (* P_LOCK = "1" *) (* P_M_AXI_ERR_MODE = "96'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" *) 
-(* P_M_AXI_SUPPORTS_READ = "3'b111" *) (* P_M_AXI_SUPPORTS_WRITE = "3'b111" *) (* P_ONES = "65'b11111111111111111111111111111111111111111111111111111111111111111" *) 
-(* P_RANGE_CHECK = "1" *) (* P_S_AXI_BASE_ID = "64'b0000000000000000000000000000000000000000000000000000000000000000" *) (* P_S_AXI_HIGH_ID = "64'b0000000000000000000000000000000000000000000000000000000000000000" *) 
-(* P_S_AXI_SUPPORTS_READ = "1'b1" *) (* P_S_AXI_SUPPORTS_WRITE = "1'b1" *) 
+(* DowngradeIPIdentifiedWarnings = "yes" *) (* P_ADDR_DECODE = "1" *) (* P_AXI3 = "1" *) 
+(* P_AXI4 = "0" *) (* P_AXILITE = "2" *) (* P_AXILITE_SIZE = "3'b010" *) 
+(* P_FAMILY = "zynq" *) (* P_INCR = "2'b01" *) (* P_LEN = "8" *) 
+(* P_LOCK = "1" *) (* P_M_AXI_ERR_MODE = "96'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" *) (* P_M_AXI_SUPPORTS_READ = "3'b111" *) 
+(* P_M_AXI_SUPPORTS_WRITE = "3'b111" *) (* P_ONES = "65'b11111111111111111111111111111111111111111111111111111111111111111" *) (* P_RANGE_CHECK = "1" *) 
+(* P_S_AXI_BASE_ID = "64'b0000000000000000000000000000000000000000000000000000000000000000" *) (* P_S_AXI_HIGH_ID = "64'b0000000000000000000000000000000000000000000000000000000000000000" *) (* P_S_AXI_SUPPORTS_READ = "1'b1" *) 
+(* P_S_AXI_SUPPORTS_WRITE = "1'b1" *) 
 module Complete_design_car_xbar_0_axi_crossbar_v2_1_29_axi_crossbar
    (aclk,
     aresetn,
@@ -1848,7 +1847,6 @@ module Complete_design_car_xbar_0_axi_crossbar_v2_1_29_axi_crossbar
         .s_axi_wvalid(s_axi_wvalid));
 endmodule
 
-(* ORIG_REF_NAME = "axi_crossbar_v2_1_29_crossbar_sasd" *) 
 module Complete_design_car_xbar_0_axi_crossbar_v2_1_29_crossbar_sasd
    (Q,
     \m_payload_i_reg[34] ,
@@ -2188,7 +2186,6 @@ module Complete_design_car_xbar_0_axi_crossbar_v2_1_29_crossbar_sasd
         .s_axi_wvalid_0_sp_1(splitter_aw_n_0));
 endmodule
 
-(* ORIG_REF_NAME = "axi_crossbar_v2_1_29_decerr_slave" *) 
 module Complete_design_car_xbar_0_axi_crossbar_v2_1_29_decerr_slave
    (s_axi_bready_0_sp_1,
     \gen_axilite.s_axi_bvalid_i_reg_0 ,
@@ -2408,7 +2405,6 @@ module Complete_design_car_xbar_0_axi_crossbar_v2_1_29_decerr_slave
         .O(m_axi_wready_1_sn_1));
 endmodule
 
-(* ORIG_REF_NAME = "axi_crossbar_v2_1_29_splitter" *) 
 module Complete_design_car_xbar_0_axi_crossbar_v2_1_29_splitter
    (s_axi_wvalid_0_sp_1,
     m_ready_d,
@@ -2576,7 +2572,6 @@ module Complete_design_car_xbar_0_axi_crossbar_v2_1_29_splitter__parameterized0
         .R(1'b0));
 endmodule
 
-(* ORIG_REF_NAME = "axi_register_slice_v2_1_28_axic_register_slice" *) 
 module Complete_design_car_xbar_0_axi_register_slice_v2_1_28_axic_register_slice
    (sr_rvalid,
     aa_rready,

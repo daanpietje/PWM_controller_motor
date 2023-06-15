@@ -34,6 +34,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity Comparator is
     Port ( Dutycycle : in STD_LOGIC_VECTOR (7 downto 0);
            Counter : in STD_LOGIC_VECTOR (7 downto 0);
+           ld : in std_logic;
            PWM : out STD_LOGIC);
 end Comparator;
 
@@ -42,9 +43,13 @@ signal pwm_temp : std_logic;
 begin
 process(Dutycycle, Counter)
 begin
-    if Counter < Dutycycle then
-        pwm_temp <= '1';
-    elsif Counter >= Dutycycle then
+    if ld = '1' then
+        if Counter <= Dutycycle then
+            pwm_temp <= '1';
+        elsif Counter > Dutycycle then
+            pwm_temp <= '0';
+        end if;
+    else
         pwm_temp <= '0';
     end if;
 end process;

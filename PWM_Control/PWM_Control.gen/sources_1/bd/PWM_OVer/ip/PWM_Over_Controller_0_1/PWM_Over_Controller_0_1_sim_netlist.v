@@ -2,7 +2,7 @@
 // Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-// Date        : Tue Jun 13 10:46:05 2023
+// Date        : Thu Jun 15 13:57:34 2023
 // Host        : DaanAsus running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
 //               c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Controller_0_1/PWM_Over_Controller_0_1_sim_netlist.v
@@ -20,12 +20,14 @@ module PWM_Over_Controller_0_1
    (regld,
     upcounterld,
     dataavaibility,
+    comparatorld,
     ready,
     clk,
     nrst);
   output regld;
   output upcounterld;
   input dataavaibility;
+  output comparatorld;
   output ready;
   (* x_interface_info = "xilinx.com:signal:clock:1.0 clk CLK" *) (* x_interface_parameter = "XIL_INTERFACENAME clk, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0" *) input clk;
   input nrst;
@@ -37,6 +39,7 @@ module PWM_Over_Controller_0_1
   wire regld;
   wire upcounterld;
 
+  assign comparatorld = upcounterld;
   PWM_Over_Controller_0_1_Controller U0
        (.clk(clk),
         .dataavaibility(dataavaibility),
@@ -138,6 +141,13 @@ module PWM_Over_Controller_0_1_Controller
         .CLR(\FSM_onehot_presentstate[1]_i_2_n_0 ),
         .D(\FSM_onehot_presentstate[3]_i_1_n_0 ),
         .Q(\FSM_onehot_presentstate_reg_n_0_[3] ));
+  (* SOFT_HLUTNM = "soft_lutpair1" *) 
+  LUT2 #(
+    .INIT(4'hE)) 
+    comparatorld_INST_0
+       (.I0(\FSM_onehot_presentstate_reg_n_0_[2] ),
+        .I1(\FSM_onehot_presentstate_reg_n_0_[3] ),
+        .O(upcounterld));
   (* SOFT_HLUTNM = "soft_lutpair0" *) 
   LUT2 #(
     .INIT(4'hE)) 
@@ -145,13 +155,6 @@ module PWM_Over_Controller_0_1_Controller
        (.I0(\FSM_onehot_presentstate_reg_n_0_[0] ),
         .I1(\FSM_onehot_presentstate_reg_n_0_[3] ),
         .O(ready));
-  (* SOFT_HLUTNM = "soft_lutpair1" *) 
-  LUT2 #(
-    .INIT(4'hE)) 
-    upcounterld_INST_0
-       (.I0(\FSM_onehot_presentstate_reg_n_0_[2] ),
-        .I1(\FSM_onehot_presentstate_reg_n_0_[3] ),
-        .O(upcounterld));
 endmodule
 `ifndef GLBL
 `define GLBL

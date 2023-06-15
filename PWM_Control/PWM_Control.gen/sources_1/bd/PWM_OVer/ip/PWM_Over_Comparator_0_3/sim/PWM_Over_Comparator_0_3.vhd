@@ -57,6 +57,7 @@ ENTITY PWM_Over_Comparator_0_3 IS
   PORT (
     Dutycycle : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
     Counter : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+    ld : IN STD_LOGIC;
     PWM : OUT STD_LOGIC
   );
 END PWM_Over_Comparator_0_3;
@@ -68,6 +69,7 @@ ARCHITECTURE PWM_Over_Comparator_0_3_arch OF PWM_Over_Comparator_0_3 IS
     PORT (
       Dutycycle : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
       Counter : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+      ld : IN STD_LOGIC;
       PWM : OUT STD_LOGIC
     );
   END COMPONENT Comparator;
@@ -76,6 +78,7 @@ BEGIN
     PORT MAP (
       Dutycycle => Dutycycle,
       Counter => Counter,
+      ld => ld,
       PWM => PWM
     );
 END PWM_Over_Comparator_0_3_arch;

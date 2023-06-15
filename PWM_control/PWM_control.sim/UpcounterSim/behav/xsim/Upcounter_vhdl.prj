@@ -1,6 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../../../../Nieuwe map/Upcounter.vhd" \
-
-# Do not sort compile order
-nosort

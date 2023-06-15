@@ -2,7 +2,7 @@
 -- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
--- Date        : Tue Jun 13 10:46:05 2023
+-- Date        : Thu Jun 15 13:57:34 2023
 -- Host        : DaanAsus running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
 --               c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Controller_0_1/PWM_Over_Controller_0_1_sim_netlist.vhdl
@@ -45,8 +45,8 @@ architecture STRUCTURE of PWM_Over_Controller_0_1_Controller is
   attribute FSM_ENCODED_STATES of \FSM_onehot_presentstate_reg[1]\ : label is "iSTATE:100,s2:0100,s0:0001,s3:1000,s1:0010";
   attribute FSM_ENCODED_STATES of \FSM_onehot_presentstate_reg[2]\ : label is "iSTATE:100,s2:0100,s0:0001,s3:1000,s1:0010";
   attribute FSM_ENCODED_STATES of \FSM_onehot_presentstate_reg[3]\ : label is "iSTATE:100,s2:0100,s0:0001,s3:1000,s1:0010";
+  attribute SOFT_HLUTNM of comparatorld_INST_0 : label is "soft_lutpair1";
   attribute SOFT_HLUTNM of ready_INST_0 : label is "soft_lutpair0";
-  attribute SOFT_HLUTNM of upcounterld_INST_0 : label is "soft_lutpair1";
 begin
   regld <= \^regld\;
 \FSM_onehot_presentstate[0]_i_1\: unisim.vcomponents.LUT2
@@ -130,6 +130,15 @@ begin
       D => \FSM_onehot_presentstate[3]_i_1_n_0\,
       Q => \FSM_onehot_presentstate_reg_n_0_[3]\
     );
+comparatorld_INST_0: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"E"
+    )
+        port map (
+      I0 => \FSM_onehot_presentstate_reg_n_0_[2]\,
+      I1 => \FSM_onehot_presentstate_reg_n_0_[3]\,
+      O => upcounterld
+    );
 ready_INST_0: unisim.vcomponents.LUT2
     generic map(
       INIT => X"E"
@@ -138,15 +147,6 @@ ready_INST_0: unisim.vcomponents.LUT2
       I0 => \FSM_onehot_presentstate_reg_n_0_[0]\,
       I1 => \FSM_onehot_presentstate_reg_n_0_[3]\,
       O => ready
-    );
-upcounterld_INST_0: unisim.vcomponents.LUT2
-    generic map(
-      INIT => X"E"
-    )
-        port map (
-      I0 => \FSM_onehot_presentstate_reg_n_0_[2]\,
-      I1 => \FSM_onehot_presentstate_reg_n_0_[3]\,
-      O => upcounterld
     );
 end STRUCTURE;
 library IEEE;
@@ -158,6 +158,7 @@ entity PWM_Over_Controller_0_1 is
     regld : out STD_LOGIC;
     upcounterld : out STD_LOGIC;
     dataavaibility : in STD_LOGIC;
+    comparatorld : out STD_LOGIC;
     ready : out STD_LOGIC;
     clk : in STD_LOGIC;
     nrst : in STD_LOGIC
@@ -175,11 +176,14 @@ entity PWM_Over_Controller_0_1 is
 end PWM_Over_Controller_0_1;
 
 architecture STRUCTURE of PWM_Over_Controller_0_1 is
+  signal \^upcounterld\ : STD_LOGIC;
   attribute x_interface_info : string;
   attribute x_interface_info of clk : signal is "xilinx.com:signal:clock:1.0 clk CLK";
   attribute x_interface_parameter : string;
   attribute x_interface_parameter of clk : signal is "XIL_INTERFACENAME clk, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0";
 begin
+  comparatorld <= \^upcounterld\;
+  upcounterld <= \^upcounterld\;
 U0: entity work.PWM_Over_Controller_0_1_Controller
      port map (
       clk => clk,
@@ -187,6 +191,6 @@ U0: entity work.PWM_Over_Controller_0_1_Controller
       nrst => nrst,
       ready => ready,
       regld => regld,
-      upcounterld => upcounterld
+      upcounterld => \^upcounterld\
     );
 end STRUCTURE;

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Jun 15 12:17:14 2023" VIVADOVERSION="2023.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Jun 15 13:55:07 2023" VIVADOVERSION="2023.1">
 
   <SYSTEMINFO ARCH="zynq" BOARD="tul.com.tw:pynq-z2:part0:1.0" DEVICE="7z020" NAME="PWM_Over" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
@@ -53,6 +53,11 @@
             <CONNECTION INSTANCE="Upcounter_0" PORT="Counterout"/>
           </CONNECTIONS>
         </PORT>
+        <PORT DIR="I" NAME="ld" SIGIS="undef" SIGNAME="Controller_0_comparatorld">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Controller_0" PORT="comparatorld"/>
+          </CONNECTIONS>
+        </PORT>
         <PORT DIR="O" NAME="PWM" SIGIS="undef" SIGNAME="Comparator_0_PWM">
           <CONNECTIONS>
             <CONNECTION INSTANCE="External_Ports" PORT="PWM_out"/>
@@ -81,6 +86,11 @@
         <PORT DIR="I" NAME="dataavaibility" SIGIS="undef" SIGNAME="DataChecker_0_senddata">
           <CONNECTIONS>
             <CONNECTION INSTANCE="DataChecker_0" PORT="senddata"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="comparatorld" SIGIS="undef" SIGNAME="Controller_0_comparatorld">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Comparator_0" PORT="ld"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="ready" SIGIS="undef" SIGNAME="Controller_0_ready">
