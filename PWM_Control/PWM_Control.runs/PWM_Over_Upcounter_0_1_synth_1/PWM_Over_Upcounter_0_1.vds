@@ -3,8 +3,8 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Wed Jun  7 13:37:45 2023
-# Process ID: 10152
+# Start of session at: Tue Jun 13 10:51:22 2023
+# Process ID: 19480
 # Current directory: C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/PWM_Over_Upcounter_0_1_synth_1
 # Command line: vivado.exe -log PWM_Over_Upcounter_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source PWM_Over_Upcounter_0_1.tcl
 # Log file: C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/PWM_Over_Upcounter_0_1_synth_1/PWM_Over_Upcounter_0_1.vds
@@ -12,7 +12,7 @@
 # Running On: DaanAsus, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16859 MB
 #-----------------------------------------------------------
 source PWM_Over_Upcounter_0_1.tcl -notrace
-create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1460.609 ; gain = 159.352
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1461.781 ; gain = 160.969
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
@@ -21,37 +21,63 @@ Command: synth_design -top PWM_Over_Upcounter_0_1 -part xc7z020clg400-1 -increme
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
-INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 8208
+INFO: [Synth 8-7075] Helper process launched with PID 2376
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1912.531 ; gain = 409.199
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 2316.855 ; gain = 410.754
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'PWM_Over_Upcounter_0_1' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Upcounter_0_1/synth/PWM_Over_Upcounter_0_1.vhd:65]
-INFO: [Synth 8-3491] module 'Upcounter' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.srcs/sources_1/new/Upcounter.vhd:34' bound to instance 'U0' of component 'Upcounter' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Upcounter_0_1/synth/PWM_Over_Upcounter_0_1.vhd:91]
+INFO: [Synth 8-3491] module 'Upcounter' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.srcs/sources_1/new/Upcounter.vhd:34' bound to instance 'U0' of component 'Upcounter' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Upcounter_0_1/synth/PWM_Over_Upcounter_0_1.vhd:89]
 INFO: [Synth 8-638] synthesizing module 'Upcounter' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.srcs/sources_1/new/Upcounter.vhd:41]
 WARNING: [Synth 8-614] signal 'ld' is read in the process but is not in the sensitivity list [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.srcs/sources_1/new/Upcounter.vhd:45]
 INFO: [Synth 8-256] done synthesizing module 'Upcounter' (0#1) [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.srcs/sources_1/new/Upcounter.vhd:41]
 INFO: [Synth 8-256] done synthesizing module 'PWM_Over_Upcounter_0_1' (0#1) [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Upcounter_0_1/synth/PWM_Over_Upcounter_0_1.vhd:65]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 2003.586 ; gain = 500.254
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 2409.949 ; gain = 503.848
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 2003.586 ; gain = 500.254
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 2427.863 ; gain = 521.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 2427.863 ; gain = 521.762
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2427.863 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2492.086 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 2492.086 ; gain = 0.000
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 2492.086 ; gain = 585.984
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 2003.586 ; gain = 500.254
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 2492.086 ; gain = 585.984
 ---------------------------------------------------------------------------------
-INFO: [Device 21-403] Loading part xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 2003.586 ; gain = 500.254
+Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-No constraint files found.
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 2492.086 ; gain = 585.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 2492.086 ; gain = 585.984
+---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -74,26 +100,30 @@ BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-No constraint files found.
 ---------------------------------------------------------------------------------
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 2230.312 ; gain = 726.980
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 2492.086 ; gain = 585.984
 ---------------------------------------------------------------------------------
-No constraint files found.
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 2492.086 ; gain = 585.984
+---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 2230.312 ; gain = 726.980
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 2492.086 ; gain = 585.984
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 2230.312 ; gain = 726.980
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 2492.086 ; gain = 585.984
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -111,37 +141,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:29 . Memory (MB): peak = 2230.312 ; gain = 726.980
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:26 . Memory (MB): peak = 2492.086 ; gain = 585.984
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:29 . Memory (MB): peak = 2230.312 ; gain = 726.980
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:26 . Memory (MB): peak = 2492.086 ; gain = 585.984
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:29 . Memory (MB): peak = 2230.312 ; gain = 726.980
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:26 . Memory (MB): peak = 2492.086 ; gain = 585.984
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:29 . Memory (MB): peak = 2230.312 ; gain = 726.980
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:26 . Memory (MB): peak = 2492.086 ; gain = 585.984
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:29 . Memory (MB): peak = 2230.312 ; gain = 726.980
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:26 . Memory (MB): peak = 2492.086 ; gain = 585.984
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:29 . Memory (MB): peak = 2230.312 ; gain = 726.980
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:26 . Memory (MB): peak = 2492.086 ; gain = 585.984
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -165,37 +195,27 @@ Report Cell Usage:
 |6     |LUT6 |     4|
 |7     |FDPE |     8|
 +------+-----+------+
-
-Report Instance Areas: 
-+------+---------+----------+------+
-|      |Instance |Module    |Cells |
-+------+---------+----------+------+
-|1     |top      |          |    20|
-|2     |  U0     |Upcounter |    20|
-+------+---------+----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:29 . Memory (MB): peak = 2230.312 ; gain = 726.980
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:26 . Memory (MB): peak = 2492.086 ; gain = 585.984
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:29 . Memory (MB): peak = 2230.312 ; gain = 726.980
-Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:29 . Memory (MB): peak = 2230.312 ; gain = 726.980
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:24 . Memory (MB): peak = 2492.086 ; gain = 521.762
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:26 . Memory (MB): peak = 2492.086 ; gain = 585.984
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2237.141 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2492.086 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2339.766 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2492.086 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete | Checksum: 487624bd
+Synth Design complete | Checksum: f81d4253
 INFO: [Common 17-83] Releasing license: Synthesis
-20 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+22 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:32 . Memory (MB): peak = 2339.766 ; gain = 836.469
-INFO: [Timing 38-35] Done setting XDC timing constraints.
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:31 . Memory (MB): peak = 2492.086 ; gain = 989.184
 INFO: [Common 17-1381] The checkpoint 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/PWM_Over_Upcounter_0_1_synth_1/PWM_Over_Upcounter_0_1.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 2666.578 ; gain = 326.812
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP PWM_Over_Upcounter_0_1, cache-ID = 0677c91185238ab3
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP PWM_Over_Upcounter_0_1, cache-ID = 12ede90a2cf2440c
 INFO: [Common 17-1381] The checkpoint 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/PWM_Over_Upcounter_0_1_synth_1/PWM_Over_Upcounter_0_1.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file PWM_Over_Upcounter_0_1_utilization_synth.rpt -pb PWM_Over_Upcounter_0_1_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Wed Jun  7 13:38:48 2023...
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 13 10:52:07 2023...

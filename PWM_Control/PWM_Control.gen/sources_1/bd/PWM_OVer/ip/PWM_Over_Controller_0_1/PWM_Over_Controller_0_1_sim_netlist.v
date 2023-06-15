@@ -2,7 +2,7 @@
 // Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-// Date        : Wed Jun  7 13:38:48 2023
+// Date        : Tue Jun 13 10:46:05 2023
 // Host        : DaanAsus running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
 //               c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Controller_0_1/PWM_Over_Controller_0_1_sim_netlist.v
@@ -22,27 +22,27 @@ module PWM_Over_Controller_0_1
     dataavaibility,
     ready,
     clk,
-    rst);
+    nrst);
   output regld;
   output upcounterld;
   input dataavaibility;
   output ready;
-  (* x_interface_info = "xilinx.com:signal:clock:1.0 clk CLK" *) (* x_interface_parameter = "XIL_INTERFACENAME clk, ASSOCIATED_RESET rst, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0" *) input clk;
-  (* x_interface_info = "xilinx.com:signal:reset:1.0 rst RST" *) (* x_interface_parameter = "XIL_INTERFACENAME rst, POLARITY ACTIVE_LOW, INSERT_VIP 0" *) input rst;
+  (* x_interface_info = "xilinx.com:signal:clock:1.0 clk CLK" *) (* x_interface_parameter = "XIL_INTERFACENAME clk, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0" *) input clk;
+  input nrst;
 
   wire clk;
   wire dataavaibility;
+  wire nrst;
   wire ready;
   wire regld;
-  wire rst;
   wire upcounterld;
 
   PWM_Over_Controller_0_1_Controller U0
        (.clk(clk),
         .dataavaibility(dataavaibility),
+        .nrst(nrst),
         .ready(ready),
         .regld(regld),
-        .rst(rst),
         .upcounterld(upcounterld));
 endmodule
 
@@ -52,26 +52,27 @@ module PWM_Over_Controller_0_1_Controller
     upcounterld,
     ready,
     clk,
-    rst,
+    nrst,
     dataavaibility);
   output regld;
   output upcounterld;
   output ready;
   input clk;
-  input rst;
+  input nrst;
   input dataavaibility;
 
   wire \FSM_onehot_presentstate[0]_i_1_n_0 ;
   wire \FSM_onehot_presentstate[1]_i_1_n_0 ;
+  wire \FSM_onehot_presentstate[1]_i_2_n_0 ;
   wire \FSM_onehot_presentstate[3]_i_1_n_0 ;
   wire \FSM_onehot_presentstate_reg_n_0_[0] ;
   wire \FSM_onehot_presentstate_reg_n_0_[2] ;
   wire \FSM_onehot_presentstate_reg_n_0_[3] ;
   wire clk;
   wire dataavaibility;
+  wire nrst;
   wire ready;
   wire regld;
-  wire rst;
   wire upcounterld;
 
   LUT2 #(
@@ -88,6 +89,11 @@ module PWM_Over_Controller_0_1_Controller
         .I1(dataavaibility),
         .I2(\FSM_onehot_presentstate_reg_n_0_[3] ),
         .O(\FSM_onehot_presentstate[1]_i_1_n_0 ));
+  LUT1 #(
+    .INIT(2'h1)) 
+    \FSM_onehot_presentstate[1]_i_2 
+       (.I0(nrst),
+        .O(\FSM_onehot_presentstate[1]_i_2_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair1" *) 
   LUT3 #(
     .INIT(8'hBA)) 
@@ -103,7 +109,7 @@ module PWM_Over_Controller_0_1_Controller
        (.C(clk),
         .CE(1'b1),
         .D(\FSM_onehot_presentstate[0]_i_1_n_0 ),
-        .PRE(rst),
+        .PRE(\FSM_onehot_presentstate[1]_i_2_n_0 ),
         .Q(\FSM_onehot_presentstate_reg_n_0_[0] ));
   (* FSM_ENCODED_STATES = "iSTATE:100,s2:0100,s0:0001,s3:1000,s1:0010" *) 
   FDCE #(
@@ -111,7 +117,7 @@ module PWM_Over_Controller_0_1_Controller
     \FSM_onehot_presentstate_reg[1] 
        (.C(clk),
         .CE(1'b1),
-        .CLR(rst),
+        .CLR(\FSM_onehot_presentstate[1]_i_2_n_0 ),
         .D(\FSM_onehot_presentstate[1]_i_1_n_0 ),
         .Q(regld));
   (* FSM_ENCODED_STATES = "iSTATE:100,s2:0100,s0:0001,s3:1000,s1:0010" *) 
@@ -120,7 +126,7 @@ module PWM_Over_Controller_0_1_Controller
     \FSM_onehot_presentstate_reg[2] 
        (.C(clk),
         .CE(1'b1),
-        .CLR(rst),
+        .CLR(\FSM_onehot_presentstate[1]_i_2_n_0 ),
         .D(regld),
         .Q(\FSM_onehot_presentstate_reg_n_0_[2] ));
   (* FSM_ENCODED_STATES = "iSTATE:100,s2:0100,s0:0001,s3:1000,s1:0010" *) 
@@ -129,7 +135,7 @@ module PWM_Over_Controller_0_1_Controller
     \FSM_onehot_presentstate_reg[3] 
        (.C(clk),
         .CE(1'b1),
-        .CLR(rst),
+        .CLR(\FSM_onehot_presentstate[1]_i_2_n_0 ),
         .D(\FSM_onehot_presentstate[3]_i_1_n_0 ),
         .Q(\FSM_onehot_presentstate_reg_n_0_[3] ));
   (* SOFT_HLUTNM = "soft_lutpair0" *) 

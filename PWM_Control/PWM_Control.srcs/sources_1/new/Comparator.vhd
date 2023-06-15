@@ -42,9 +42,9 @@ signal pwm_temp : std_logic;
 begin
 process(Dutycycle, Counter)
 begin
-    if Counter <= Dutycycle then
+    if Counter < Dutycycle then
         pwm_temp <= '1';
-    else
+    elsif Counter >= Dutycycle then
         pwm_temp <= '0';
     end if;
 end process;

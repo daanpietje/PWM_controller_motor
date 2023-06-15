@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sat Jun 10 14:36:26 2023" VIVADOVERSION="2023.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Jun 15 12:17:14 2023" VIVADOVERSION="2023.1">
 
   <SYSTEMINFO ARCH="zynq" BOARD="tul.com.tw:pynq-z2:part0:1.0" DEVICE="7z020" NAME="PWM_Over" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
@@ -11,24 +11,24 @@
     </PORT>
     <PORT DIR="I" LEFT="7" NAME="datain" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_datain">
       <CONNECTIONS>
-        <CONNECTION INSTANCE="DataChecker_0" PORT="Datain"/>
         <CONNECTION INSTANCE="Reg_0" PORT="info"/>
+        <CONNECTION INSTANCE="DataChecker_0" PORT="Datain"/>
       </CONNECTIONS>
     </PORT>
     <PORT DIR="I" NAME="clk" SIGIS="undef" SIGNAME="External_Ports_clk">
       <CONNECTIONS>
-        <CONNECTION INSTANCE="Controller_0" PORT="clk"/>
-        <CONNECTION INSTANCE="DataChecker_0" PORT="clk"/>
         <CONNECTION INSTANCE="Upcounter_0" PORT="clk"/>
         <CONNECTION INSTANCE="Reg_0" PORT="clk"/>
+        <CONNECTION INSTANCE="DataChecker_0" PORT="clk"/>
+        <CONNECTION INSTANCE="Controller_0" PORT="clk"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="I" NAME="rst" SIGIS="undef" SIGNAME="External_Ports_rst">
+    <PORT DIR="I" NAME="nrst" SIGIS="undef" SIGNAME="External_Ports_nrst">
       <CONNECTIONS>
-        <CONNECTION INSTANCE="DataChecker_0" PORT="rst"/>
-        <CONNECTION INSTANCE="Controller_0" PORT="rst"/>
-        <CONNECTION INSTANCE="Upcounter_0" PORT="rst"/>
-        <CONNECTION INSTANCE="Reg_0" PORT="rst"/>
+        <CONNECTION INSTANCE="Upcounter_0" PORT="nrst"/>
+        <CONNECTION INSTANCE="Reg_0" PORT="nrst"/>
+        <CONNECTION INSTANCE="DataChecker_0" PORT="nrst"/>
+        <CONNECTION INSTANCE="Controller_0" PORT="nrst"/>
       </CONNECTIONS>
     </PORT>
   </EXTERNALPORTS>
@@ -93,9 +93,9 @@
             <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="rst" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_rst">
+        <PORT DIR="I" NAME="nrst" SIGIS="undef" SIGNAME="External_Ports_nrst">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="rst"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="nrst"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -128,9 +128,9 @@
             <CONNECTION INSTANCE="Controller_0" PORT="ready"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="rst" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_rst">
+        <PORT DIR="I" NAME="nrst" SIGIS="undef" SIGNAME="External_Ports_nrst">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="rst"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="nrst"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -153,9 +153,9 @@
             <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="rst" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_rst">
+        <PORT DIR="I" NAME="nrst" SIGIS="undef" SIGNAME="External_Ports_nrst">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="rst"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="nrst"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" LEFT="7" NAME="info" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_datain">
@@ -183,9 +183,9 @@
             <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="rst" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_rst">
+        <PORT DIR="I" NAME="nrst" SIGIS="undef" SIGNAME="External_Ports_nrst">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="rst"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="nrst"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="ld" SIGIS="undef" SIGNAME="Controller_0_upcounterld">

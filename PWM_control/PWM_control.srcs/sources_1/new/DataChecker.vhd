@@ -37,7 +37,7 @@ entity DataChecker is
   senddata : out std_logic;
   clk : in std_logic;
   Ready : in std_logic;
-  rst: in std_logic
+  nrst: in std_logic
   );
 end DataChecker;
 
@@ -45,9 +45,9 @@ architecture Behavioral of DataChecker is
 signal lastsenddata : std_logic_vector(7 downto 0);
 begin
 
-process (clk, rst)
+process (clk, nrst)
 begin
-        if rst = '1' then
+        if nrst = '0' then
             lastsenddata <= "00000000" after 1 ns;
         end if;
          if ready = '1' then

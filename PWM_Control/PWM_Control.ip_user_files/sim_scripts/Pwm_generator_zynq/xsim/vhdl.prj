@@ -1,0 +1,10 @@
+vhdl xil_defaultlib  \
+"../../../bd/Pwm_generator_zynq/ip/Pwm_generator_zynq_axi_gpio_0_0/sim/Pwm_generator_zynq_axi_gpio_0_0.vhd" \
+"../../../bd/Pwm_generator_zynq/ip/Pwm_generator_zynq_axi_gpio_1_0/sim/Pwm_generator_zynq_axi_gpio_1_0.vhd" \
+"../../../bd/Pwm_generator_zynq/ip/Pwm_generator_zynq_rst_ps7_0_50M_0/sim/Pwm_generator_zynq_rst_ps7_0_50M_0.vhd" \
+"../../../bd/Pwm_generator_zynq/ip/Pwm_generator_zynq_PWM_Over_wrapper_0_0/sim/Pwm_generator_zynq_PWM_Over_wrapper_0_0.vhd" \
+"../../../bd/Pwm_generator_zynq/ip/Pwm_generator_zynq_PWM_Over_wrapper_1_0/sim/Pwm_generator_zynq_PWM_Over_wrapper_1_0.vhd" \
+"../../../bd/Pwm_generator_zynq/sim/Pwm_generator_zynq.vhd" \
+
+# Do not sort compile order
+nosort

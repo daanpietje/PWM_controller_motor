@@ -2,7 +2,7 @@
 --Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
---Date        : Sun Jun 11 01:22:15 2023
+--Date        : Thu Jun 15 11:53:17 2023
 --Host        : DaanAsus running 64-bit major release  (build 9200)
 --Command     : generate_target Complete_design_car_wrapper.bd
 --Design      : Complete_design_car_wrapper
@@ -35,7 +35,8 @@ entity Complete_design_car_wrapper is
     FIXED_IO_ps_clk : inout STD_LOGIC;
     FIXED_IO_ps_porb : inout STD_LOGIC;
     FIXED_IO_ps_srstb : inout STD_LOGIC;
-    Line_detector : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    ext_pin0 : in STD_LOGIC;
+    ext_pin1 : in STD_LOGIC;
     pwm_motor_0 : out STD_LOGIC;
     pwm_motor_1 : out STD_LOGIC
   );
@@ -44,9 +45,6 @@ end Complete_design_car_wrapper;
 architecture STRUCTURE of Complete_design_car_wrapper is
   component Complete_design_car is
   port (
-    pwm_motor_0 : out STD_LOGIC;
-    pwm_motor_1 : out STD_LOGIC;
-    Line_detector : out STD_LOGIC_VECTOR ( 1 downto 0 );
     DDR_cas_n : inout STD_LOGIC;
     DDR_cke : inout STD_LOGIC;
     DDR_ck_n : inout STD_LOGIC;
@@ -67,7 +65,11 @@ architecture STRUCTURE of Complete_design_car_wrapper is
     FIXED_IO_ddr_vrp : inout STD_LOGIC;
     FIXED_IO_ps_srstb : inout STD_LOGIC;
     FIXED_IO_ps_clk : inout STD_LOGIC;
-    FIXED_IO_ps_porb : inout STD_LOGIC
+    FIXED_IO_ps_porb : inout STD_LOGIC;
+    pwm_motor_0 : out STD_LOGIC;
+    pwm_motor_1 : out STD_LOGIC;
+    ext_pin0 : in STD_LOGIC;
+    ext_pin1 : in STD_LOGIC
   );
   end component Complete_design_car;
 begin
@@ -94,7 +96,8 @@ Complete_design_car_i: component Complete_design_car
       FIXED_IO_ps_clk => FIXED_IO_ps_clk,
       FIXED_IO_ps_porb => FIXED_IO_ps_porb,
       FIXED_IO_ps_srstb => FIXED_IO_ps_srstb,
-      Line_detector(1 downto 0) => Line_detector(1 downto 0),
+      ext_pin0 => ext_pin0,
+      ext_pin1 => ext_pin1,
       pwm_motor_0 => pwm_motor_0,
       pwm_motor_1 => pwm_motor_1
     );

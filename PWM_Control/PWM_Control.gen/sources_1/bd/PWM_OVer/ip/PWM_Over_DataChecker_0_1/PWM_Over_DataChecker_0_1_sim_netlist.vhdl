@@ -2,7 +2,7 @@
 -- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
--- Date        : Wed Jun  7 13:38:48 2023
+-- Date        : Tue Jun 13 10:46:05 2023
 -- Host        : DaanAsus running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
 --               c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_DataChecker_0_1/PWM_Over_DataChecker_0_1_sim_netlist.vhdl
@@ -19,7 +19,7 @@ entity PWM_Over_DataChecker_0_1_DataChecker is
   port (
     senddata : out STD_LOGIC;
     Ready : in STD_LOGIC;
-    rst : in STD_LOGIC;
+    nrst : in STD_LOGIC;
     Datain : in STD_LOGIC_VECTOR ( 7 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
@@ -74,16 +74,17 @@ begin
       GE => '1',
       Q => lastsenddata(0)
     );
-\lastsenddata_reg[0]_i_1\: unisim.vcomponents.LUT5
+\lastsenddata_reg[0]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"88888880"
+      INIT => X"AAABFFFFAAA80000"
     )
         port map (
-      I0 => Ready,
-      I1 => Datain(0),
-      I2 => \lastsenddata_reg[7]_i_3_n_0\,
-      I3 => senddata_reg_i_3_n_0,
-      I4 => senddata_reg_i_4_n_0,
+      I0 => Datain(0),
+      I1 => \lastsenddata_reg[7]_i_3_n_0\,
+      I2 => senddata_reg_i_3_n_0,
+      I3 => senddata_reg_i_4_n_0,
+      I4 => Ready,
+      I5 => nrst,
       O => \lastsenddata_reg[0]_i_1_n_0\
     );
 \lastsenddata_reg[1]\: unisim.vcomponents.LDCE
@@ -97,16 +98,17 @@ begin
       GE => '1',
       Q => lastsenddata(1)
     );
-\lastsenddata_reg[1]_i_1\: unisim.vcomponents.LUT5
+\lastsenddata_reg[1]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"88888880"
+      INIT => X"AAABFFFFAAA80000"
     )
         port map (
-      I0 => Ready,
-      I1 => Datain(1),
-      I2 => \lastsenddata_reg[7]_i_3_n_0\,
-      I3 => senddata_reg_i_3_n_0,
-      I4 => senddata_reg_i_4_n_0,
+      I0 => Datain(1),
+      I1 => \lastsenddata_reg[7]_i_3_n_0\,
+      I2 => senddata_reg_i_3_n_0,
+      I3 => senddata_reg_i_4_n_0,
+      I4 => Ready,
+      I5 => nrst,
       O => \lastsenddata_reg[1]_i_1_n_0\
     );
 \lastsenddata_reg[2]\: unisim.vcomponents.LDCE
@@ -120,16 +122,17 @@ begin
       GE => '1',
       Q => lastsenddata(2)
     );
-\lastsenddata_reg[2]_i_1\: unisim.vcomponents.LUT5
+\lastsenddata_reg[2]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"88888880"
+      INIT => X"AAABFFFFAAA80000"
     )
         port map (
-      I0 => Ready,
-      I1 => Datain(2),
-      I2 => \lastsenddata_reg[7]_i_3_n_0\,
-      I3 => senddata_reg_i_3_n_0,
-      I4 => senddata_reg_i_4_n_0,
+      I0 => Datain(2),
+      I1 => \lastsenddata_reg[7]_i_3_n_0\,
+      I2 => senddata_reg_i_3_n_0,
+      I3 => senddata_reg_i_4_n_0,
+      I4 => Ready,
+      I5 => nrst,
       O => \lastsenddata_reg[2]_i_1_n_0\
     );
 \lastsenddata_reg[3]\: unisim.vcomponents.LDCE
@@ -143,16 +146,17 @@ begin
       GE => '1',
       Q => lastsenddata(3)
     );
-\lastsenddata_reg[3]_i_1\: unisim.vcomponents.LUT5
+\lastsenddata_reg[3]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"88888880"
+      INIT => X"AAABFFFFAAA80000"
     )
         port map (
-      I0 => Ready,
-      I1 => Datain(3),
-      I2 => \lastsenddata_reg[7]_i_3_n_0\,
-      I3 => senddata_reg_i_3_n_0,
-      I4 => senddata_reg_i_4_n_0,
+      I0 => Datain(3),
+      I1 => \lastsenddata_reg[7]_i_3_n_0\,
+      I2 => senddata_reg_i_3_n_0,
+      I3 => senddata_reg_i_4_n_0,
+      I4 => Ready,
+      I5 => nrst,
       O => \lastsenddata_reg[3]_i_1_n_0\
     );
 \lastsenddata_reg[4]\: unisim.vcomponents.LDCE
@@ -166,16 +170,17 @@ begin
       GE => '1',
       Q => lastsenddata(4)
     );
-\lastsenddata_reg[4]_i_1\: unisim.vcomponents.LUT5
+\lastsenddata_reg[4]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"88888880"
+      INIT => X"AAABFFFFAAA80000"
     )
         port map (
-      I0 => Ready,
-      I1 => Datain(4),
-      I2 => \lastsenddata_reg[7]_i_3_n_0\,
-      I3 => senddata_reg_i_3_n_0,
-      I4 => senddata_reg_i_4_n_0,
+      I0 => Datain(4),
+      I1 => \lastsenddata_reg[7]_i_3_n_0\,
+      I2 => senddata_reg_i_3_n_0,
+      I3 => senddata_reg_i_4_n_0,
+      I4 => Ready,
+      I5 => nrst,
       O => \lastsenddata_reg[4]_i_1_n_0\
     );
 \lastsenddata_reg[5]\: unisim.vcomponents.LDCE
@@ -189,16 +194,17 @@ begin
       GE => '1',
       Q => lastsenddata(5)
     );
-\lastsenddata_reg[5]_i_1\: unisim.vcomponents.LUT5
+\lastsenddata_reg[5]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"88888880"
+      INIT => X"AAABFFFFAAA80000"
     )
         port map (
-      I0 => Ready,
-      I1 => Datain(5),
-      I2 => \lastsenddata_reg[7]_i_3_n_0\,
-      I3 => senddata_reg_i_3_n_0,
-      I4 => senddata_reg_i_4_n_0,
+      I0 => Datain(5),
+      I1 => \lastsenddata_reg[7]_i_3_n_0\,
+      I2 => senddata_reg_i_3_n_0,
+      I3 => senddata_reg_i_4_n_0,
+      I4 => Ready,
+      I5 => nrst,
       O => \lastsenddata_reg[5]_i_1_n_0\
     );
 \lastsenddata_reg[6]\: unisim.vcomponents.LDCE
@@ -212,16 +218,17 @@ begin
       GE => '1',
       Q => lastsenddata(6)
     );
-\lastsenddata_reg[6]_i_1\: unisim.vcomponents.LUT5
+\lastsenddata_reg[6]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"88888880"
+      INIT => X"AAABFFFFAAA80000"
     )
         port map (
-      I0 => Ready,
-      I1 => Datain(6),
-      I2 => \lastsenddata_reg[7]_i_3_n_0\,
-      I3 => senddata_reg_i_3_n_0,
-      I4 => senddata_reg_i_4_n_0,
+      I0 => Datain(6),
+      I1 => \lastsenddata_reg[7]_i_3_n_0\,
+      I2 => senddata_reg_i_3_n_0,
+      I3 => senddata_reg_i_4_n_0,
+      I4 => Ready,
+      I5 => nrst,
       O => \lastsenddata_reg[6]_i_1_n_0\
     );
 \lastsenddata_reg[7]\: unisim.vcomponents.LDCE
@@ -235,28 +242,29 @@ begin
       GE => '1',
       Q => lastsenddata(7)
     );
-\lastsenddata_reg[7]_i_1\: unisim.vcomponents.LUT5
+\lastsenddata_reg[7]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"88888880"
+      INIT => X"AAABFFFFAAA80000"
     )
         port map (
-      I0 => Ready,
-      I1 => Datain(7),
-      I2 => \lastsenddata_reg[7]_i_3_n_0\,
-      I3 => senddata_reg_i_3_n_0,
-      I4 => senddata_reg_i_4_n_0,
+      I0 => Datain(7),
+      I1 => \lastsenddata_reg[7]_i_3_n_0\,
+      I2 => senddata_reg_i_3_n_0,
+      I3 => senddata_reg_i_4_n_0,
+      I4 => Ready,
+      I5 => nrst,
       O => \lastsenddata_reg[7]_i_1_n_0\
     );
 \lastsenddata_reg[7]_i_2\: unisim.vcomponents.LUT5
     generic map(
-      INIT => X"FFFFFE00"
+      INIT => X"FE00FFFF"
     )
         port map (
       I0 => senddata_reg_i_4_n_0,
       I1 => senddata_reg_i_3_n_0,
       I2 => \lastsenddata_reg[7]_i_3_n_0\,
       I3 => Ready,
-      I4 => rst,
+      I4 => nrst,
       O => \lastsenddata_reg[7]_i_2_n_0\
     );
 \lastsenddata_reg[7]_i_3\: unisim.vcomponents.LUT4
@@ -339,7 +347,7 @@ entity PWM_Over_DataChecker_0_1 is
     senddata : out STD_LOGIC;
     clk : in STD_LOGIC;
     Ready : in STD_LOGIC;
-    rst : in STD_LOGIC
+    nrst : in STD_LOGIC
   );
   attribute NotValidForBitStream : boolean;
   attribute NotValidForBitStream of PWM_Over_DataChecker_0_1 : entity is true;
@@ -357,15 +365,13 @@ architecture STRUCTURE of PWM_Over_DataChecker_0_1 is
   attribute x_interface_info : string;
   attribute x_interface_info of clk : signal is "xilinx.com:signal:clock:1.0 clk CLK";
   attribute x_interface_parameter : string;
-  attribute x_interface_parameter of clk : signal is "XIL_INTERFACENAME clk, ASSOCIATED_RESET rst, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0";
-  attribute x_interface_info of rst : signal is "xilinx.com:signal:reset:1.0 rst RST";
-  attribute x_interface_parameter of rst : signal is "XIL_INTERFACENAME rst, POLARITY ACTIVE_LOW, INSERT_VIP 0";
+  attribute x_interface_parameter of clk : signal is "XIL_INTERFACENAME clk, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0";
 begin
 U0: entity work.PWM_Over_DataChecker_0_1_DataChecker
      port map (
       Datain(7 downto 0) => Datain(7 downto 0),
       Ready => Ready,
-      rst => rst,
+      nrst => nrst,
       senddata => senddata
     );
 end STRUCTURE;

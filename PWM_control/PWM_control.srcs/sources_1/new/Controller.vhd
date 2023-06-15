@@ -37,7 +37,7 @@ entity Controller is
            dataavaibility: in std_logic;
            ready : out std_logic;
            clk : in STD_LOGIC;
-           rst : in STD_LOGIC);
+           nrst : in STD_LOGIC);
 end Controller;
 
 architecture ControllerBehav of Controller is
@@ -61,9 +61,9 @@ begin
 end process;
 
 memory:
-process(clk, rst)
+process(clk, nrst)
 begin   
-       if rst ='1' then
+       if nrst ='0' then
         presentstate <= S0 after 1 ns;
     elsif rising_edge(clk) then
         presentstate <= nextstate after 1 ns;

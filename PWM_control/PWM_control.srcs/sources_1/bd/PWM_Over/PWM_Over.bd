@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x2B70D304FB6525",
+      "boundary_crc": "0x3C412686236B0CB9",
       "device": "xc7z020clg400-1",
       "gen_directory": "../../../../PWM_control.gen/sources_1/bd/PWM_Over",
       "name": "PWM_Over",
@@ -11,11 +11,11 @@
       "validated": "true"
     },
     "design_tree": {
-      "Controller_0": "",
-      "Comparator_0": "",
-      "DataChecker_0": "",
       "Upcounter_0": "",
-      "Reg_0": ""
+      "Reg_0": "",
+      "DataChecker_0": "",
+      "Controller_0": "",
+      "Comparator_0": ""
     },
     "ports": {
       "PWM_out": {
@@ -29,114 +29,11 @@
       "clk": {
         "direction": "I"
       },
-      "rst": {
+      "nrst": {
         "direction": "I"
       }
     },
     "components": {
-      "Controller_0": {
-        "vlnv": "xilinx.com:module_ref:Controller:1.0",
-        "xci_name": "PWM_Over_Controller_0_1",
-        "xci_path": "ip\\PWM_Over_Controller_0_1\\PWM_Over_Controller_0_1.xci",
-        "inst_hier_path": "Controller_0",
-        "reference_info": {
-          "ref_type": "hdl",
-          "ref_name": "Controller",
-          "boundary_crc": "0x0"
-        },
-        "ports": {
-          "regld": {
-            "direction": "O"
-          },
-          "upcounterld": {
-            "direction": "O"
-          },
-          "dataavaibility": {
-            "direction": "I"
-          },
-          "ready": {
-            "direction": "O"
-          },
-          "clk": {
-            "type": "clk",
-            "direction": "I",
-            "parameters": {
-              "ASSOCIATED_RESET": {
-                "value": "rst",
-                "value_src": "constant"
-              }
-            }
-          },
-          "rst": {
-            "type": "rst",
-            "direction": "I"
-          }
-        }
-      },
-      "Comparator_0": {
-        "vlnv": "xilinx.com:module_ref:Comparator:1.0",
-        "xci_name": "PWM_Over_Comparator_0_3",
-        "xci_path": "ip\\PWM_Over_Comparator_0_3\\PWM_Over_Comparator_0_3.xci",
-        "inst_hier_path": "Comparator_0",
-        "reference_info": {
-          "ref_type": "hdl",
-          "ref_name": "Comparator",
-          "boundary_crc": "0x0"
-        },
-        "ports": {
-          "Dutycycle": {
-            "direction": "I",
-            "left": "7",
-            "right": "0"
-          },
-          "Counter": {
-            "direction": "I",
-            "left": "7",
-            "right": "0"
-          },
-          "PWM": {
-            "direction": "O"
-          }
-        }
-      },
-      "DataChecker_0": {
-        "vlnv": "xilinx.com:module_ref:DataChecker:1.0",
-        "xci_name": "PWM_Over_DataChecker_0_1",
-        "xci_path": "ip\\PWM_Over_DataChecker_0_1\\PWM_Over_DataChecker_0_1.xci",
-        "inst_hier_path": "DataChecker_0",
-        "reference_info": {
-          "ref_type": "hdl",
-          "ref_name": "DataChecker",
-          "boundary_crc": "0x0"
-        },
-        "ports": {
-          "Datain": {
-            "direction": "I",
-            "left": "7",
-            "right": "0"
-          },
-          "senddata": {
-            "direction": "O"
-          },
-          "clk": {
-            "type": "clk",
-            "direction": "I",
-            "parameters": {
-              "ASSOCIATED_RESET": {
-                "value": "rst",
-                "value_src": "constant"
-              }
-            }
-          },
-          "Ready": {
-            "direction": "I"
-          },
-          "rst": {
-            "type": "rst",
-            "direction": "I"
-          }
-        }
-      },
       "Upcounter_0": {
         "vlnv": "xilinx.com:module_ref:Upcounter:1.0",
         "xci_name": "PWM_Over_Upcounter_0_1",
@@ -150,16 +47,9 @@
         "ports": {
           "clk": {
             "type": "clk",
-            "direction": "I",
-            "parameters": {
-              "ASSOCIATED_RESET": {
-                "value": "rst",
-                "value_src": "constant"
-              }
-            }
+            "direction": "I"
           },
-          "rst": {
-            "type": "rst",
+          "nrst": {
             "direction": "I"
           },
           "ld": {
@@ -188,16 +78,9 @@
           },
           "clk": {
             "type": "clk",
-            "direction": "I",
-            "parameters": {
-              "ASSOCIATED_RESET": {
-                "value": "rst",
-                "value_src": "constant"
-              }
-            }
+            "direction": "I"
           },
-          "rst": {
-            "type": "rst",
+          "nrst": {
             "direction": "I"
           },
           "info": {
@@ -209,6 +92,95 @@
             "direction": "O",
             "left": "7",
             "right": "0"
+          }
+        }
+      },
+      "DataChecker_0": {
+        "vlnv": "xilinx.com:module_ref:DataChecker:1.0",
+        "xci_name": "PWM_Over_DataChecker_0_1",
+        "xci_path": "ip\\PWM_Over_DataChecker_0_1\\PWM_Over_DataChecker_0_1.xci",
+        "inst_hier_path": "DataChecker_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "DataChecker",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "Datain": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "senddata": {
+            "direction": "O"
+          },
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "Ready": {
+            "direction": "I"
+          },
+          "nrst": {
+            "direction": "I"
+          }
+        }
+      },
+      "Controller_0": {
+        "vlnv": "xilinx.com:module_ref:Controller:1.0",
+        "xci_name": "PWM_Over_Controller_0_1",
+        "xci_path": "ip\\PWM_Over_Controller_0_1\\PWM_Over_Controller_0_1.xci",
+        "inst_hier_path": "Controller_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Controller",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "regld": {
+            "direction": "O"
+          },
+          "upcounterld": {
+            "direction": "O"
+          },
+          "dataavaibility": {
+            "direction": "I"
+          },
+          "ready": {
+            "direction": "O"
+          },
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "nrst": {
+            "direction": "I"
+          }
+        }
+      },
+      "Comparator_0": {
+        "vlnv": "xilinx.com:module_ref:Comparator:1.0",
+        "xci_name": "PWM_Over_Comparator_0_3",
+        "xci_path": "ip\\PWM_Over_Comparator_0_3\\PWM_Over_Comparator_0_3.xci",
+        "inst_hier_path": "Comparator_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Comparator",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "Dutycycle": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "Counter": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "PWM": {
+            "direction": "O"
           }
         }
       }
@@ -247,10 +219,19 @@
       "Net": {
         "ports": [
           "clk",
-          "Controller_0/clk",
-          "DataChecker_0/clk",
           "Upcounter_0/clk",
-          "Reg_0/clk"
+          "Reg_0/clk",
+          "DataChecker_0/clk",
+          "Controller_0/clk"
+        ]
+      },
+      "Net1": {
+        "ports": [
+          "nrst",
+          "Upcounter_0/nrst",
+          "Reg_0/nrst",
+          "DataChecker_0/nrst",
+          "Controller_0/nrst"
         ]
       },
       "Reg_0_regout": {
@@ -268,17 +249,8 @@
       "datain_1": {
         "ports": [
           "datain",
-          "DataChecker_0/Datain",
-          "Reg_0/info"
-        ]
-      },
-      "rst_1": {
-        "ports": [
-          "rst",
-          "DataChecker_0/rst",
-          "Controller_0/rst",
-          "Upcounter_0/rst",
-          "Reg_0/rst"
+          "Reg_0/info",
+          "DataChecker_0/Datain"
         ]
       }
     }

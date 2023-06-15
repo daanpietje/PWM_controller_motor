@@ -1,0 +1,11 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2023.1/data/xilinx_vip/include" --include "../../../../PWM_Control.gen/sources_1/bd/Pwm_generator_zynq/ipshared/ec67/hdl" --include "../../../../PWM_Control.gen/sources_1/bd/Pwm_generator_zynq/ipshared/aed8/hdl" \
+"../../../bd/Pwm_generator_zynq/ip/Pwm_generator_zynq_xlslice_0_0/sim/Pwm_generator_zynq_xlslice_0_0.v" \
+"../../../bd/Pwm_generator_zynq/ip/Pwm_generator_zynq_xlslice_1_0/sim/Pwm_generator_zynq_xlslice_1_0.v" \
+"../../../bd/Pwm_generator_zynq/ip/Pwm_generator_zynq_processing_system7_0_0/sim/Pwm_generator_zynq_processing_system7_0_0.v" \
+"../../../bd/Pwm_generator_zynq/ip/Pwm_generator_zynq_xbar_0/sim/Pwm_generator_zynq_xbar_0.v" \
+"../../../bd/Pwm_generator_zynq/ip/Pwm_generator_zynq_auto_pc_0/sim/Pwm_generator_zynq_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

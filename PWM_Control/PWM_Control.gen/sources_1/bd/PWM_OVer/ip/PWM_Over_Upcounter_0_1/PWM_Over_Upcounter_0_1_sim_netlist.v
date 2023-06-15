@@ -2,7 +2,7 @@
 // Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-// Date        : Wed Jun  7 13:38:48 2023
+// Date        : Tue Jun 13 10:52:07 2023
 // Host        : DaanAsus running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
 //               c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Upcounter_0_1/PWM_Over_Upcounter_0_1_sim_netlist.v
@@ -18,42 +18,42 @@
 (* NotValidForBitStream *)
 module PWM_Over_Upcounter_0_1
    (clk,
-    rst,
+    nrst,
     ld,
     Counterout);
-  (* x_interface_info = "xilinx.com:signal:clock:1.0 clk CLK" *) (* x_interface_parameter = "XIL_INTERFACENAME clk, ASSOCIATED_RESET rst, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0" *) input clk;
-  (* x_interface_info = "xilinx.com:signal:reset:1.0 rst RST" *) (* x_interface_parameter = "XIL_INTERFACENAME rst, POLARITY ACTIVE_LOW, INSERT_VIP 0" *) input rst;
+  (* x_interface_info = "xilinx.com:signal:clock:1.0 clk CLK" *) (* x_interface_parameter = "XIL_INTERFACENAME clk, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0" *) input clk;
+  input nrst;
   input ld;
   output [7:0]Counterout;
 
   wire [7:0]Counterout;
   wire clk;
   wire ld;
-  wire rst;
+  wire nrst;
 
   PWM_Over_Upcounter_0_1_Upcounter U0
        (.Counterout(Counterout),
         .clk(clk),
         .ld(ld),
-        .rst(rst));
+        .nrst(nrst));
 endmodule
 
 (* ORIG_REF_NAME = "Upcounter" *) 
 module PWM_Over_Upcounter_0_1_Upcounter
    (Counterout,
-    rst,
+    nrst,
     ld,
     clk);
   output [7:0]Counterout;
-  input rst;
+  input nrst;
   input ld;
   input clk;
 
   wire [7:0]Counterout;
   wire clk;
   wire ld;
+  wire nrst;
   wire [7:0]p_0_in;
-  wire rst;
   wire \tempcounter[6]_i_2_n_0 ;
   wire \tempcounter[7]_i_2_n_0 ;
   wire \tempcounter[7]_i_3_n_0 ;
@@ -135,9 +135,9 @@ module PWM_Over_Upcounter_0_1_Upcounter
         .I3(Counterout[6]),
         .O(p_0_in[7]));
   LUT2 #(
-    .INIT(4'hB)) 
+    .INIT(4'h7)) 
     \tempcounter[7]_i_2 
-       (.I0(rst),
+       (.I0(nrst),
         .I1(ld),
         .O(\tempcounter[7]_i_2_n_0 ));
   LUT6 #(

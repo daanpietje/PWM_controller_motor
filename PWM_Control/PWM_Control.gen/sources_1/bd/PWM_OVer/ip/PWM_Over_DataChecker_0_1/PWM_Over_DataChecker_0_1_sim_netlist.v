@@ -2,7 +2,7 @@
 // Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-// Date        : Wed Jun  7 13:38:48 2023
+// Date        : Tue Jun 13 10:46:05 2023
 // Host        : DaanAsus running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
 //               c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_DataChecker_0_1/PWM_Over_DataChecker_0_1_sim_netlist.v
@@ -21,22 +21,22 @@ module PWM_Over_DataChecker_0_1
     senddata,
     clk,
     Ready,
-    rst);
+    nrst);
   input [7:0]Datain;
   output senddata;
-  (* x_interface_info = "xilinx.com:signal:clock:1.0 clk CLK" *) (* x_interface_parameter = "XIL_INTERFACENAME clk, ASSOCIATED_RESET rst, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0" *) input clk;
+  (* x_interface_info = "xilinx.com:signal:clock:1.0 clk CLK" *) (* x_interface_parameter = "XIL_INTERFACENAME clk, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0" *) input clk;
   input Ready;
-  (* x_interface_info = "xilinx.com:signal:reset:1.0 rst RST" *) (* x_interface_parameter = "XIL_INTERFACENAME rst, POLARITY ACTIVE_LOW, INSERT_VIP 0" *) input rst;
+  input nrst;
 
   wire [7:0]Datain;
   wire Ready;
-  wire rst;
+  wire nrst;
   wire senddata;
 
   PWM_Over_DataChecker_0_1_DataChecker U0
        (.Datain(Datain),
         .Ready(Ready),
-        .rst(rst),
+        .nrst(nrst),
         .senddata(senddata));
 endmodule
 
@@ -44,11 +44,11 @@ endmodule
 module PWM_Over_DataChecker_0_1_DataChecker
    (senddata,
     Ready,
-    rst,
+    nrst,
     Datain);
   output senddata;
   input Ready;
-  input rst;
+  input nrst;
   input [7:0]Datain;
 
   wire [7:0]Datain;
@@ -64,7 +64,7 @@ module PWM_Over_DataChecker_0_1_DataChecker
   wire \lastsenddata_reg[7]_i_1_n_0 ;
   wire \lastsenddata_reg[7]_i_2_n_0 ;
   wire \lastsenddata_reg[7]_i_3_n_0 ;
-  wire rst;
+  wire nrst;
   wire senddata;
   wire senddata_reg_i_1_n_0;
   wire senddata_reg_i_2_n_0;
@@ -81,14 +81,15 @@ module PWM_Over_DataChecker_0_1_DataChecker
         .G(\lastsenddata_reg[7]_i_2_n_0 ),
         .GE(1'b1),
         .Q(lastsenddata[0]));
-  LUT5 #(
-    .INIT(32'h88888880)) 
+  LUT6 #(
+    .INIT(64'hAAABFFFFAAA80000)) 
     \lastsenddata_reg[0]_i_1 
-       (.I0(Ready),
-        .I1(Datain[0]),
-        .I2(\lastsenddata_reg[7]_i_3_n_0 ),
-        .I3(senddata_reg_i_3_n_0),
-        .I4(senddata_reg_i_4_n_0),
+       (.I0(Datain[0]),
+        .I1(\lastsenddata_reg[7]_i_3_n_0 ),
+        .I2(senddata_reg_i_3_n_0),
+        .I3(senddata_reg_i_4_n_0),
+        .I4(Ready),
+        .I5(nrst),
         .O(\lastsenddata_reg[0]_i_1_n_0 ));
   (* XILINX_LEGACY_PRIM = "LD" *) 
   (* XILINX_TRANSFORM_PINMAP = "VCC:GE GND:CLR" *) 
@@ -100,14 +101,15 @@ module PWM_Over_DataChecker_0_1_DataChecker
         .G(\lastsenddata_reg[7]_i_2_n_0 ),
         .GE(1'b1),
         .Q(lastsenddata[1]));
-  LUT5 #(
-    .INIT(32'h88888880)) 
+  LUT6 #(
+    .INIT(64'hAAABFFFFAAA80000)) 
     \lastsenddata_reg[1]_i_1 
-       (.I0(Ready),
-        .I1(Datain[1]),
-        .I2(\lastsenddata_reg[7]_i_3_n_0 ),
-        .I3(senddata_reg_i_3_n_0),
-        .I4(senddata_reg_i_4_n_0),
+       (.I0(Datain[1]),
+        .I1(\lastsenddata_reg[7]_i_3_n_0 ),
+        .I2(senddata_reg_i_3_n_0),
+        .I3(senddata_reg_i_4_n_0),
+        .I4(Ready),
+        .I5(nrst),
         .O(\lastsenddata_reg[1]_i_1_n_0 ));
   (* XILINX_LEGACY_PRIM = "LD" *) 
   (* XILINX_TRANSFORM_PINMAP = "VCC:GE GND:CLR" *) 
@@ -119,14 +121,15 @@ module PWM_Over_DataChecker_0_1_DataChecker
         .G(\lastsenddata_reg[7]_i_2_n_0 ),
         .GE(1'b1),
         .Q(lastsenddata[2]));
-  LUT5 #(
-    .INIT(32'h88888880)) 
+  LUT6 #(
+    .INIT(64'hAAABFFFFAAA80000)) 
     \lastsenddata_reg[2]_i_1 
-       (.I0(Ready),
-        .I1(Datain[2]),
-        .I2(\lastsenddata_reg[7]_i_3_n_0 ),
-        .I3(senddata_reg_i_3_n_0),
-        .I4(senddata_reg_i_4_n_0),
+       (.I0(Datain[2]),
+        .I1(\lastsenddata_reg[7]_i_3_n_0 ),
+        .I2(senddata_reg_i_3_n_0),
+        .I3(senddata_reg_i_4_n_0),
+        .I4(Ready),
+        .I5(nrst),
         .O(\lastsenddata_reg[2]_i_1_n_0 ));
   (* XILINX_LEGACY_PRIM = "LD" *) 
   (* XILINX_TRANSFORM_PINMAP = "VCC:GE GND:CLR" *) 
@@ -138,14 +141,15 @@ module PWM_Over_DataChecker_0_1_DataChecker
         .G(\lastsenddata_reg[7]_i_2_n_0 ),
         .GE(1'b1),
         .Q(lastsenddata[3]));
-  LUT5 #(
-    .INIT(32'h88888880)) 
+  LUT6 #(
+    .INIT(64'hAAABFFFFAAA80000)) 
     \lastsenddata_reg[3]_i_1 
-       (.I0(Ready),
-        .I1(Datain[3]),
-        .I2(\lastsenddata_reg[7]_i_3_n_0 ),
-        .I3(senddata_reg_i_3_n_0),
-        .I4(senddata_reg_i_4_n_0),
+       (.I0(Datain[3]),
+        .I1(\lastsenddata_reg[7]_i_3_n_0 ),
+        .I2(senddata_reg_i_3_n_0),
+        .I3(senddata_reg_i_4_n_0),
+        .I4(Ready),
+        .I5(nrst),
         .O(\lastsenddata_reg[3]_i_1_n_0 ));
   (* XILINX_LEGACY_PRIM = "LD" *) 
   (* XILINX_TRANSFORM_PINMAP = "VCC:GE GND:CLR" *) 
@@ -157,14 +161,15 @@ module PWM_Over_DataChecker_0_1_DataChecker
         .G(\lastsenddata_reg[7]_i_2_n_0 ),
         .GE(1'b1),
         .Q(lastsenddata[4]));
-  LUT5 #(
-    .INIT(32'h88888880)) 
+  LUT6 #(
+    .INIT(64'hAAABFFFFAAA80000)) 
     \lastsenddata_reg[4]_i_1 
-       (.I0(Ready),
-        .I1(Datain[4]),
-        .I2(\lastsenddata_reg[7]_i_3_n_0 ),
-        .I3(senddata_reg_i_3_n_0),
-        .I4(senddata_reg_i_4_n_0),
+       (.I0(Datain[4]),
+        .I1(\lastsenddata_reg[7]_i_3_n_0 ),
+        .I2(senddata_reg_i_3_n_0),
+        .I3(senddata_reg_i_4_n_0),
+        .I4(Ready),
+        .I5(nrst),
         .O(\lastsenddata_reg[4]_i_1_n_0 ));
   (* XILINX_LEGACY_PRIM = "LD" *) 
   (* XILINX_TRANSFORM_PINMAP = "VCC:GE GND:CLR" *) 
@@ -176,14 +181,15 @@ module PWM_Over_DataChecker_0_1_DataChecker
         .G(\lastsenddata_reg[7]_i_2_n_0 ),
         .GE(1'b1),
         .Q(lastsenddata[5]));
-  LUT5 #(
-    .INIT(32'h88888880)) 
+  LUT6 #(
+    .INIT(64'hAAABFFFFAAA80000)) 
     \lastsenddata_reg[5]_i_1 
-       (.I0(Ready),
-        .I1(Datain[5]),
-        .I2(\lastsenddata_reg[7]_i_3_n_0 ),
-        .I3(senddata_reg_i_3_n_0),
-        .I4(senddata_reg_i_4_n_0),
+       (.I0(Datain[5]),
+        .I1(\lastsenddata_reg[7]_i_3_n_0 ),
+        .I2(senddata_reg_i_3_n_0),
+        .I3(senddata_reg_i_4_n_0),
+        .I4(Ready),
+        .I5(nrst),
         .O(\lastsenddata_reg[5]_i_1_n_0 ));
   (* XILINX_LEGACY_PRIM = "LD" *) 
   (* XILINX_TRANSFORM_PINMAP = "VCC:GE GND:CLR" *) 
@@ -195,14 +201,15 @@ module PWM_Over_DataChecker_0_1_DataChecker
         .G(\lastsenddata_reg[7]_i_2_n_0 ),
         .GE(1'b1),
         .Q(lastsenddata[6]));
-  LUT5 #(
-    .INIT(32'h88888880)) 
+  LUT6 #(
+    .INIT(64'hAAABFFFFAAA80000)) 
     \lastsenddata_reg[6]_i_1 
-       (.I0(Ready),
-        .I1(Datain[6]),
-        .I2(\lastsenddata_reg[7]_i_3_n_0 ),
-        .I3(senddata_reg_i_3_n_0),
-        .I4(senddata_reg_i_4_n_0),
+       (.I0(Datain[6]),
+        .I1(\lastsenddata_reg[7]_i_3_n_0 ),
+        .I2(senddata_reg_i_3_n_0),
+        .I3(senddata_reg_i_4_n_0),
+        .I4(Ready),
+        .I5(nrst),
         .O(\lastsenddata_reg[6]_i_1_n_0 ));
   (* XILINX_LEGACY_PRIM = "LD" *) 
   (* XILINX_TRANSFORM_PINMAP = "VCC:GE GND:CLR" *) 
@@ -214,23 +221,24 @@ module PWM_Over_DataChecker_0_1_DataChecker
         .G(\lastsenddata_reg[7]_i_2_n_0 ),
         .GE(1'b1),
         .Q(lastsenddata[7]));
-  LUT5 #(
-    .INIT(32'h88888880)) 
+  LUT6 #(
+    .INIT(64'hAAABFFFFAAA80000)) 
     \lastsenddata_reg[7]_i_1 
-       (.I0(Ready),
-        .I1(Datain[7]),
-        .I2(\lastsenddata_reg[7]_i_3_n_0 ),
-        .I3(senddata_reg_i_3_n_0),
-        .I4(senddata_reg_i_4_n_0),
+       (.I0(Datain[7]),
+        .I1(\lastsenddata_reg[7]_i_3_n_0 ),
+        .I2(senddata_reg_i_3_n_0),
+        .I3(senddata_reg_i_4_n_0),
+        .I4(Ready),
+        .I5(nrst),
         .O(\lastsenddata_reg[7]_i_1_n_0 ));
   LUT5 #(
-    .INIT(32'hFFFFFE00)) 
+    .INIT(32'hFE00FFFF)) 
     \lastsenddata_reg[7]_i_2 
        (.I0(senddata_reg_i_4_n_0),
         .I1(senddata_reg_i_3_n_0),
         .I2(\lastsenddata_reg[7]_i_3_n_0 ),
         .I3(Ready),
-        .I4(rst),
+        .I4(nrst),
         .O(\lastsenddata_reg[7]_i_2_n_0 ));
   LUT4 #(
     .INIT(16'h6FF6)) 

@@ -59,7 +59,7 @@ ENTITY PWM_Over_DataChecker_0_1 IS
     senddata : OUT STD_LOGIC;
     clk : IN STD_LOGIC;
     Ready : IN STD_LOGIC;
-    rst : IN STD_LOGIC
+    nrst : IN STD_LOGIC
   );
 END PWM_Over_DataChecker_0_1;
 
@@ -72,15 +72,13 @@ ARCHITECTURE PWM_Over_DataChecker_0_1_arch OF PWM_Over_DataChecker_0_1 IS
       senddata : OUT STD_LOGIC;
       clk : IN STD_LOGIC;
       Ready : IN STD_LOGIC;
-      rst : IN STD_LOGIC
+      nrst : IN STD_LOGIC
     );
   END COMPONENT DataChecker;
   ATTRIBUTE X_INTERFACE_INFO : STRING;
   ATTRIBUTE X_INTERFACE_PARAMETER : STRING;
-  ATTRIBUTE X_INTERFACE_PARAMETER OF clk: SIGNAL IS "XIL_INTERFACENAME clk, ASSOCIATED_RESET rst, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF clk: SIGNAL IS "XIL_INTERFACENAME clk, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF clk: SIGNAL IS "xilinx.com:signal:clock:1.0 clk CLK";
-  ATTRIBUTE X_INTERFACE_PARAMETER OF rst: SIGNAL IS "XIL_INTERFACENAME rst, POLARITY ACTIVE_LOW, INSERT_VIP 0";
-  ATTRIBUTE X_INTERFACE_INFO OF rst: SIGNAL IS "xilinx.com:signal:reset:1.0 rst RST";
 BEGIN
   U0 : DataChecker
     PORT MAP (
@@ -88,6 +86,6 @@ BEGIN
       senddata => senddata,
       clk => clk,
       Ready => Ready,
-      rst => rst
+      nrst => nrst
     );
 END PWM_Over_DataChecker_0_1_arch;

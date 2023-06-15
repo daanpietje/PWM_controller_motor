@@ -2,7 +2,7 @@
 -- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
--- Date        : Wed Jun  7 13:38:48 2023
+-- Date        : Tue Jun 13 10:46:05 2023
 -- Host        : DaanAsus running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
 --               c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Controller_0_1/PWM_Over_Controller_0_1_sim_netlist.vhdl
@@ -21,7 +21,7 @@ entity PWM_Over_Controller_0_1_Controller is
     upcounterld : out STD_LOGIC;
     ready : out STD_LOGIC;
     clk : in STD_LOGIC;
-    rst : in STD_LOGIC;
+    nrst : in STD_LOGIC;
     dataavaibility : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
@@ -31,6 +31,7 @@ end PWM_Over_Controller_0_1_Controller;
 architecture STRUCTURE of PWM_Over_Controller_0_1_Controller is
   signal \FSM_onehot_presentstate[0]_i_1_n_0\ : STD_LOGIC;
   signal \FSM_onehot_presentstate[1]_i_1_n_0\ : STD_LOGIC;
+  signal \FSM_onehot_presentstate[1]_i_2_n_0\ : STD_LOGIC;
   signal \FSM_onehot_presentstate[3]_i_1_n_0\ : STD_LOGIC;
   signal \FSM_onehot_presentstate_reg_n_0_[0]\ : STD_LOGIC;
   signal \FSM_onehot_presentstate_reg_n_0_[2]\ : STD_LOGIC;
@@ -67,6 +68,14 @@ begin
       I2 => \FSM_onehot_presentstate_reg_n_0_[3]\,
       O => \FSM_onehot_presentstate[1]_i_1_n_0\
     );
+\FSM_onehot_presentstate[1]_i_2\: unisim.vcomponents.LUT1
+    generic map(
+      INIT => X"1"
+    )
+        port map (
+      I0 => nrst,
+      O => \FSM_onehot_presentstate[1]_i_2_n_0\
+    );
 \FSM_onehot_presentstate[3]_i_1\: unisim.vcomponents.LUT3
     generic map(
       INIT => X"BA"
@@ -85,7 +94,7 @@ begin
       C => clk,
       CE => '1',
       D => \FSM_onehot_presentstate[0]_i_1_n_0\,
-      PRE => rst,
+      PRE => \FSM_onehot_presentstate[1]_i_2_n_0\,
       Q => \FSM_onehot_presentstate_reg_n_0_[0]\
     );
 \FSM_onehot_presentstate_reg[1]\: unisim.vcomponents.FDCE
@@ -95,7 +104,7 @@ begin
         port map (
       C => clk,
       CE => '1',
-      CLR => rst,
+      CLR => \FSM_onehot_presentstate[1]_i_2_n_0\,
       D => \FSM_onehot_presentstate[1]_i_1_n_0\,
       Q => \^regld\
     );
@@ -106,7 +115,7 @@ begin
         port map (
       C => clk,
       CE => '1',
-      CLR => rst,
+      CLR => \FSM_onehot_presentstate[1]_i_2_n_0\,
       D => \^regld\,
       Q => \FSM_onehot_presentstate_reg_n_0_[2]\
     );
@@ -117,7 +126,7 @@ begin
         port map (
       C => clk,
       CE => '1',
-      CLR => rst,
+      CLR => \FSM_onehot_presentstate[1]_i_2_n_0\,
       D => \FSM_onehot_presentstate[3]_i_1_n_0\,
       Q => \FSM_onehot_presentstate_reg_n_0_[3]\
     );
@@ -151,7 +160,7 @@ entity PWM_Over_Controller_0_1 is
     dataavaibility : in STD_LOGIC;
     ready : out STD_LOGIC;
     clk : in STD_LOGIC;
-    rst : in STD_LOGIC
+    nrst : in STD_LOGIC
   );
   attribute NotValidForBitStream : boolean;
   attribute NotValidForBitStream of PWM_Over_Controller_0_1 : entity is true;
@@ -169,17 +178,15 @@ architecture STRUCTURE of PWM_Over_Controller_0_1 is
   attribute x_interface_info : string;
   attribute x_interface_info of clk : signal is "xilinx.com:signal:clock:1.0 clk CLK";
   attribute x_interface_parameter : string;
-  attribute x_interface_parameter of clk : signal is "XIL_INTERFACENAME clk, ASSOCIATED_RESET rst, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0";
-  attribute x_interface_info of rst : signal is "xilinx.com:signal:reset:1.0 rst RST";
-  attribute x_interface_parameter of rst : signal is "XIL_INTERFACENAME rst, POLARITY ACTIVE_LOW, INSERT_VIP 0";
+  attribute x_interface_parameter of clk : signal is "XIL_INTERFACENAME clk, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0";
 begin
 U0: entity work.PWM_Over_Controller_0_1_Controller
      port map (
       clk => clk,
       dataavaibility => dataavaibility,
+      nrst => nrst,
       ready => ready,
       regld => regld,
-      rst => rst,
       upcounterld => upcounterld
     );
 end STRUCTURE;

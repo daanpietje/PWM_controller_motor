@@ -24,7 +24,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 ISEStep( "vivado",
-         "-log Pwm_generator_zynq_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Pwm_generator_zynq_wrapper.tcl" );
+         "-log Complete_design_car_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Complete_design_car_wrapper.tcl" );
 
 
 

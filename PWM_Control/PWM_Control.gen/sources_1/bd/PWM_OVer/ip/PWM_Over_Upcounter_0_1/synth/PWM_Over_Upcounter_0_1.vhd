@@ -56,7 +56,7 @@ USE ieee.numeric_std.ALL;
 ENTITY PWM_Over_Upcounter_0_1 IS
   PORT (
     clk : IN STD_LOGIC;
-    rst : IN STD_LOGIC;
+    nrst : IN STD_LOGIC;
     ld : IN STD_LOGIC;
     Counterout : OUT STD_LOGIC_VECTOR(7 DOWNTO 0)
   );
@@ -68,7 +68,7 @@ ARCHITECTURE PWM_Over_Upcounter_0_1_arch OF PWM_Over_Upcounter_0_1 IS
   COMPONENT Upcounter IS
     PORT (
       clk : IN STD_LOGIC;
-      rst : IN STD_LOGIC;
+      nrst : IN STD_LOGIC;
       ld : IN STD_LOGIC;
       Counterout : OUT STD_LOGIC_VECTOR(7 DOWNTO 0)
     );
@@ -83,15 +83,13 @@ ARCHITECTURE PWM_Over_Upcounter_0_1_arch OF PWM_Over_Upcounter_0_1 IS
   ATTRIBUTE IP_DEFINITION_SOURCE OF PWM_Over_Upcounter_0_1_arch: ARCHITECTURE IS "module_ref";
   ATTRIBUTE X_INTERFACE_INFO : STRING;
   ATTRIBUTE X_INTERFACE_PARAMETER : STRING;
-  ATTRIBUTE X_INTERFACE_PARAMETER OF clk: SIGNAL IS "XIL_INTERFACENAME clk, ASSOCIATED_RESET rst, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF clk: SIGNAL IS "XIL_INTERFACENAME clk, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF clk: SIGNAL IS "xilinx.com:signal:clock:1.0 clk CLK";
-  ATTRIBUTE X_INTERFACE_PARAMETER OF rst: SIGNAL IS "XIL_INTERFACENAME rst, POLARITY ACTIVE_LOW, INSERT_VIP 0";
-  ATTRIBUTE X_INTERFACE_INFO OF rst: SIGNAL IS "xilinx.com:signal:reset:1.0 rst RST";
 BEGIN
   U0 : Upcounter
     PORT MAP (
       clk => clk,
-      rst => rst,
+      nrst => nrst,
       ld => ld,
       Counterout => Counterout
     );

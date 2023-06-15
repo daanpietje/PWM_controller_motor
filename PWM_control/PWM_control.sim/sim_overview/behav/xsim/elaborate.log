@@ -1,7 +1,7 @@
 Vivado Simulator v2023.1
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot PWM_Over_wrapper_behav xil_defaultlib.PWM_Over_wrapper xil_defaultlib.glbl -log elaborate.log 
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot PWM_Over_wrapper_behav xil_defaultlib.PWM_Over_wrapper xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
@@ -24,7 +24,7 @@ Compiling architecture pwm_over_controller_0_1_arch of entity xil_defaultlib.PWM
 Compiling architecture behavioral of entity xil_defaultlib.DataChecker [datachecker_default]
 Compiling architecture pwm_over_datachecker_0_1_arch of entity xil_defaultlib.PWM_Over_DataChecker_0_1 [pwm_over_datachecker_0_1_default]
 Compiling architecture regbehav of entity xil_defaultlib.Reg [reg_default]
-Compiling architecture pwm_over_reg_0_1_arch of entity xil_defaultlib.PWM_Over_Reg_0_1 [pwm_over_reg_0_1_default]
+Compiling architecture pwm_over_reg_0_2_arch of entity xil_defaultlib.PWM_Over_Reg_0_2 [pwm_over_reg_0_2_default]
 Compiling architecture upcounterbehav of entity xil_defaultlib.Upcounter [upcounter_default]
 Compiling architecture pwm_over_upcounter_0_1_arch of entity xil_defaultlib.PWM_Over_Upcounter_0_1 [pwm_over_upcounter_0_1_default]
 Compiling architecture structure of entity xil_defaultlib.PWM_Over [pwm_over_default]

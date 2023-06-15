@@ -2,7 +2,7 @@
 // Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-// Date        : Wed Jun  7 13:38:48 2023
+// Date        : Tue Jun 13 10:46:05 2023
 // Host        : DaanAsus running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub
 //               c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_DataChecker_0_1/PWM_Over_DataChecker_0_1_stub.v
@@ -15,11 +15,11 @@
 // The synthesis directives are for Synopsys Synplify support to prevent IO buffer insertion.
 // Please paste the declaration into a Verilog source file or add the file as an additional source.
 (* x_core_info = "DataChecker,Vivado 2023.1" *)
-module PWM_Over_DataChecker_0_1(Datain, senddata, clk, Ready, rst)
-/* synthesis syn_black_box black_box_pad_pin="Datain[7:0],senddata,clk,Ready,rst" */;
+module PWM_Over_DataChecker_0_1(Datain, senddata, clk, Ready, nrst)
+/* synthesis syn_black_box black_box_pad_pin="Datain[7:0],senddata,clk,Ready,nrst" */;
   input [7:0]Datain;
   output senddata;
   input clk;
   input Ready;
-  input rst;
+  input nrst;
 endmodule

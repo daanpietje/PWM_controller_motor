@@ -34,16 +34,16 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity Reg is
     Port ( ld : in STD_LOGIC;
            clk : in STD_LOGIC;
-           rst : in STD_LOGIC;
+           nrst : in STD_LOGIC;
            info : in STD_LOGIC_VECTOR (7 downto 0);
            regout : out STD_LOGIC_VECTOR (7 downto 0));
 end Reg;
 
 architecture RegBehav of Reg is
 BEGIN
-process(clk, rst)
+process(clk, nrst)
 begin
-    if rst = '1' then regout <= "00000000";
+    if nrst = '0' then regout <= "00000000";
     elsif rising_edge(clk) then
         if ld = '1' then regout <= info;
         end if;

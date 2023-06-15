@@ -33,7 +33,7 @@ USE ieee.std_logic_unsigned.all;
 
 entity Upcounter is
     Port ( clk : in STD_LOGIC;
-           rst : in STD_LOGIC;
+           nrst : in STD_LOGIC;
            ld : in STD_LOGIC;
            Counterout : out STD_LOGIC_VECTOR (7 downto 0));
 end Upcounter;
@@ -43,9 +43,9 @@ signal tempcounter: std_logic_vector (7 downto 0):="00000000";
 begin
 
 Next_counter:
-process(clk, rst)
+process(clk, nrst)
 begin
-if rst = '1' then tempcounter <= "11111111";
+if nrst = '0' then tempcounter <= "11111111";
 else if ld = '1'then
     if rising_edge(clk) then 
         if tempcounter = "11111111" then

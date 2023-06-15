@@ -1,13 +1,0 @@
-2023-06-08T16:19:54.621211600255-16:19:54 **** Build of configuration Debug for project Pwm_controller_motorcontroller_pro ****
-000-make all 
-000-'Building file: ../src/main.c'
-000-'Invoking: Cross ARM C Compiler'
-000-arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
-000/Pwm_controller_motorcontroller_pro/src/main.c12-1-1fatal error: motor_controller.h: No such file or directory2-../src/main.c:12:10: fatal error: motor_controller.h: No such file or directory
-000-   12 | #include <motor_controller.h>
-000-      |          ^~~~~~~~~~~~~~~~~~~~
-000-compilation terminated.
-000/Pwm_controller_motorcontroller_pro0-1-1make: *** [src/subdir.mk:23: src/main.o] Error 12-make: *** [src/subdir.mk:23: src/main.o] Error 1
-00255-
-16:19:54 Build Finished (took 217ms)
-

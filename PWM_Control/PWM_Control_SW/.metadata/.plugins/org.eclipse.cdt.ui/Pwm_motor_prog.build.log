@@ -1,0 +1,25 @@
+15:25:49 **** Incremental Build of configuration Debug for project Pwm_motor_prog ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pynq_pwm/export/pynq_pwm/sw/pynq_pwm/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Pwm_motor_prog.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/pynq_pwm/export/pynq_pwm/sw/pynq_pwm/standalone_domain/bsplib/lib -o "Pwm_motor_prog.elf"  ./src/helloworld.o ./src/motor_controller.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Pwm_motor_prog.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Pwm_motor_prog.elf  |tee "Pwm_motor_prog.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20170	   1176	  22584	  43930	   ab9a	Pwm_motor_prog.elf
+'Finished building: Pwm_motor_prog.elf.size'
+' '
+
+15:25:50 Build Finished (took 795ms)
+

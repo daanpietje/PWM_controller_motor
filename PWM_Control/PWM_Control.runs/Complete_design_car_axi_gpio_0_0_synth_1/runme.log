@@ -1,0 +1,24 @@
+
+*** Running vivado
+    with args -log Complete_design_car_axi_gpio_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Complete_design_car_axi_gpio_0_0.tcl
+
+
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source Complete_design_car_axi_gpio_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1460.754 ; gain = 160.559
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Complete_design_car_axi_gpio_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 8ec717263b406187 to dir: C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/Complete_design_car_axi_gpio_0_0_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.cache/ip/2023.1/8/e/8ec717263b406187/design_with_processor_axi_gpio_0_3.dcp to C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/Complete_design_car_axi_gpio_0_0_synth_1/Complete_design_car_axi_gpio_0_0.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.cache/ip/2023.1/8/e/8ec717263b406187/design_with_processor_axi_gpio_0_3_sim_netlist.v to C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/Complete_design_car_axi_gpio_0_0_synth_1/Complete_design_car_axi_gpio_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.cache/ip/2023.1/8/e/8ec717263b406187/design_with_processor_axi_gpio_0_3_sim_netlist.vhdl to C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/Complete_design_car_axi_gpio_0_0_synth_1/Complete_design_car_axi_gpio_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.cache/ip/2023.1/8/e/8ec717263b406187/design_with_processor_axi_gpio_0_3_stub.v to C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/Complete_design_car_axi_gpio_0_0_synth_1/Complete_design_car_axi_gpio_0_0_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.cache/ip/2023.1/8/e/8ec717263b406187/design_with_processor_axi_gpio_0_3_stub.vhdl to C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/Complete_design_car_axi_gpio_0_0_synth_1/Complete_design_car_axi_gpio_0_0_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP Complete_design_car_axi_gpio_0_0, cache-ID = 8ec717263b406187.
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 14 14:16:55 2023...

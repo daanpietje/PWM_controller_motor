@@ -2,44 +2,44 @@
 // Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-// Date        : Wed Jun  7 13:38:47 2023
+// Date        : Tue Jun 13 11:00:14 2023
 // Host        : DaanAsus running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim -rename_top PWM_Over_Reg_0_2 -prefix
-//               PWM_Over_Reg_0_2_ PWM_Over_Reg_0_1_sim_netlist.v
-// Design      : PWM_Over_Reg_0_1
+//               PWM_Over_Reg_0_2_ PWM_Over_Reg_0_2_sim_netlist.v
+// Design      : PWM_Over_Reg_0_2
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
 // Device      : xc7z020clg400-1
 // --------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CHECK_LICENSE_TYPE = "PWM_Over_Reg_0_1,Reg,{}" *) (* downgradeipidentifiedwarnings = "yes" *) (* ip_definition_source = "module_ref" *) 
+(* CHECK_LICENSE_TYPE = "PWM_Over_Reg_0_2,Reg,{}" *) (* downgradeipidentifiedwarnings = "yes" *) (* ip_definition_source = "module_ref" *) 
 (* x_core_info = "Reg,Vivado 2023.1" *) 
 (* NotValidForBitStream *)
 module PWM_Over_Reg_0_2
    (ld,
     clk,
-    rst,
+    nrst,
     info,
     regout);
   input ld;
-  (* x_interface_info = "xilinx.com:signal:clock:1.0 clk CLK" *) (* x_interface_parameter = "XIL_INTERFACENAME clk, ASSOCIATED_RESET rst, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0" *) input clk;
-  (* x_interface_info = "xilinx.com:signal:reset:1.0 rst RST" *) (* x_interface_parameter = "XIL_INTERFACENAME rst, POLARITY ACTIVE_LOW, INSERT_VIP 0" *) input rst;
+  (* x_interface_info = "xilinx.com:signal:clock:1.0 clk CLK" *) (* x_interface_parameter = "XIL_INTERFACENAME clk, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0" *) input clk;
+  input nrst;
   input [7:0]info;
   output [7:0]regout;
 
   wire clk;
   wire [7:0]info;
   wire ld;
+  wire nrst;
   wire [7:0]regout;
-  wire rst;
 
   PWM_Over_Reg_0_2_Reg U0
        (.clk(clk),
         .info(info),
         .ld(ld),
-        .regout(regout),
-        .rst(rst));
+        .nrst(nrst),
+        .regout(regout));
 endmodule
 
 module PWM_Over_Reg_0_2_Reg
@@ -47,65 +47,71 @@ module PWM_Over_Reg_0_2_Reg
     ld,
     info,
     clk,
-    rst);
+    nrst);
   output [7:0]regout;
   input ld;
   input [7:0]info;
   input clk;
-  input rst;
+  input nrst;
 
   wire clk;
   wire [7:0]info;
   wire ld;
+  wire nrst;
   wire [7:0]regout;
-  wire rst;
+  wire \regout[7]_i_1_n_0 ;
 
+  LUT1 #(
+    .INIT(2'h1)) 
+    \regout[7]_i_1 
+       (.I0(nrst),
+        .O(\regout[7]_i_1_n_0 ));
   FDCE \regout_reg[0] 
        (.C(clk),
         .CE(ld),
-        .CLR(rst),
+        .CLR(\regout[7]_i_1_n_0 ),
         .D(info[0]),
         .Q(regout[0]));
   FDCE \regout_reg[1] 
        (.C(clk),
         .CE(ld),
-        .CLR(rst),
+        .CLR(\regout[7]_i_1_n_0 ),
         .D(info[1]),
         .Q(regout[1]));
   FDCE \regout_reg[2] 
        (.C(clk),
         .CE(ld),
-        .CLR(rst),
+        .CLR(\regout[7]_i_1_n_0 ),
         .D(info[2]),
         .Q(regout[2]));
   FDCE \regout_reg[3] 
        (.C(clk),
         .CE(ld),
-        .CLR(rst),
+        .CLR(\regout[7]_i_1_n_0 ),
         .D(info[3]),
         .Q(regout[3]));
   FDCE \regout_reg[4] 
        (.C(clk),
         .CE(ld),
-        .CLR(rst),
+        .CLR(\regout[7]_i_1_n_0 ),
         .D(info[4]),
         .Q(regout[4]));
   FDCE \regout_reg[5] 
        (.C(clk),
         .CE(ld),
-        .CLR(rst),
+        .CLR(\regout[7]_i_1_n_0 ),
         .D(info[5]),
         .Q(regout[5]));
   FDCE \regout_reg[6] 
        (.C(clk),
         .CE(ld),
-        .CLR(rst),
+        .CLR(\regout[7]_i_1_n_0 ),
         .D(info[6]),
         .Q(regout[6]));
   FDCE \regout_reg[7] 
        (.C(clk),
         .CE(ld),
-        .CLR(rst),
+        .CLR(\regout[7]_i_1_n_0 ),
         .D(info[7]),
         .Q(regout[7]));
 endmodule

@@ -2,7 +2,7 @@
 -- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
--- Date        : Wed Jun  7 13:38:48 2023
+-- Date        : Tue Jun 13 10:52:07 2023
 -- Host        : DaanAsus running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
 --               c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_control.gen/sources_1/bd/PWM_Over/ip/PWM_Over_Upcounter_0_1/PWM_Over_Upcounter_0_1_sim_netlist.vhdl
@@ -18,7 +18,7 @@ use UNISIM.VCOMPONENTS.ALL;
 entity PWM_Over_Upcounter_0_1_Upcounter is
   port (
     Counterout : out STD_LOGIC_VECTOR ( 7 downto 0 );
-    rst : in STD_LOGIC;
+    nrst : in STD_LOGIC;
     ld : in STD_LOGIC;
     clk : in STD_LOGIC
   );
@@ -140,10 +140,10 @@ begin
     );
 \tempcounter[7]_i_2\: unisim.vcomponents.LUT2
     generic map(
-      INIT => X"B"
+      INIT => X"7"
     )
         port map (
-      I0 => rst,
+      I0 => nrst,
       I1 => ld,
       O => \tempcounter[7]_i_2_n_0\
     );
@@ -269,7 +269,7 @@ use UNISIM.VCOMPONENTS.ALL;
 entity PWM_Over_Upcounter_0_1 is
   port (
     clk : in STD_LOGIC;
-    rst : in STD_LOGIC;
+    nrst : in STD_LOGIC;
     ld : in STD_LOGIC;
     Counterout : out STD_LOGIC_VECTOR ( 7 downto 0 )
   );
@@ -289,15 +289,13 @@ architecture STRUCTURE of PWM_Over_Upcounter_0_1 is
   attribute x_interface_info : string;
   attribute x_interface_info of clk : signal is "xilinx.com:signal:clock:1.0 clk CLK";
   attribute x_interface_parameter : string;
-  attribute x_interface_parameter of clk : signal is "XIL_INTERFACENAME clk, ASSOCIATED_RESET rst, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0";
-  attribute x_interface_info of rst : signal is "xilinx.com:signal:reset:1.0 rst RST";
-  attribute x_interface_parameter of rst : signal is "XIL_INTERFACENAME rst, POLARITY ACTIVE_LOW, INSERT_VIP 0";
+  attribute x_interface_parameter of clk : signal is "XIL_INTERFACENAME clk, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0";
 begin
 U0: entity work.PWM_Over_Upcounter_0_1_Upcounter
      port map (
       Counterout(7 downto 0) => Counterout(7 downto 0),
       clk => clk,
       ld => ld,
-      rst => rst
+      nrst => nrst
     );
 end STRUCTURE;
