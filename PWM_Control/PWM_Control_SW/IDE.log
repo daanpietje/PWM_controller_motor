@@ -1050,3 +1050,12 @@ configparams force-mem-access 0
 
 15:22:17 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_motor_prog'...
 15:25:49 INFO  : Checking for BSP changes to sync application flags for project 'Pwm_motor_prog'...
+08:38:16 DEBUG : Logs will be stored at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control_SW/IDE.log'.
+08:38:17 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\daanv\Desktop\Git\PWM_controller_motor\PWM_Control\PWM_Control_SW\temp_xsdb_launch_script.tcl
+08:38:20 INFO  : XSCT server has started successfully.
+08:38:20 INFO  : Successfully done setting XSCT server connection channel  
+08:38:20 INFO  : plnx-install-location is set to ''
+08:38:20 INFO  : Successfully done setting workspace for the tool. 
+08:38:21 INFO  : Registering command handlers for Vitis TCF services
+08:38:23 INFO  : Platform repository initialization has completed.
+08:38:24 INFO  : Successfully done query RDI_DATADIR 

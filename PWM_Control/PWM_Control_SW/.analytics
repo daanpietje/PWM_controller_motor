@@ -77,3 +77,6 @@ timestamp=[2023-06-14 15:14:30], mode=PLATFORM_GENERATION, duration=0:00:16.892,
 timestamp=[2023-06-14 15:22:18], mode=BUILD, duration=0:00:00.633, duration_ms=633, data={name=Pwm_motor_prog, configuration=Debug, clean_build=false}
 timestamp=[2023-06-14 15:25:50], mode=BUILD, duration=0:00:00.806, duration_ms=806, data={name=Pwm_motor_prog, configuration=Debug, clean_build=false}
 timestamp=[2023-06-14 15:25:54], mode=BUILD, duration=0:00:04.330, duration_ms=4330, data={name=Pwm_motor_prog_system, configuration=Debug, clean_build=false}
+timestamp=[2023-06-16 08:38:21], mode=WORKBENCH_START, duration=0:00:09.624, duration_ms=9624, data={}
+timestamp=[2023-06-16 08:38:21], mode=WORKBENCH_UI_INIT, duration=0:00:00.057, duration_ms=57, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Pwm_motor_prog,Pwm_motor_prog_system,RemoteSystemsTempFiles,pwm_motor_plat}
+timestamp=[2023-06-16 08:38:23], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.612, duration_ms=1612, data={}
