@@ -2,7 +2,7 @@
 --Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
---Date        : Thu Jun 15 14:14:56 2023
+--Date        : Thu Jun 29 13:29:59 2023
 --Host        : DaanAsus running 64-bit major release  (build 9200)
 --Command     : generate_target Complete_design_car_wrapper.bd
 --Design      : Complete_design_car_wrapper

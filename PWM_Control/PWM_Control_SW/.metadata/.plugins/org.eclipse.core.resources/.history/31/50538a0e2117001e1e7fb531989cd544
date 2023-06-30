@@ -1,0 +1,24 @@
+/*
+ * Interrupt_Setup.h
+ *
+ *  Created on: 13 jun. 2023
+ *      Author: Lisan
+ */
+
+#ifndef SRC_INTERRUPT_SETUP_H_
+#define SRC_INTERRUPT_SETUP_H_
+
+#include "xscugic.h"
+#include "Interrupt_Handlers.h"
+
+XScuGic InterruptController;
+static XScuGic_Config *GicConfig;
+
+// contains the code for the setup for the interrupt system
+int SetUpInterruptSystem(XScuGic *XScuGicInstancePtr);
+
+
+// contains code for the initialization of the interrupt system
+int interrupt_init();
+
+#endif /* SRC_INTERRUPT_SETUP_H_ */

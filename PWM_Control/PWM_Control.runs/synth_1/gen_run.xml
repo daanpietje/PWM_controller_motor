@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1686835807" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Comparator.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1688038278" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Comparator.dcp">
   <File Type="PA-TCL" Name="Complete_design_car_wrapper.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="Complete_design_car_wrapper_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="Complete_design_car_wrapper_reports.tcl"/>
@@ -115,9 +115,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
     <Step Id="synth_design"/>
   </Strategy>
   <BlockFileSet Type="BlockSrcs" Name="Pwm_generator_zynq_xbar_0"/>

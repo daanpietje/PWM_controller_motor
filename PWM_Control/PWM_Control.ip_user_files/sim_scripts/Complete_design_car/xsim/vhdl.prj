@@ -1,0 +1,10 @@
+vhdl xil_defaultlib  \
+"../../../bd/Complete_design_car/ip/Complete_design_car_axi_gpio_0_0/sim/Complete_design_car_axi_gpio_0_0.vhd" \
+"../../../bd/Complete_design_car/ip/Complete_design_car_axi_gpio_1_0/sim/Complete_design_car_axi_gpio_1_0.vhd" \
+"../../../bd/Complete_design_car/ip/Complete_design_car_rst_ps7_0_50M_0/sim/Complete_design_car_rst_ps7_0_50M_0.vhd" \
+"../../../bd/Complete_design_car/ip/Complete_design_car_PWM_Over_wrapper_0_0/sim/Complete_design_car_PWM_Over_wrapper_0_0.vhd" \
+"../../../bd/Complete_design_car/ip/Complete_design_car_PWM_Over_wrapper_0_1/sim/Complete_design_car_PWM_Over_wrapper_0_1.vhd" \
+"../../../bd/Complete_design_car/sim/Complete_design_car.vhd" \
+
+# Do not sort compile order
+nosort

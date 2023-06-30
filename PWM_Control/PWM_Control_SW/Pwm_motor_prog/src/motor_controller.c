@@ -12,5 +12,5 @@ void change_speed(struct motor* motor_settings, int speed){
 }
 
 void speed_out(struct motor* motor_settings){
-	XGpio_DiscreteWrite(&motor_settings, 1, &motor_settings->current_speed);
+	XGpio_DiscreteWrite(&motor_settings, 1, motor_settings->current_speed);
 }

@@ -1,0 +1,12 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2023.1/data/xilinx_vip/include" --include "../../../../PWM_Control.gen/sources_1/bd/Complete_design_car/ipshared/ec67/hdl" --include "../../../../PWM_Control.gen/sources_1/bd/Complete_design_car/ipshared/aed8/hdl" \
+"../../../bd/Complete_design_car/ip/Complete_design_car_processing_system7_0_0/sim/Complete_design_car_processing_system7_0_0.v" \
+"../../../bd/Complete_design_car/ip/Complete_design_car_xlslice_0_0/sim/Complete_design_car_xlslice_0_0.v" \
+"../../../bd/Complete_design_car/ip/Complete_design_car_xlslice_1_0/sim/Complete_design_car_xlslice_1_0.v" \
+"../../../bd/Complete_design_car/ip/Complete_design_car_xbar_0/sim/Complete_design_car_xbar_0.v" \
+"../../../bd/Complete_design_car/ip/Complete_design_car_xlconcat_0_0/sim/Complete_design_car_xlconcat_0_0.v" \
+"../../../bd/Complete_design_car/ip/Complete_design_car_auto_pc_0/sim/Complete_design_car_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

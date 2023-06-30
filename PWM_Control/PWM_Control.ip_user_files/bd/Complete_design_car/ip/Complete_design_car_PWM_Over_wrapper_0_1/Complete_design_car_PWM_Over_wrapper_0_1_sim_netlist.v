@@ -2,7 +2,7 @@
 // Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-// Date        : Wed Jun 14 14:21:50 2023
+// Date        : Thu Jun 15 14:16:20 2023
 // Host        : DaanAsus running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
 //               c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/ip/Complete_design_car_PWM_Over_wrapper_0_1/Complete_design_car_PWM_Over_wrapper_0_1_sim_netlist.v
@@ -49,6 +49,7 @@ module Complete_design_car_PWM_Over_wrapper_0_1_PWM_Over
   input [7:0]datain;
   input nrst;
 
+  wire Controller_0_comparatorld;
   wire Controller_0_ready;
   wire Controller_0_regld;
   wire Controller_0_upcounterld;
@@ -65,11 +66,13 @@ module Complete_design_car_PWM_Over_wrapper_0_1_PWM_Over
   Complete_design_car_PWM_Over_wrapper_0_1_PWM_Over_Comparator_0_3 Comparator_0
        (.Counter(Upcounter_0_Counterout),
         .Dutycycle(Reg_0_regout),
-        .PWM(PWM_out));
+        .PWM(PWM_out),
+        .ld(Controller_0_comparatorld));
   (* syn_black_box = "TRUE" *) 
   (* x_core_info = "Controller,Vivado 2023.1" *) 
   Complete_design_car_PWM_Over_wrapper_0_1_PWM_Over_Controller_0_1 Controller_0
        (.clk(clk),
+        .comparatorld(Controller_0_comparatorld),
         .dataavaibility(DataChecker_0_senddata),
         .nrst(nrst),
         .ready(Controller_0_ready),
@@ -104,9 +107,11 @@ endmodule
 module Complete_design_car_PWM_Over_wrapper_0_1_PWM_Over_Comparator_0_3
    (Dutycycle,
     Counter,
+    ld,
     PWM);
   input [7:0]Dutycycle;
   input [7:0]Counter;
+  input ld;
   output PWM;
 
 
@@ -117,12 +122,14 @@ module Complete_design_car_PWM_Over_wrapper_0_1_PWM_Over_Controller_0_1
    (regld,
     upcounterld,
     dataavaibility,
+    comparatorld,
     ready,
     clk,
     nrst);
   output regld;
   output upcounterld;
   input dataavaibility;
+  output comparatorld;
   output ready;
   input clk;
   input nrst;

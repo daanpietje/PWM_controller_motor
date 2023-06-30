@@ -3,6 +3,7 @@
 	<name>Pwm_motor_prog</name>
 	<comment>Created by Vitis v2023.1</comment>
 	<projects>
+		<project>MO5_Car_DemoV2</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

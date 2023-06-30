@@ -12,11 +12,11 @@
     ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source Complete_design_car_wrapper.tcl -notrace
-create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1459.852 ; gain = 158.242
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1462.316 ; gain = 160.770
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
-add_files: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1499.840 ; gain = 35.125
+add_files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1501.387 ; gain = 34.855
 Command: read_checkpoint -auto_incremental -incremental C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.srcs/utils_1/imports/synth_1/Comparator.dcp
 INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.srcs/utils_1/imports/synth_1/Comparator.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
@@ -29,21 +29,21 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 8596
+INFO: [Synth 8-7075] Helper process launched with PID 23588
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 2338.676 ; gain = 411.219
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 2338.484 ; gain = 410.363
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'Complete_design_car_wrapper' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/hdl/Complete_design_car_wrapper.vhd:45]
 INFO: [Synth 8-3491] module 'Complete_design_car' declared at 'c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:1364' bound to instance 'Complete_design_car_i' of component 'Complete_design_car' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/hdl/Complete_design_car_wrapper.vhd:76]
 INFO: [Synth 8-638] synthesizing module 'Complete_design_car' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:1398]
-INFO: [Synth 8-3491] module 'Complete_design_car_PWM_Over_wrapper_0_0' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-13452-DaanAsus/realtime/Complete_design_car_PWM_Over_wrapper_0_0_stub.vhdl:6' bound to instance 'PWM_generator_0' of component 'Complete_design_car_PWM_Over_wrapper_0_0' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:1728]
-INFO: [Synth 8-638] synthesizing module 'Complete_design_car_PWM_Over_wrapper_0_0' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-13452-DaanAsus/realtime/Complete_design_car_PWM_Over_wrapper_0_0_stub.vhdl:16]
-INFO: [Synth 8-3491] module 'Complete_design_car_PWM_Over_wrapper_0_1' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-13452-DaanAsus/realtime/Complete_design_car_PWM_Over_wrapper_0_1_stub.vhdl:6' bound to instance 'PWM_generator_1' of component 'Complete_design_car_PWM_Over_wrapper_0_1' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:1735]
-INFO: [Synth 8-638] synthesizing module 'Complete_design_car_PWM_Over_wrapper_0_1' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-13452-DaanAsus/realtime/Complete_design_car_PWM_Over_wrapper_0_1_stub.vhdl:16]
-INFO: [Synth 8-3491] module 'Complete_design_car_axi_gpio_0_0' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-13452-DaanAsus/realtime/Complete_design_car_axi_gpio_0_0_stub.vhdl:6' bound to instance 'axi_gpio_motor_0' of component 'Complete_design_car_axi_gpio_0_0' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:1742]
-INFO: [Synth 8-638] synthesizing module 'Complete_design_car_axi_gpio_0_0' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-13452-DaanAsus/realtime/Complete_design_car_axi_gpio_0_0_stub.vhdl:34]
-INFO: [Synth 8-3491] module 'Complete_design_car_axi_gpio_1_0' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-13452-DaanAsus/realtime/Complete_design_car_axi_gpio_1_0_stub.vhdl:6' bound to instance 'axi_gpio_motor_1' of component 'Complete_design_car_axi_gpio_1_0' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:1767]
-INFO: [Synth 8-638] synthesizing module 'Complete_design_car_axi_gpio_1_0' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-13452-DaanAsus/realtime/Complete_design_car_axi_gpio_1_0_stub.vhdl:34]
+INFO: [Synth 8-3491] module 'Complete_design_car_PWM_Over_wrapper_0_0' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-23196-DaanAsus/realtime/Complete_design_car_PWM_Over_wrapper_0_0_stub.vhdl:6' bound to instance 'PWM_generator_0' of component 'Complete_design_car_PWM_Over_wrapper_0_0' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:1728]
+INFO: [Synth 8-638] synthesizing module 'Complete_design_car_PWM_Over_wrapper_0_0' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-23196-DaanAsus/realtime/Complete_design_car_PWM_Over_wrapper_0_0_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'Complete_design_car_PWM_Over_wrapper_0_1' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-23196-DaanAsus/realtime/Complete_design_car_PWM_Over_wrapper_0_1_stub.vhdl:6' bound to instance 'PWM_generator_1' of component 'Complete_design_car_PWM_Over_wrapper_0_1' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:1735]
+INFO: [Synth 8-638] synthesizing module 'Complete_design_car_PWM_Over_wrapper_0_1' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-23196-DaanAsus/realtime/Complete_design_car_PWM_Over_wrapper_0_1_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'Complete_design_car_axi_gpio_0_0' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-23196-DaanAsus/realtime/Complete_design_car_axi_gpio_0_0_stub.vhdl:6' bound to instance 'axi_gpio_motor_0' of component 'Complete_design_car_axi_gpio_0_0' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:1742]
+INFO: [Synth 8-638] synthesizing module 'Complete_design_car_axi_gpio_0_0' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-23196-DaanAsus/realtime/Complete_design_car_axi_gpio_0_0_stub.vhdl:34]
+INFO: [Synth 8-3491] module 'Complete_design_car_axi_gpio_1_0' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-23196-DaanAsus/realtime/Complete_design_car_axi_gpio_1_0_stub.vhdl:6' bound to instance 'axi_gpio_motor_1' of component 'Complete_design_car_axi_gpio_1_0' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:1767]
+INFO: [Synth 8-638] synthesizing module 'Complete_design_car_axi_gpio_1_0' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-23196-DaanAsus/realtime/Complete_design_car_axi_gpio_1_0_stub.vhdl:34]
 INFO: [Synth 8-638] synthesizing module 'Complete_design_car_axi_interconnect_0_0' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:750]
 INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_1QN1KOT' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:62]
 INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_1QN1KOT' (0#1) [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:62]
@@ -52,16 +52,16 @@ INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_10A8R15' (0#1) [c
 INFO: [Synth 8-638] synthesizing module 'm02_couplers_imp_B1LIUT' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:270]
 INFO: [Synth 8-256] done synthesizing module 'm02_couplers_imp_B1LIUT' (0#1) [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:270]
 INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_QB7K3N' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:394]
-INFO: [Synth 8-3491] module 'Complete_design_car_auto_pc_0' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-13452-DaanAsus/realtime/Complete_design_car_auto_pc_0_stub.vhdl:6' bound to instance 'auto_pc' of component 'Complete_design_car_auto_pc_0' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:577]
-INFO: [Synth 8-638] synthesizing module 'Complete_design_car_auto_pc_0' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-13452-DaanAsus/realtime/Complete_design_car_auto_pc_0_stub.vhdl:71]
+INFO: [Synth 8-3491] module 'Complete_design_car_auto_pc_0' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-23196-DaanAsus/realtime/Complete_design_car_auto_pc_0_stub.vhdl:6' bound to instance 'auto_pc' of component 'Complete_design_car_auto_pc_0' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:577]
+INFO: [Synth 8-638] synthesizing module 'Complete_design_car_auto_pc_0' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-23196-DaanAsus/realtime/Complete_design_car_auto_pc_0_stub.vhdl:71]
 INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_QB7K3N' (0#1) [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:394]
-INFO: [Synth 8-3491] module 'Complete_design_car_xbar_0' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-13452-DaanAsus/realtime/Complete_design_car_xbar_0_stub.vhdl:6' bound to instance 'xbar' of component 'Complete_design_car_xbar_0' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:1247]
-INFO: [Synth 8-638] synthesizing module 'Complete_design_car_xbar_0' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-13452-DaanAsus/realtime/Complete_design_car_xbar_0_stub.vhdl:52]
+INFO: [Synth 8-3491] module 'Complete_design_car_xbar_0' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-23196-DaanAsus/realtime/Complete_design_car_xbar_0_stub.vhdl:6' bound to instance 'xbar' of component 'Complete_design_car_xbar_0' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:1247]
+INFO: [Synth 8-638] synthesizing module 'Complete_design_car_xbar_0' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-23196-DaanAsus/realtime/Complete_design_car_xbar_0_stub.vhdl:52]
 INFO: [Synth 8-256] done synthesizing module 'Complete_design_car_axi_interconnect_0_0' (0#1) [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:750]
-INFO: [Synth 8-3491] module 'Complete_design_car_processing_system7_0_0' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-13452-DaanAsus/realtime/Complete_design_car_processing_system7_0_0_stub.vhdl:6' bound to instance 'processing_system7_0' of component 'Complete_design_car_processing_system7_0_0' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:1896]
-INFO: [Synth 8-638] synthesizing module 'Complete_design_car_processing_system7_0_0' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-13452-DaanAsus/realtime/Complete_design_car_processing_system7_0_0_stub.vhdl:78]
-INFO: [Synth 8-3491] module 'Complete_design_car_rst_ps7_0_50M_0' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-13452-DaanAsus/realtime/Complete_design_car_rst_ps7_0_50M_0_stub.vhdl:6' bound to instance 'rst_ps7_0_50M' of component 'Complete_design_car_rst_ps7_0_50M_0' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:1965]
-INFO: [Synth 8-638] synthesizing module 'Complete_design_car_rst_ps7_0_50M_0' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-13452-DaanAsus/realtime/Complete_design_car_rst_ps7_0_50M_0_stub.vhdl:22]
+INFO: [Synth 8-3491] module 'Complete_design_car_processing_system7_0_0' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-23196-DaanAsus/realtime/Complete_design_car_processing_system7_0_0_stub.vhdl:6' bound to instance 'processing_system7_0' of component 'Complete_design_car_processing_system7_0_0' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:1896]
+INFO: [Synth 8-638] synthesizing module 'Complete_design_car_processing_system7_0_0' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-23196-DaanAsus/realtime/Complete_design_car_processing_system7_0_0_stub.vhdl:78]
+INFO: [Synth 8-3491] module 'Complete_design_car_rst_ps7_0_50M_0' declared at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-23196-DaanAsus/realtime/Complete_design_car_rst_ps7_0_50M_0_stub.vhdl:6' bound to instance 'rst_ps7_0_50M' of component 'Complete_design_car_rst_ps7_0_50M_0' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:1965]
+INFO: [Synth 8-638] synthesizing module 'Complete_design_car_rst_ps7_0_50M_0' [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/.Xil/Vivado-23196-DaanAsus/realtime/Complete_design_car_rst_ps7_0_50M_0_stub.vhdl:22]
 INFO: [Synth 8-3491] module 'Complete_design_car_xlconcat_0_0' declared at 'c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/ip/Complete_design_car_xlconcat_0_0/synth/Complete_design_car_xlconcat_0_0.v:53' bound to instance 'xlconcat_Linesensor' of component 'Complete_design_car_xlconcat_0_0' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/synth/Complete_design_car.vhd:1978]
 INFO: [Synth 8-6157] synthesizing module 'Complete_design_car_xlconcat_0_0' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/ip/Complete_design_car_xlconcat_0_0/synth/Complete_design_car_xlconcat_0_0.v:53]
 INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_4_xlconcat' [c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
@@ -179,18 +179,18 @@ WARNING: [Synth 8-7129] Port In76[0] in module xlconcat_v2_1_4_xlconcat is eithe
 WARNING: [Synth 8-7129] Port In77[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 2438.828 ; gain = 511.371
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 2438.789 ; gain = 510.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 2438.828 ; gain = 511.371
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 2438.789 ; gain = 510.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 2438.828 ; gain = 511.371
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 2438.789 ; gain = 510.668
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 2438.828 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 2438.789 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -219,22 +219,22 @@ Parsing XDC File [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PW
 Finished Parsing XDC File [C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2438.828 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2438.789 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 2438.828 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2438.789 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:20 . Memory (MB): peak = 2438.828 ; gain = 511.371
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:18 . Memory (MB): peak = 2438.789 ; gain = 510.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:20 . Memory (MB): peak = 2438.828 ; gain = 511.371
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:18 . Memory (MB): peak = 2438.789 ; gain = 510.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -513,10 +513,10 @@ Applied set_property KEEP_HIERARCHY = SOFT for Complete_design_car_i/xlconcat_Li
 Applied set_property KEEP_HIERARCHY = SOFT for Complete_design_car_i/PWM_generator_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for Complete_design_car_i/PWM_generator_1. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:20 . Memory (MB): peak = 2438.828 ; gain = 511.371
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 2438.789 ; gain = 510.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:21 . Memory (MB): peak = 2438.828 ; gain = 511.371
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 2438.789 ; gain = 510.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -539,25 +539,25 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 2438.828 ; gain = 511.371
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:21 . Memory (MB): peak = 2438.789 ; gain = 510.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:31 . Memory (MB): peak = 2438.828 ; gain = 511.371
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:28 . Memory (MB): peak = 2438.789 ; gain = 510.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:31 . Memory (MB): peak = 2438.828 ; gain = 511.371
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:28 . Memory (MB): peak = 2438.789 ; gain = 510.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:31 . Memory (MB): peak = 2438.828 ; gain = 511.371
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:29 . Memory (MB): peak = 2438.789 ; gain = 510.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -575,37 +575,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:37 . Memory (MB): peak = 2438.828 ; gain = 511.371
+Finished IO Insertion : Time (s): cpu = 00:00:10 ; elapsed = 00:00:34 . Memory (MB): peak = 2442.355 ; gain = 514.234
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:37 . Memory (MB): peak = 2438.828 ; gain = 511.371
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:10 ; elapsed = 00:00:34 . Memory (MB): peak = 2442.355 ; gain = 514.234
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:37 . Memory (MB): peak = 2438.828 ; gain = 511.371
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:10 ; elapsed = 00:00:34 . Memory (MB): peak = 2442.355 ; gain = 514.234
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:37 . Memory (MB): peak = 2438.828 ; gain = 511.371
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:10 ; elapsed = 00:00:34 . Memory (MB): peak = 2442.355 ; gain = 514.234
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:37 . Memory (MB): peak = 2438.828 ; gain = 511.371
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:34 . Memory (MB): peak = 2442.355 ; gain = 514.234
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:37 . Memory (MB): peak = 2438.828 ; gain = 511.371
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:10 ; elapsed = 00:00:34 . Memory (MB): peak = 2442.355 ; gain = 514.234
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -641,16 +641,16 @@ Report Cell Usage:
 |10    |OBUF                                            |     2|
 +------+------------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:37 . Memory (MB): peak = 2438.828 ; gain = 511.371
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:10 ; elapsed = 00:00:34 . Memory (MB): peak = 2442.355 ; gain = 514.234
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 57 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:35 . Memory (MB): peak = 2438.828 ; gain = 511.371
-Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:37 . Memory (MB): peak = 2438.828 ; gain = 511.371
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:07 ; elapsed = 00:00:31 . Memory (MB): peak = 2442.355 ; gain = 514.234
+Synthesis Optimization Complete : Time (s): cpu = 00:00:10 ; elapsed = 00:00:34 . Memory (MB): peak = 2442.355 ; gain = 514.234
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 2449.996 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 2454.430 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2457.539 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2462.020 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
@@ -658,7 +658,7 @@ Synth Design complete | Checksum: 198229f3
 INFO: [Common 17-83] Releasing license: Synthesis
 67 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:45 . Memory (MB): peak = 2457.539 ; gain = 942.078
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:41 . Memory (MB): peak = 2462.020 ; gain = 946.613
 INFO: [Common 17-1381] The checkpoint 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.runs/synth_1/Complete_design_car_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Complete_design_car_wrapper_utilization_synth.rpt -pb Complete_design_car_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Jun 15 15:31:15 2023...
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 29 13:33:26 2023...

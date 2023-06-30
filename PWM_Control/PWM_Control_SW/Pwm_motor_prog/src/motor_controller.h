@@ -15,7 +15,7 @@ struct motor{
 	int current_speed;
 };
 
-void change_speed(struct motor* motor_settings, int speed);
-void speed_out(struct motor* motor_settings);
+void change_speed(struct motor *motor_settings, int speed);
+void speed_out(struct motor *motor_settings);
 
 #endif /* SRC_MOTOR_CONTROLLER_H_ */

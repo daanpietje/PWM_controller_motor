@@ -2,7 +2,7 @@
 -- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
--- Date        : Wed Jun 14 14:21:50 2023
+-- Date        : Thu Jun 15 14:16:20 2023
 -- Host        : DaanAsus running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
 --               c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/ip/Complete_design_car_PWM_Over_wrapper_0_0/Complete_design_car_PWM_Over_wrapper_0_0_sim_netlist.vhdl
@@ -33,6 +33,7 @@ architecture STRUCTURE of Complete_design_car_PWM_Over_wrapper_0_0_PWM_Over is
   port (
     Dutycycle : in STD_LOGIC_VECTOR ( 7 downto 0 );
     Counter : in STD_LOGIC_VECTOR ( 7 downto 0 );
+    ld : in STD_LOGIC;
     PWM : out STD_LOGIC
   );
   end component Complete_design_car_PWM_Over_wrapper_0_0_PWM_Over_Comparator_0_3;
@@ -41,6 +42,7 @@ architecture STRUCTURE of Complete_design_car_PWM_Over_wrapper_0_0_PWM_Over is
     regld : out STD_LOGIC;
     upcounterld : out STD_LOGIC;
     dataavaibility : in STD_LOGIC;
+    comparatorld : out STD_LOGIC;
     ready : out STD_LOGIC;
     clk : in STD_LOGIC;
     nrst : in STD_LOGIC
@@ -72,6 +74,7 @@ architecture STRUCTURE of Complete_design_car_PWM_Over_wrapper_0_0_PWM_Over is
     Counterout : out STD_LOGIC_VECTOR ( 7 downto 0 )
   );
   end component Complete_design_car_PWM_Over_wrapper_0_0_PWM_Over_Upcounter_0_1;
+  signal Controller_0_comparatorld : STD_LOGIC;
   signal Controller_0_ready : STD_LOGIC;
   signal Controller_0_regld : STD_LOGIC;
   signal Controller_0_upcounterld : STD_LOGIC;
@@ -95,11 +98,13 @@ Comparator_0: component Complete_design_car_PWM_Over_wrapper_0_0_PWM_Over_Compar
      port map (
       Counter(7 downto 0) => Upcounter_0_Counterout(7 downto 0),
       Dutycycle(7 downto 0) => Reg_0_regout(7 downto 0),
-      PWM => PWM_out
+      PWM => PWM_out,
+      ld => Controller_0_comparatorld
     );
 Controller_0: component Complete_design_car_PWM_Over_wrapper_0_0_PWM_Over_Controller_0_1
      port map (
       clk => clk,
+      comparatorld => Controller_0_comparatorld,
       dataavaibility => DataChecker_0_senddata,
       nrst => nrst,
       ready => Controller_0_ready,

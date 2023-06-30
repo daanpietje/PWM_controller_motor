@@ -4,8 +4,8 @@
 -- Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
 -- Date        : Wed Jun 14 14:19:14 2023
 -- Host        : DaanAsus running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               c:/Users/daanv/Desktop/Git/PWM_controller_motor/PWM_Control/PWM_Control.gen/sources_1/bd/Complete_design_car/ip/Complete_design_car_xbar_0/Complete_design_car_xbar_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top Complete_design_car_xbar_0 -prefix
+--               Complete_design_car_xbar_0_ Complete_design_car_xbar_0_sim_netlist.vhdl
 -- Design      : Complete_design_car_xbar_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -66,8 +66,6 @@ entity Complete_design_car_xbar_0_axi_crossbar_v2_1_29_addr_arbiter_sasd is
     s_axi_araddr : in STD_LOGIC_VECTOR ( 31 downto 0 );
     s_axi_awaddr : in STD_LOGIC_VECTOR ( 31 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of Complete_design_car_xbar_0_axi_crossbar_v2_1_29_addr_arbiter_sasd : entity is "axi_crossbar_v2_1_29_addr_arbiter_sasd";
 end Complete_design_car_xbar_0_axi_crossbar_v2_1_29_addr_arbiter_sasd;
 
 architecture STRUCTURE of Complete_design_car_xbar_0_axi_crossbar_v2_1_29_addr_arbiter_sasd is
@@ -1311,8 +1309,6 @@ entity Complete_design_car_xbar_0_axi_crossbar_v2_1_29_decerr_slave is
     \gen_axilite.s_axi_bvalid_i_reg_2\ : in STD_LOGIC;
     aa_rready : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of Complete_design_car_xbar_0_axi_crossbar_v2_1_29_decerr_slave : entity is "axi_crossbar_v2_1_29_decerr_slave";
 end Complete_design_car_xbar_0_axi_crossbar_v2_1_29_decerr_slave;
 
 architecture STRUCTURE of Complete_design_car_xbar_0_axi_crossbar_v2_1_29_decerr_slave is
@@ -1527,8 +1523,6 @@ entity Complete_design_car_xbar_0_axi_crossbar_v2_1_29_splitter is
     \m_ready_d_reg[2]_1\ : in STD_LOGIC;
     aclk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of Complete_design_car_xbar_0_axi_crossbar_v2_1_29_splitter : entity is "axi_crossbar_v2_1_29_splitter";
 end Complete_design_car_xbar_0_axi_crossbar_v2_1_29_splitter;
 
 architecture STRUCTURE of Complete_design_car_xbar_0_axi_crossbar_v2_1_29_splitter is
@@ -1724,8 +1718,6 @@ entity Complete_design_car_xbar_0_axi_register_slice_v2_1_28_axic_register_slice
     SR : in STD_LOGIC_VECTOR ( 0 to 0 );
     E : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of Complete_design_car_xbar_0_axi_register_slice_v2_1_28_axic_register_slice : entity is "axi_register_slice_v2_1_28_axic_register_slice";
 end Complete_design_car_xbar_0_axi_register_slice_v2_1_28_axic_register_slice;
 
 architecture STRUCTURE of Complete_design_car_xbar_0_axi_register_slice_v2_1_28_axic_register_slice is
@@ -3304,8 +3296,6 @@ entity Complete_design_car_xbar_0_axi_crossbar_v2_1_29_crossbar_sasd is
     s_axi_araddr : in STD_LOGIC_VECTOR ( 31 downto 0 );
     s_axi_awaddr : in STD_LOGIC_VECTOR ( 31 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of Complete_design_car_xbar_0_axi_crossbar_v2_1_29_crossbar_sasd : entity is "axi_crossbar_v2_1_29_crossbar_sasd";
 end Complete_design_car_xbar_0_axi_crossbar_v2_1_29_crossbar_sasd;
 
 architecture STRUCTURE of Complete_design_car_xbar_0_axi_crossbar_v2_1_29_crossbar_sasd is
@@ -3756,8 +3746,6 @@ entity Complete_design_car_xbar_0_axi_crossbar_v2_1_29_axi_crossbar is
   attribute C_S_AXI_WRITE_ACCEPTANCE of Complete_design_car_xbar_0_axi_crossbar_v2_1_29_axi_crossbar : entity is 1;
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of Complete_design_car_xbar_0_axi_crossbar_v2_1_29_axi_crossbar : entity is "yes";
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of Complete_design_car_xbar_0_axi_crossbar_v2_1_29_axi_crossbar : entity is "axi_crossbar_v2_1_29_axi_crossbar";
   attribute P_ADDR_DECODE : integer;
   attribute P_ADDR_DECODE of Complete_design_car_xbar_0_axi_crossbar_v2_1_29_axi_crossbar : entity is 1;
   attribute P_AXI3 : integer;
