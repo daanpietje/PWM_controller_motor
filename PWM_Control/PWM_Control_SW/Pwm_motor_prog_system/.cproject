@@ -29,7 +29,7 @@
                             							
                             <targetPlatform id="com.xilinx.sdx.system.managedbuilder.debugConfiguration.1790363401..1086685612" name=""/>
                             							
-                            <builder buildPath="${workspace_loc:/Pwm_motor_prog_system}/Debug" enableAutoBuild="true" id="com.xilinx.sdx.system.managedbuilder.systemBuilder.1098774042" managedBuildOn="true" name="System Project Builder.Debug" superClass="com.xilinx.sdx.system.managedbuilder.systemBuilder"/>
+                            <builder buildPath="${workspace_loc:/Pwm_motor_prog_system}/Debug" enableAutoBuild="true" id="com.xilinx.sdx.system.managedbuilder.systemBuilder.1098774042" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="System Project Builder" superClass="com.xilinx.sdx.system.managedbuilder.systemBuilder"/>
                             							
                             <tool id="com.xilinx.sdx.system.managedbuilder.toolchain.cfjoinTool.1162328763" name="System Builder" superClass="com.xilinx.sdx.system.managedbuilder.toolchain.cfjoinTool"/>
                             						
@@ -41,7 +41,15 @@
                 			
             </storageModule>
             			
-            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+                				
+                <externalSettings containerId="MO5_Car_DemoV2;" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier"/>
+                				
+                <externalSettings containerId="Pwm_motor_prog;" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier"/>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="ilg.gnuarmeclipse.managedbuild.packs"/>
             		
         </cconfiguration>
         		
@@ -71,7 +79,7 @@
                             							
                             <targetPlatform id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.727953987..1110153231" name=""/>
                             							
-                            <builder buildPath="${workspace_loc:/Pwm_motor_prog_system}/Release" enableAutoBuild="true" id="com.xilinx.sdx.system.managedbuilder.systemBuilder.248135072" managedBuildOn="true" name="System Project Builder.Release" superClass="com.xilinx.sdx.system.managedbuilder.systemBuilder"/>
+                            <builder buildPath="${workspace_loc:/Pwm_motor_prog_system}/Release" enableAutoBuild="true" id="com.xilinx.sdx.system.managedbuilder.systemBuilder.248135072" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="System Project Builder" superClass="com.xilinx.sdx.system.managedbuilder.systemBuilder"/>
                             							
                             <tool id="com.xilinx.sdx.system.managedbuilder.toolchain.cfjoinTool.1511506660" name="System Builder" superClass="com.xilinx.sdx.system.managedbuilder.toolchain.cfjoinTool"/>
                             						
@@ -103,6 +111,24 @@
         	
     </storageModule>
     	
-    <storageModule moduleId="refreshScope"/>
+    <storageModule moduleId="refreshScope" versionNumber="2">
+        		
+        <configuration configurationName="Debug">
+            			
+            <resource resourceType="PROJECT" workspacePath="/Pwm_motor_prog_system"/>
+            		
+        </configuration>
+        		
+        <configuration configurationName="Release">
+            			
+            <resource resourceType="PROJECT" workspacePath="/Pwm_motor_prog_system"/>
+            		
+        </configuration>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+    	
+    <storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
     
 </cproject>

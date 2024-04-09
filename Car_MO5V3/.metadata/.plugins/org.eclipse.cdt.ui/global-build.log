@@ -1,0 +1,35 @@
+Nothing to build in platform 'Car_DemoV3'
+
+12:05:04 **** Incremental Build of configuration Debug for project Car_DemoV3_SW ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/sw/Car_DemoV3/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:55:
+../src/Interrupt_Setup.h:15:24: warning: 'GicConfig' defined but not used [-Wunused-variable]
+   15 | static XScuGic_Config *GicConfig;
+      |                        ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Car_DemoV3_SW.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/sw/Car_DemoV3/standalone_domain/bsplib/lib -o "Car_DemoV3_SW.elf"  ./src/Interrupt_Handlers.o ./src/Interrupt_Setup.o ./src/helloworld.o ./src/motor_controller.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Car_DemoV3_SW.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Car_DemoV3_SW.elf  |tee "Car_DemoV3_SW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  57907	   3360	  22680	  83947	  147eb	Car_DemoV3_SW.elf
+'Finished building: Car_DemoV3_SW.elf.size'
+' '
+12:05:05 **** Incremental Build of configuration Debug for project Car_DemoV3_SW_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 51103 C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/Car_DemoV3.xpfm standalone_domain C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/Car_DemoV3.xpfm --sys_config Car_DemoV3 --bif C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW_system/Debug/system.bif --bitstream C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/bitstream/Complete_design_car_wrapper.bit --elf C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/Debug/Car_DemoV3_SW.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/bitstream/Complete_design_car_wrapper.bit
+Running C:/Xilinx/Vitis/2023.1/bin/bootgen  -image C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN

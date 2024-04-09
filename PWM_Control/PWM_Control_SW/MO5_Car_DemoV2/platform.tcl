@@ -54,3 +54,25 @@ platform generate
 platform clean
 platform generate
 platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform active {MO5_Car_DemoV2}
+domain active {zynq_fsbl}
+bsp reload
+domain active {standalone_domain}
+bsp reload
+bsp reload
+platform generate -domains 

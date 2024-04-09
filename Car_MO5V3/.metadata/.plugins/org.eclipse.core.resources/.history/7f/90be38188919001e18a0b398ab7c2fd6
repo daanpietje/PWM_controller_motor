@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="Car_DemoV3_SW" location="C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW" platform="C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/Car_DemoV3.xpfm" platformUID="xilinx:pynq-z2::0.0(custom)" systemProject="Car_DemoV3_SW_system" sysConfig="Car_DemoV3" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="aa9c3e94eee5a71b843943264a9f34cc">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1742151487">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.637797389" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

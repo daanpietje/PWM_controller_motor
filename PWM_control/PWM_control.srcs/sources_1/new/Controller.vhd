@@ -43,7 +43,7 @@ end Controller;
 
 architecture ControllerBehav of Controller is
 type state is (S0, S1, S2, S3, SU);
-signal  presentstate: state := S0;
+signal presentstate: state := S0;
 signal nextstate : state;
 begin
 

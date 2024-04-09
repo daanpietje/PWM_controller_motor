@@ -1,0 +1,347 @@
+11:36:59 DEBUG : Logs will be stored at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/IDE.log'.
+11:39:09 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\daanv\Desktop\Git\PWM_controller_motor\Car_MO5V3\temp_xsdb_launch_script.tcl
+11:39:09 INFO  : Registering command handlers for Vitis TCF services
+11:39:11 INFO  : Platform repository initialization has completed.
+11:45:39 DEBUG : Logs will be stored at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/IDE.log'.
+11:45:43 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\daanv\Desktop\Git\PWM_controller_motor\Car_MO5V3\temp_xsdb_launch_script.tcl
+11:45:43 INFO  : Registering command handlers for Vitis TCF services
+11:45:44 INFO  : Platform repository initialization has completed.
+11:45:45 INFO  : XSCT server has started successfully.
+11:45:45 INFO  : plnx-install-location is set to ''
+11:45:45 INFO  : Successfully done setting XSCT server connection channel  
+11:45:45 INFO  : Successfully done setting workspace for the tool. 
+11:45:45 INFO  : Successfully done query RDI_DATADIR 
+11:46:24 INFO  : Result from executing command 'getProjects': Car_DemoV3
+11:46:24 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+11:51:20 INFO  : Result from executing command 'getProjects': Car_DemoV3
+11:51:20 INFO  : Result from executing command 'getPlatforms': Car_DemoV3|C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/Car_DemoV3.xpfm;xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+11:51:22 INFO  : Checking for BSP changes to sync application flags for project 'Car_DemoV3_SW'...
+11:51:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:51:34 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:51:34 INFO  : 'jtag frequency' command is executed.
+11:51:34 INFO  : Context for 'APU' is selected.
+11:51:34 INFO  : System reset is completed.
+11:51:37 INFO  : 'after 3000' command is executed.
+11:51:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+11:51:40 INFO  : Device configured successfully with "C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/bitstream/Complete_design_car_wrapper.bit"
+11:51:40 INFO  : Context for 'APU' is selected.
+11:51:40 INFO  : Hardware design and registers information is loaded from 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/hw/Complete_design_car_wrapper.xsa'.
+11:51:40 INFO  : 'configparams force-mem-access 1' command is executed.
+11:51:40 INFO  : Context for 'APU' is selected.
+11:51:40 INFO  : Sourcing of 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/psinit/ps7_init.tcl' is done.
+11:51:40 INFO  : 'ps7_init' command is executed.
+11:51:40 INFO  : 'ps7_post_config' command is executed.
+11:51:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:51:40 INFO  : The application 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/Debug/Car_DemoV3_SW.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:51:40 INFO  : 'configparams force-mem-access 0' command is executed.
+11:51:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/bitstream/Complete_design_car_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/hw/Complete_design_car_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/Debug/Car_DemoV3_SW.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:53:44 INFO  : Checking for BSP changes to sync application flags for project 'Car_DemoV3_SW'...
+11:53:54 INFO  : Disconnected from the channel tcfchan#3.
+11:53:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:53:56 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:53:56 INFO  : 'jtag frequency' command is executed.
+11:53:56 INFO  : Context for 'APU' is selected.
+11:53:56 INFO  : System reset is completed.
+11:53:59 INFO  : 'after 3000' command is executed.
+11:53:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+11:54:01 INFO  : Device configured successfully with "C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/bitstream/Complete_design_car_wrapper.bit"
+11:54:01 INFO  : Context for 'APU' is selected.
+11:54:01 INFO  : Hardware design and registers information is loaded from 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/hw/Complete_design_car_wrapper.xsa'.
+11:54:01 INFO  : 'configparams force-mem-access 1' command is executed.
+11:54:01 INFO  : Context for 'APU' is selected.
+11:54:01 INFO  : Sourcing of 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/psinit/ps7_init.tcl' is done.
+11:54:02 INFO  : 'ps7_init' command is executed.
+11:54:02 INFO  : 'ps7_post_config' command is executed.
+11:54:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:54:02 INFO  : The application 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/Debug/Car_DemoV3_SW.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:54:02 INFO  : 'configparams force-mem-access 0' command is executed.
+11:54:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/bitstream/Complete_design_car_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/hw/Complete_design_car_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/Debug/Car_DemoV3_SW.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:56:13 INFO  : Disconnected from the channel tcfchan#5.
+11:56:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:56:14 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:56:14 INFO  : 'jtag frequency' command is executed.
+11:56:14 INFO  : Context for 'APU' is selected.
+11:56:14 INFO  : System reset is completed.
+11:56:17 INFO  : 'after 3000' command is executed.
+11:56:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+11:56:19 INFO  : Device configured successfully with "C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/bitstream/Complete_design_car_wrapper.bit"
+11:56:20 INFO  : Context for 'APU' is selected.
+11:56:20 INFO  : Hardware design and registers information is loaded from 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/hw/Complete_design_car_wrapper.xsa'.
+11:56:20 INFO  : 'configparams force-mem-access 1' command is executed.
+11:56:20 INFO  : Context for 'APU' is selected.
+11:56:20 INFO  : Sourcing of 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/psinit/ps7_init.tcl' is done.
+11:56:20 INFO  : 'ps7_init' command is executed.
+11:56:20 INFO  : 'ps7_post_config' command is executed.
+11:56:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:56:20 INFO  : The application 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/Debug/Car_DemoV3_SW.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:56:20 INFO  : 'configparams force-mem-access 0' command is executed.
+11:56:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/bitstream/Complete_design_car_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/hw/Complete_design_car_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/Debug/Car_DemoV3_SW.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:59:47 INFO  : Disconnected from the channel tcfchan#6.
+11:59:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:59:48 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:59:48 INFO  : 'jtag frequency' command is executed.
+11:59:48 INFO  : Context for 'APU' is selected.
+11:59:48 INFO  : System reset is completed.
+11:59:51 INFO  : 'after 3000' command is executed.
+11:59:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+11:59:53 INFO  : Device configured successfully with "C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/bitstream/Complete_design_car_wrapper.bit"
+11:59:53 INFO  : Context for 'APU' is selected.
+11:59:53 INFO  : Hardware design and registers information is loaded from 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/hw/Complete_design_car_wrapper.xsa'.
+11:59:53 INFO  : 'configparams force-mem-access 1' command is executed.
+11:59:53 INFO  : Context for 'APU' is selected.
+11:59:53 INFO  : Sourcing of 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/psinit/ps7_init.tcl' is done.
+11:59:54 INFO  : 'ps7_init' command is executed.
+11:59:54 INFO  : 'ps7_post_config' command is executed.
+11:59:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:59:54 INFO  : The application 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/Debug/Car_DemoV3_SW.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:59:54 INFO  : 'configparams force-mem-access 0' command is executed.
+11:59:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/bitstream/Complete_design_car_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/hw/Complete_design_car_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/Debug/Car_DemoV3_SW.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:01:44 DEBUG : Logs will be stored at 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/IDE.log'.
+12:01:45 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\daanv\Desktop\Git\PWM_controller_motor\Car_MO5V3\temp_xsdb_launch_script.tcl
+12:01:48 INFO  : XSCT server has started successfully.
+12:01:48 INFO  : plnx-install-location is set to ''
+12:01:48 INFO  : Successfully done setting XSCT server connection channel  
+12:01:48 INFO  : Successfully done setting workspace for the tool. 
+12:01:50 INFO  : Registering command handlers for Vitis TCF services
+12:01:52 INFO  : Platform repository initialization has completed.
+12:01:54 INFO  : Successfully done query RDI_DATADIR 
+12:01:55 INFO  : Checking for BSP changes to sync application flags for project 'Car_DemoV3_SW'...
+12:01:59 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/hw/Complete_design_car_wrapper.xsa is already opened
+
+12:02:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:02:26 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:02:26 INFO  : 'jtag frequency' command is executed.
+12:02:26 INFO  : Context for 'APU' is selected.
+12:02:26 INFO  : System reset is completed.
+12:02:29 INFO  : 'after 3000' command is executed.
+12:02:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:02:31 INFO  : Device configured successfully with "C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/bitstream/Complete_design_car_wrapper.bit"
+12:02:32 INFO  : Context for 'APU' is selected.
+12:02:32 INFO  : Hardware design and registers information is loaded from 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/hw/Complete_design_car_wrapper.xsa'.
+12:02:32 INFO  : 'configparams force-mem-access 1' command is executed.
+12:02:32 INFO  : Context for 'APU' is selected.
+12:02:32 INFO  : Sourcing of 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/psinit/ps7_init.tcl' is done.
+12:02:32 INFO  : 'ps7_init' command is executed.
+12:02:32 INFO  : 'ps7_post_config' command is executed.
+12:02:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:02:32 INFO  : The application 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/Debug/Car_DemoV3_SW.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:02:32 INFO  : 'configparams force-mem-access 0' command is executed.
+12:02:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/bitstream/Complete_design_car_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/hw/Complete_design_car_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/Debug/Car_DemoV3_SW.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:03:54 INFO  : Checking for BSP changes to sync application flags for project 'Car_DemoV3_SW'...
+12:03:57 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/hw/Complete_design_car_wrapper.xsa is already opened
+
+12:04:08 INFO  : Disconnected from the channel tcfchan#2.
+12:04:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:04:09 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:04:09 ERROR : port closed
+12:04:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+12:04:09 ERROR : port closed
+12:04:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:04:30 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:04:30 INFO  : 'jtag frequency' command is executed.
+12:04:30 INFO  : Context for 'APU' is selected.
+12:04:30 INFO  : System reset is completed.
+12:04:33 INFO  : 'after 3000' command is executed.
+12:04:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:04:36 INFO  : Device configured successfully with "C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/bitstream/Complete_design_car_wrapper.bit"
+12:04:36 INFO  : Context for 'APU' is selected.
+12:04:39 INFO  : Hardware design and registers information is loaded from 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/hw/Complete_design_car_wrapper.xsa'.
+12:04:39 INFO  : 'configparams force-mem-access 1' command is executed.
+12:04:39 INFO  : Context for 'APU' is selected.
+12:04:39 INFO  : Sourcing of 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/psinit/ps7_init.tcl' is done.
+12:04:39 INFO  : 'ps7_init' command is executed.
+12:04:39 INFO  : 'ps7_post_config' command is executed.
+12:04:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:04:40 INFO  : The application 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/Debug/Car_DemoV3_SW.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:04:40 INFO  : 'configparams force-mem-access 0' command is executed.
+12:04:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/bitstream/Complete_design_car_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/hw/Complete_design_car_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/Debug/Car_DemoV3_SW.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:05:04 INFO  : Checking for BSP changes to sync application flags for project 'Car_DemoV3_SW'...
+12:05:07 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/hw/Complete_design_car_wrapper.xsa is already opened
+
+12:05:21 INFO  : Disconnected from the channel tcfchan#4.
+12:05:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:05:22 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:05:22 INFO  : 'jtag frequency' command is executed.
+12:05:22 INFO  : Context for 'APU' is selected.
+12:05:22 INFO  : System reset is completed.
+12:05:25 INFO  : 'after 3000' command is executed.
+12:05:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:05:28 INFO  : Device configured successfully with "C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/bitstream/Complete_design_car_wrapper.bit"
+12:05:28 INFO  : Context for 'APU' is selected.
+12:05:30 INFO  : Hardware design and registers information is loaded from 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/hw/Complete_design_car_wrapper.xsa'.
+12:05:30 INFO  : 'configparams force-mem-access 1' command is executed.
+12:05:30 INFO  : Context for 'APU' is selected.
+12:05:30 INFO  : Sourcing of 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/psinit/ps7_init.tcl' is done.
+12:05:30 INFO  : 'ps7_init' command is executed.
+12:05:30 INFO  : 'ps7_post_config' command is executed.
+12:05:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:05:31 INFO  : The application 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/Debug/Car_DemoV3_SW.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:05:31 INFO  : 'configparams force-mem-access 0' command is executed.
+12:05:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/bitstream/Complete_design_car_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/hw/Complete_design_car_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/Debug/Car_DemoV3_SW.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:06:42 INFO  : Disconnected from the channel tcfchan#6.
+12:06:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:06:43 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:06:43 INFO  : 'jtag frequency' command is executed.
+12:06:43 INFO  : Context for 'APU' is selected.
+12:06:43 INFO  : System reset is completed.
+12:06:46 INFO  : 'after 3000' command is executed.
+12:06:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:06:49 INFO  : Device configured successfully with "C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/bitstream/Complete_design_car_wrapper.bit"
+12:06:49 INFO  : Context for 'APU' is selected.
+12:06:51 INFO  : Hardware design and registers information is loaded from 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/hw/Complete_design_car_wrapper.xsa'.
+12:06:51 INFO  : 'configparams force-mem-access 1' command is executed.
+12:06:51 INFO  : Context for 'APU' is selected.
+12:06:51 INFO  : Sourcing of 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/psinit/ps7_init.tcl' is done.
+12:06:52 INFO  : 'ps7_init' command is executed.
+12:06:52 INFO  : 'ps7_post_config' command is executed.
+12:06:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:06:52 INFO  : The application 'C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/Debug/Car_DemoV3_SW.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:06:52 INFO  : 'configparams force-mem-access 0' command is executed.
+12:06:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/bitstream/Complete_design_car_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3/export/Car_DemoV3/hw/Complete_design_car_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/daanv/Desktop/Git/PWM_controller_motor/Car_MO5V3/Car_DemoV3_SW/Debug/Car_DemoV3_SW.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+

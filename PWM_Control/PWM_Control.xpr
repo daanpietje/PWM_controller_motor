@@ -127,17 +127,14 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="PWM_Over.bd" FileRelPathName="ip/PWM_Over_Upcounter_0_1/PWM_Over_Upcounter_0_1.xci">
-          <Proxy FileSetName="PWM_Over_Upcounter_0_1"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="PWM_Over.bd" FileRelPathName="ip/PWM_Over_Comparator_0_3/PWM_Over_Comparator_0_3.xci">
           <Proxy FileSetName="PWM_Over_Comparator_0_3"/>
         </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="PWM_Over.bd" FileRelPathName="ip/PWM_Over_Upcounter_0_1/PWM_Over_Upcounter_0_1.xci">
+          <Proxy FileSetName="PWM_Over_Upcounter_0_1"/>
+        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="PWM_Over.bd" FileRelPathName="ip/PWM_Over_Reg_0_2/PWM_Over_Reg_0_2.xci">
           <Proxy FileSetName="PWM_Over_Reg_0_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="PWM_Over.bd" FileRelPathName="ip/PWM_Over_Controller_0_1/PWM_Over_Controller_0_1.xci">
-          <Proxy FileSetName="PWM_Over_Controller_0_1"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PGENDIR/sources_1/bd/PWM_Over/hdl/PWM_Over_wrapper.vhd">
@@ -155,20 +152,14 @@
         <CompFileExtendedInfo CompFileName="Complete_design_car.bd" FileRelPathName="ip/Complete_design_car_rst_ps7_0_50M_0/Complete_design_car_rst_ps7_0_50M_0.xci">
           <Proxy FileSetName="Complete_design_car_rst_ps7_0_50M_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Complete_design_car.bd" FileRelPathName="ip/Complete_design_car_PWM_Over_wrapper_0_0/Complete_design_car_PWM_Over_wrapper_0_0.xci">
-          <Proxy FileSetName="Complete_design_car_PWM_Over_wrapper_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Complete_design_car.bd" FileRelPathName="ip/Complete_design_car_PWM_Over_wrapper_0_1/Complete_design_car_PWM_Over_wrapper_0_1.xci">
-          <Proxy FileSetName="Complete_design_car_PWM_Over_wrapper_0_1"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="Complete_design_car.bd" FileRelPathName="ip/Complete_design_car_axi_gpio_1_0/Complete_design_car_axi_gpio_1_0.xci">
           <Proxy FileSetName="Complete_design_car_axi_gpio_1_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Complete_design_car.bd" FileRelPathName="ip/Complete_design_car_processing_system7_0_0/Complete_design_car_processing_system7_0_0.xci">
-          <Proxy FileSetName="Complete_design_car_processing_system7_0_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="Complete_design_car.bd" FileRelPathName="ip/Complete_design_car_axi_gpio_0_0/Complete_design_car_axi_gpio_0_0.xci">
           <Proxy FileSetName="Complete_design_car_axi_gpio_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Complete_design_car.bd" FileRelPathName="ip/Complete_design_car_processing_system7_0_0/Complete_design_car_processing_system7_0_0.xci">
+          <Proxy FileSetName="Complete_design_car_processing_system7_0_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PGENDIR/sources_1/bd/Complete_design_car/hdl/Complete_design_car_wrapper.vhd">
@@ -184,11 +175,11 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="Pwm_generator_zynq.bd" FileRelPathName="ip/Pwm_generator_zynq_processing_system7_0_0/Pwm_generator_zynq_processing_system7_0_0.xci">
-          <Proxy FileSetName="Pwm_generator_zynq_processing_system7_0_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="Pwm_generator_zynq.bd" FileRelPathName="ip/Pwm_generator_zynq_xbar_0/Pwm_generator_zynq_xbar_0.xci">
           <Proxy FileSetName="Pwm_generator_zynq_xbar_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Pwm_generator_zynq.bd" FileRelPathName="ip/Pwm_generator_zynq_processing_system7_0_0/Pwm_generator_zynq_processing_system7_0_0.xci">
+          <Proxy FileSetName="Pwm_generator_zynq_processing_system7_0_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PGENDIR/sources_1/bd/Pwm_generator_zynq/hdl/Pwm_generator_zynq_wrapper.vhd">
@@ -372,24 +363,6 @@
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
-    <FileSet Name="PWM_Over_Controller_0_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/PWM_Over_Controller_0_1" RelGenDir="$PGENDIR/PWM_Over_Controller_0_1">
-      <Config>
-        <Option Name="TopModule" Val="PWM_Over_Controller_0_1"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="Complete_design_car_PWM_Over_wrapper_0_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Complete_design_car_PWM_Over_wrapper_0_1" RelGenDir="$PGENDIR/Complete_design_car_PWM_Over_wrapper_0_1">
-      <Config>
-        <Option Name="TopModule" Val="Complete_design_car_PWM_Over_wrapper_0_1"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="Complete_design_car_PWM_Over_wrapper_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Complete_design_car_PWM_Over_wrapper_0_0" RelGenDir="$PGENDIR/Complete_design_car_PWM_Over_wrapper_0_0">
-      <Config>
-        <Option Name="TopModule" Val="Complete_design_car_PWM_Over_wrapper_0_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
   </FileSets>
   <Simulators>
     <Simulator Name="XSim">
@@ -518,36 +491,6 @@
       <RQSFiles/>
     </Run>
     <Run Id="PWM_Over_Comparator_0_3_synth_1" Type="Ft3:Synth" SrcSet="PWM_Over_Comparator_0_3" Part="xc7z020clg400-1" ConstrsSet="PWM_Over_Comparator_0_3" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/PWM_Over_Comparator_0_3_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PWM_Over_Comparator_0_3_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PWM_Over_Comparator_0_3_synth_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="PWM_Over_Controller_0_1_synth_1" Type="Ft3:Synth" SrcSet="PWM_Over_Controller_0_1" Part="xc7z020clg400-1" ConstrsSet="PWM_Over_Controller_0_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/PWM_Over_Controller_0_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PWM_Over_Controller_0_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PWM_Over_Controller_0_1_synth_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="Complete_design_car_PWM_Over_wrapper_0_1_synth_1" Type="Ft3:Synth" SrcSet="Complete_design_car_PWM_Over_wrapper_0_1" Part="xc7z020clg400-1" ConstrsSet="Complete_design_car_PWM_Over_wrapper_0_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Complete_design_car_PWM_Over_wrapper_0_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Complete_design_car_PWM_Over_wrapper_0_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Complete_design_car_PWM_Over_wrapper_0_1_synth_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="Complete_design_car_PWM_Over_wrapper_0_0_synth_1" Type="Ft3:Synth" SrcSet="Complete_design_car_PWM_Over_wrapper_0_0" Part="xc7z020clg400-1" ConstrsSet="Complete_design_car_PWM_Over_wrapper_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Complete_design_car_PWM_Over_wrapper_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Complete_design_car_PWM_Over_wrapper_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Complete_design_car_PWM_Over_wrapper_0_0_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
         <Step Id="synth_design"/>
@@ -1108,57 +1051,6 @@
       <RQSFiles/>
     </Run>
     <Run Id="PWM_Over_Comparator_0_3_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="PWM_Over_Comparator_0_3" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="PWM_Over_Comparator_0_3_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PWM_Over_Comparator_0_3_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PWM_Over_Comparator_0_3_impl_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="PWM_Over_Controller_0_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="PWM_Over_Controller_0_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="PWM_Over_Controller_0_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PWM_Over_Controller_0_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PWM_Over_Controller_0_1_impl_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="Complete_design_car_PWM_Over_wrapper_0_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Complete_design_car_PWM_Over_wrapper_0_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Complete_design_car_PWM_Over_wrapper_0_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Complete_design_car_PWM_Over_wrapper_0_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Complete_design_car_PWM_Over_wrapper_0_1_impl_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="Complete_design_car_PWM_Over_wrapper_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="Complete_design_car_PWM_Over_wrapper_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Complete_design_car_PWM_Over_wrapper_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Complete_design_car_PWM_Over_wrapper_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Complete_design_car_PWM_Over_wrapper_0_0_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
         <Step Id="init_design"/>

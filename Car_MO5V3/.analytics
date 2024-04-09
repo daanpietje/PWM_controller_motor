@@ -1,0 +1,22 @@
+timestamp=[2023-07-03 11:39:08], mode=WORKBENCH_START, duration=0:02:11.212, duration_ms=131212, data={}
+timestamp=[2023-07-03 11:39:08], mode=WORKBENCH_UI_INIT, duration=0:00:00.012, duration_ms=12, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2023-07-03 11:39:11], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.667, duration_ms=1667, data={}
+timestamp=[2023-07-03 11:45:42], mode=WORKBENCH_START, duration=0:00:06.145, duration_ms=6145, data={}
+timestamp=[2023-07-03 11:45:43], mode=WORKBENCH_UI_INIT, duration=0:00:00.519, duration_ms=519, data={editors_count=0, platform_editors_count=0, projects_count=1, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles}
+timestamp=[2023-07-03 11:45:44], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.078, duration_ms=1078, data={}
+timestamp=[2023-07-03 11:46:25], mode=PLATFORM_CREATION, duration=0:00:13.237, duration_ms=13237, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2023-07-03 11:48:33], mode=APP_CREATION, duration=0:00:06.910, duration_ms=6910, data={name=Car_DemoV3_SW, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=Car_DemoV3, application_type=application}
+timestamp=[2023-07-03 11:51:21], mode=PLATFORM_GENERATION, duration=0:00:18.221, duration_ms=18221, data={name=Car_DemoV3}
+timestamp=[2023-07-03 11:51:23], mode=BUILD, duration=0:00:01.886, duration_ms=1886, data={name=Car_DemoV3_SW, configuration=Debug, clean_build=false}
+timestamp=[2023-07-03 11:51:29], mode=BUILD, duration=0:00:05.021, duration_ms=5021, data={name=Car_DemoV3_SW_system, configuration=Debug, clean_build=false}
+timestamp=[2023-07-03 11:53:44], mode=BUILD, duration=0:00:00.807, duration_ms=807, data={name=Car_DemoV3_SW, configuration=Debug, clean_build=false}
+timestamp=[2023-07-03 11:53:49], mode=BUILD, duration=0:00:04.362, duration_ms=4362, data={name=Car_DemoV3_SW_system, configuration=Debug, clean_build=false}
+timestamp=[2023-07-03 12:01:50], mode=WORKBENCH_START, duration=0:00:09.748, duration_ms=9748, data={}
+timestamp=[2023-07-03 12:01:50], mode=WORKBENCH_UI_INIT, duration=0:00:00.419, duration_ms=419, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Car_DemoV3,Car_DemoV3_SW,Car_DemoV3_SW_system,RemoteSystemsTempFiles}
+timestamp=[2023-07-03 12:01:52], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.293, duration_ms=1293, data={}
+timestamp=[2023-07-03 12:01:58], mode=BUILD, duration=0:00:00.330, duration_ms=330, data={name=Car_DemoV3_SW, configuration=Debug, clean_build=false}
+timestamp=[2023-07-03 12:02:03], mode=BUILD, duration=0:00:04.571, duration_ms=4571, data={name=Car_DemoV3_SW_system, configuration=Debug, clean_build=false}
+timestamp=[2023-07-03 12:03:56], mode=BUILD, duration=0:00:01.425, duration_ms=1425, data={name=Car_DemoV3_SW, configuration=Debug, clean_build=false}
+timestamp=[2023-07-03 12:04:00], mode=BUILD, duration=0:00:04.353, duration_ms=4353, data={name=Car_DemoV3_SW_system, configuration=Debug, clean_build=false}
+timestamp=[2023-07-03 12:05:05], mode=BUILD, duration=0:00:00.801, duration_ms=801, data={name=Car_DemoV3_SW, configuration=Debug, clean_build=false}
+timestamp=[2023-07-03 12:05:10], mode=BUILD, duration=0:00:04.255, duration_ms=4255, data={name=Car_DemoV3_SW_system, configuration=Debug, clean_build=false}
